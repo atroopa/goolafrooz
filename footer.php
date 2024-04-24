@@ -1,14 +1,15 @@
 <!-- Footer container -->
 <footer
-  class="text-center  bg-gray-900 text-white/75 lg:text-left p-10">
+  class="text-center  bg-gray-900 text-gray-900 lg:text-left ">
+  <div class="bg-cover bg-center w-full h-full " style="background-image: url(https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240124_091119_331-1.jpg)">
   <div
     class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
-    <div class="me-12 hidden lg:block">
+    <div class="me-12 hidden lg:block backdrop-blur-2xl bg-white/30  p-5 rounded-2xl">
       <span>Get connected with us on social networks:</span>
     </div>
     
     <!-- Social network icons container -->
-    <div class="flex justify-center">
+    <div class="flex justify-center backdrop-blur-2xl bg-white/30  p-5 rounded-2xl">
       <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +74,7 @@
   </div>
 
   <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. -->
-  <div class="mx-6 py-10 text-center md:text-left">
+  <div class="mx-6 py-10 text-center md:text-left backdrop-blur-lg bg-white/30  p-5 rounded-2xl">
     <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
  <!-- Contact section -->
  <div>
@@ -199,15 +200,19 @@
     </div>
     
   </div>
-
-  <!--Copyright section-->
-  <div class="bg-black/5 p-6 text-center">
+  <div class="flex items-center justify-center">
+  <div class="py-4"></div>
+  <div class="py-12" >
+    <div class="items-center justify-center w-full bg-black/5 p-3 text-center backdrop-blur-lg bg-white/30 rounded-2xl">
     <span>© 2023 Copyright:</span>
-    <a class="font-semibold" href="https://tw-elements.com/"
-      >TW Elements</a
-    >
-  </div>
+    <a class="font-semibold" href="#"
+      >Atroopa</a>
+  </div></div>
+  <div class="py-8"></div>
+</div>
+  <!--Copyright section-->
 
+  </div>
 </footer>
 </body>
 </html>

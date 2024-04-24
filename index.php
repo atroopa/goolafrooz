@@ -1,5 +1,5 @@
 
-    <?php get_header() ;?>
+<?php get_header() ;?>
 <!-- component -->
 
 
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
     </div>
 </section>
-<div>--------------------------------------------</div>
+<div>---------------------شش-----------------------</div>
 
 <div class="p-1 flex flex-wrap items-center justify-center">
 
@@ -218,7 +218,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
     
 
-  <div>-----------------------------------</div>
+  <div>------------------نمونه کار-----------------</div>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
@@ -241,29 +241,29 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="flex items-center space-x-6 lg:space-x-8">
                   <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                      <img src="https://golafrooz.com/wp-content/uploads/2023/12/IMG_20231202_114145_272-1536x783.jpg" class="h-full w-full object-cover object-center">
+                      <img src="https://golafrooz.com/wp-content/uploads/2024/04/1.jpg" class="h-full w-full object-cover object-center">
                     </div>
                     <div class="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src="https://golafrooz.com/wp-content/uploads/2024/01/SAVE_20240128_141240-1536x1536.jpg" alt="" class="h-full w-full object-cover object-center">
-                    </div>
-                  </div>
-                  <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src="https://golafrooz.com/wp-content/uploads/2024/01/SAVE_20240128_141234.jpg" alt="" class="h-full w-full object-cover object-center">
-                    </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src="https://golafrooz.com/wp-content/uploads/2023/12/IMG_20231202_145945_978-1-1536x287.jpg" alt="" class="h-full w-full object-cover object-center">
-                    </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src="https://golafrooz.com/wp-content/uploads/2020/09/%DA%A9%D8%A7%D9%88%D8%B1-%D8%B4%D8%B1%DA%A9%D8%AA-%D9%84%D9%88%DA%AF%D9%88-%D8%B3%D9%85%D8%AA-%D8%B1%D8%A7%D8%B3%D8%AA.png" alt="" class="h-full w-full object-cover object-center">
+                      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2-1.jpg" alt="" class="h-full w-full object-cover object-center">
                     </div>
                   </div>
                   <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     <div class="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src="https://www.recordonline.com/gcdn/authoring/2018/05/12/NTHR/ghows-TH-6c0a1946-bf05-3f48-e053-0100007fd6c6-efa587bf.jpeg" alt="" class="h-full w-full object-cover object-center">
+                      <img src="https://golafrooz.com/wp-content/uploads/2024/04/3.jpg" alt="" class="h-full w-full object-cover object-center">
                     </div>
                     <div class="h-64 w-44 overflow-hidden rounded-lg">
-                      <img src="https://www.ku.ac.ae/wp-content/uploads/2018/09/8b4135a36931c7b37fdbe3d893413823_L.jpg" alt="" class="h-full w-full object-cover object-center">
+                      <img src="https://golafrooz.com/wp-content/uploads/2024/04/4-1.jpg" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="https://golafrooz.com/wp-content/uploads/2024/04/5.webp" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                  </div>
+                  <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="https://golafrooz.com/wp-content/uploads/2024/04/6.webp" alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                      <img src="https://golafrooz.com/wp-content/uploads/2024/04/7.jpg" alt="" class="h-full w-full object-cover object-center">
                     </div>
                   </div>
                 </div>
@@ -304,12 +304,12 @@ document.addEventListener("DOMContentLoaded", function() {
 			const walk = (x - startX) * 1;
 			$el.scrollLeft = scrollLeft - walk;
 			});
-			" class="overflow-x-scroll scrollbar-hide mb-4 relative px-0.5" style="overflow-y: hidden;">
-	<div class="flex snap-x snap-mandatory gap-4" style="width: max-content;">
+			" class="overflow-x-scroll scrollbar-hide mb-4 relative px-0.5 " style="overflow-y: hidden;">
+	<div class="flex snap-x snap-mandatory gap-4 " style="width: max-content;">
 		<template x-for="card in cards" :key="card.id">
-			<div class="flex-none w-64 snap-center">
-				<div class="bg-white border-1 border border-gray-200 rounded-lg overflow-hidden mb-4">
-					<img :src="card.image" alt="" class="w-full h-60 object-cover">
+			<div class="flex-none w-64 snap-center shadow-lg ">
+				<div class="bg-white border-1 border border-gray-200 rounded-lg overflow-hidden mb-4 ">
+					<img :src="card.image" alt="" class="w-50 h-40 object-cover">
 					<div class="p-4">
 						<h3 class="text-lg leading-6 font-bold text-gray-900" x-text="card.title"></h3>
 						<p class="text-gray-600 mt-2 text-sm" x-text="card.description"></p>
@@ -343,59 +343,55 @@ document.addEventListener("DOMContentLoaded", function() {
 			    cards: [
 			      {
 			        id: 1,
-			        image: `https://golafrooz.com/wp-content/uploads/2023/11/%D9%BE%D8%B1%D9%88%D9%81%DB%8C%D9%84-%D9%82%D9%88%D8%B7%DB%8C-%DA%AF%D8%A7%D9%84%D9%88%D8%A7%D9%86%DB%8C%D8%B2%D9%87-10.jpg`,
-			        title: 'پروفیل قوطی ۱۰*۱۰',
+			        image: `https://golafrooz.com/wp-content/uploads/2024/04/هیتر300000.jpg`,
+			        title: 'هیتر 300000',
 			        description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح',
-			        
-			        link: 'https://lqrs.com'
+			        link: 'https://golafrooz.com/'
 			      },
 			      {
 			        id: 2,
-			        image: `https://golafrooz.com/wp-content/uploads/2023/11/%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%81%D9%88%DA%AF%D8%B1.png`,
-			        title: 'فوگر',
+			        image: `https://golafrooz.com/wp-content/uploads/2024/04/نخ-گلخانه-ای.jpg`,
+			        title: 'نخ گلخانه ای',
 			        description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح',
-			        
-			        link: 'https://lqrs.com'
+			        link: 'https://golafrooz.com/'
 			      },
 			      {
 			        id: 3,
-			        image: `https://golafrooz.com/wp-content/uploads/2023/11/%D8%A8%D8%B3%D8%AA-%D8%AF%D9%88%D9%BE%D9%88%D8%B4.jpg`,
-			        title: 'بست دوپوش',
+			        image: `https://golafrooz.com/wp-content/uploads/2024/04/ناودان-لاکینگ-خور.jpg`,
+			        title: 'ناودان لاکینگ خور',
 			        description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح',
-			        
-			        link: 'https://lqrs.com'
+			        link: 'https://golafrooz.com/'
 			      },
 			      {
 			        id: 4,
-			        image: `https://golafrooz.com/wp-content/uploads/2023/11/%D8%B1%D8%A7%DA%A9-%D9%88-%D9%BE%DB%8C%D9%86%DB%8C%D9%88%D9%86-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C.jpg`,
-			        title: 'راک و پینیون ایرانی',
+			        image: `https://golafrooz.com/wp-content/uploads/2024/04/مشعل-گازوئیلی.jpg`,
+			        title: 'مشعل گاز',
 			        description: 'توضیحات مختصر و مفید درباره راک پینتون',
-			        
-			        link: 'https://lqrs.com'
+			        link: 'https://golafrooz.com/'
 			      },
 			      {
 			        id: 5,
-			        image: `https://golafrooz.com/wp-content/uploads/2023/11/%D8%A8%D8%B3%D8%AA-%D8%AF%D9%88%D9%BE%D9%88%D8%B4.jpg`,
-			        title: 'بست دوپوش',
+			        image: `https://golafrooz.com/wp-content/uploads/2024/04/لوله-سایز3.jpg`,
+			        title: 'لوله سایز 3',
 			        description: ' توضیحات مختصر و مفید درباره بست دوش و تمامی متعلقات آن',
 			        
-			        link: 'https://lqrs.com'
+			        link: 'https://golafrooz.com/'
 			      },
 			      {
 			        id: 6,
-			        image: `https://golafrooz.com/wp-content/uploads/2023/11/%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%81%D9%88%DA%AF%D8%B1.png`,
-			        title: 'فوگر',
+			        image: `https://golafrooz.com/wp-content/uploads/2024/04/فن-سیرکوله.jpg`,
+			        title: 'فن سیرکوله',
 			        description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح',
 			        
-			        link: 'https://lqrs.com'
+			        link: 'https://golafrooz.com/'
 			      },
 			      {
 			        id: 7,
-			        image: `https://golafrooz.com/wp-content/uploads/2023/11/%D8%A8%D8%B3%D8%AA-%D8%AF%D9%88%D9%BE%D9%88%D8%B4.jpg`,
-			        title: 'Bubble Tea',
+			        image: `https://golafrooz.com/wp-content/uploads/2024/04/سرستون-ایرانی.jpg`,
+			        title: 'سر سوتون ایرانی',
 			        description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح.',
 			        
-			        link: 'https://lqrs.com'
+			        link: 'https://golafrooz.com/'
 			      }
 			    ],
 			    addToCart(product) {
@@ -408,83 +404,96 @@ document.addEventListener("DOMContentLoaded", function() {
 <div>-----------------------------------</div>
 <p class="justify-center items-center text-4xl font-bold p-10">وبلاگ</p>
 <div>-----------------------------------</div>
-<div class=" grid-cols-1 sm:grid md:grid-cols-3 text-right ">
-  <div
-    class=" mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-    <a href="#!">
-      <img
-        class="rounded-t-lg"
-        src="https://images.squarespace-cdn.com/content/v1/624c46bc9a2d596197360925/ded2b25a-2957-4818-b81e-897011d30608/greenhouse-tomato-768x513.jpg"
-        alt="Skyscrapers" />
-    </a>
-    <div class="p-6 bg-gray-900 rounded-b-lg">
-      <h5 class="mb-2 text-xl font-bold leading-tight"> گلخانه سازی تسهیلات اعطایی گلخانه سازی  </h5>
-      <p class="mb-4 text-base">
-      تسهیلات شرکت گل افروز  جهت گلخانه سازی شرکت پالیز کامیاب گل افروز در راستای تحقق بخشیدن به اهداف ...
-      </p>
-    </div>
-    <div
-      class="bg-gray-900 mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-      <small>مطالعه بیشتر</small>
-    </div>
-  </div>
-
-    <div
-      class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-      <a href="#!">
-        <img
-          class="rounded-t-lg"
-          src="https://cdn.theculturetrip.com/images/56-3939607-14411063429c4afa28086440c1b4ebf5950f592984.jpg"
-          alt="Los Angeles Skyscrapers" />
-      </a>
-      <div class="p-6 bg-gray-900 rounded-b-lg">
-        <h5 class="mb-2 text-xl font-bold leading-tight">وام گلخانه وام گلخانه</h5>
-        <p class="mb-4 text-base">
-        انواع وام  ساخت گلخانه وام گلخانه جهاد کشاورزی یکی از مهم‌ترین منابع تأمین مالی برای احداث و ساخت گلخانه، ...
-        </p>
-      </div>
-      <div
-        class="bg-gray-900 mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-        <small>مطالعه بیشتر </small>
+<div class="mx-auto max-w-screen-xl p-5 text-right sm:p-10 md:p-16">
+  <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
+    <div class="shadow-2xl flex flex-col justify-between rounded-lg border-4 border-b border-gray-900 bg-gray-900 leading-normal lg:border-gray-900">
+      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-212340.jpg" class="mb-3 h-full w-full rounded-lg" />
+      <div class="p-4 pt-2">
+        <div class="mb-8">
+          <p class="flex items-center text-sm text-gray-200">
+            <svg class="mr-2 h-3 w-3 fill-current text-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z"></path>
+            </svg>
+            Members only
+          </p>
+          <a href="#" class="mb-2 inline-block text-lg font-bold text-gray-100 hover:text-indigo-600">مراحل ساخت گلخانه </a>
+          <p class="text-sm text-gray-100">شرایط لازم برای ساخت گلخانه وام ساخت گلخانه شرکت گل افروز : این شرایط شامل افرادی می شود که ...</p>
+        </div>
+        <div class="flex items-center">
+          <a href="#"><img class="mr-4 h-10 w-10 rounded-full" src="https://golafrooz.com/wp-content/uploads/2024/04/0ae9ed80-d75a-11ee-8ad5-ff43cbdef7a2.jpg" alt="Avatar of Jonathan Reinink" /></a>
+          <div class="text-sm">
+            <a href="#" class="font-semibold leading-none text-gray-100 hover:text-indigo-600">وحید سهرابی</a>
+            <p class="text-gray-300">Aug 18</p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div
-      class="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
-      <a href="#!">
-        <img
-          class="rounded-t-lg"
-          src="https://images.nightcafe.studio/jobs/aplComKFWFx8cftOJapL/aplComKFWFx8cftOJapL_2x.jpg"
-          alt="Palm Springs Road" />
-      </a>
-      <div class="p-6 bg-gray-900 rounded-b-lg">
-        <h5 class="mb-2 text-xl font-bold leading-tight">مراحل ساخت گلخانه</h5>
-        <p class="mb-4 text-base">
-        شرایط لازم برای ساخت گلخانه وام ساخت گلخانه شرکت گل افروز : این شرایط شامل افرادی می شود که ...
-        </p>
+    <div class="shadow-2xl flex flex-col justify-between rounded-lg border-4 border-b border-gray-900 bg-gray-900 leading-normal lg:border-gray-900">
+      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-212386.jpg" class="mb-3 h-full w-full rounded-lg" />
+      <div class="p-4 pt-2">
+        <div class="mb-8">
+          <p class="flex items-center text-sm text-gray-200">
+            <svg class="mr-2 h-3 w-3 fill-current text-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z"></path>
+            </svg>
+            Members only
+          </p>
+          <a href="#" class="mb-2 inline-block text-lg font-bold text-gray-100 hover:text-indigo-600">وام گلخانه </a>
+          <p class="text-sm text-gray-100">انواع وام ساخت گلخانه وام گلخانه جهاد کشاورزی یکی از مهم‌ترین منابع تأمین مالی برای احداث و ساخت گلخانه، ...</p>
+        </div>
+        <div class="flex items-center">
+          <a href="#"><img class="mr-4 h-10 w-10 rounded-full" src="https://golafrooz.com/wp-content/uploads/2024/04/e4632990-9da0-11ee-87f0-5dfdd11747ca.jpg" alt="Avatar of Jonathan Reinink" /></a>
+          <div class="text-sm">
+            <a href="#" class="font-semibold leading-none text-gray-100 hover:text-indigo-600">علی رضازاده</a>
+            <p class="text-gray-200">oct 8</p>
+          </div>
+        </div>
       </div>
-      <div
-        class="bg-gray-900 mt-auto border-t-2 border-neutral-100 px-6 py-3 text-center text-surface/75 dark:border-white/10 dark:text-neutral-300">
-        <small>مطالعه بیشتر</small>
+    </div>
+
+    <div class="shadow-2xl flex flex-col justify-between rounded-lg border-4 border-gray-900 bg-gray-900 leading-normal lg:border-gray-900">
+      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-212392.jpg" class="mb-3 h-full w-full rounded-lg" />
+      <div class="p-4 pt-2">
+        <div class="mb-8">
+          <p class="flex items-center text-sm text-gray-200">
+            <svg class="mr-2 h-3 w-3 fill-current text-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z"></path>
+            </svg>
+            Members only
+          </p>
+          <a href="#" class="mb-2 inline-block text-lg font-bold text-gray-100 hover:text-indigo-600">گلخانه سازی تسهیلات اعطایی گلخانه سازی</a>
+          <p class="text-sm text-gray-100">تسهیلات شرکت گل افروز جهت گلخانه سازی شرکت پالیز کامیاب گل افروز در راستای تحقق بخشیدن به اهداف ...</p>
+        </div>
+        <div class="flex items-center">
+          <a href="#"><img class="mr-4 h-10 w-10 rounded-full" src="https://golafrooz.com/wp-content/uploads/2024/04/poster_54d22020-e136-42a8-a8f4-77940cc07ef2.jpeg" alt="Avatar of Jonathan Reinink" /></a>
+          <div class="text-sm">
+            <a href="#" class="font-semibold leading-none text-gray-100 hover:text-indigo-600">محمد زارع</a>
+            <p class="text-gray-200">Sep 11</p>
+          </div>
+        </div>
       </div>
-      <div class=""></div>
     </div>
   </div>
-<div>-----------------------------------------------</div>
-<p class="justify-center items-center text-4xl font-bold p-10">کاتالوگ</p>
-<div>-----------------------------------------------</div>
-<section class="container p-10 mx-auto text-right">
-      <div class="container mx-auto bg-card p-10 rounded-large">
-          <h2 class="px-4 text-6xl pt-16 pb-4 mb-2 text-black font-bold font-roboto">ریتم</h2>
-          <p class="px-4 text-2xl text-black pb-16 md:pr-10 font-roboto">برای موفقیت در کار گلخانه باید ریتم طبیعت را درک کرد و با آن همسو شد </p>
+</div>
+
+<!-- <div>-----------------------------------------------</div> -->
+<section class="container p-10 mx-auto text-right ">
+      <div class="container mx-auto bg-card p-10 rounded-large shadow-2xl">
+          <h2 class="px-4 text-6xl pt-16 pb-4 mb-2 text-black font-bold font-roboto">کاتالوگ</h2>
+          <p class="px-4 text-2xl text-black pb-16 md:pr-10 font-roboto">
+          تمامی کاتالوگ هایی که در این بخش قرار گرفته توسط شرکت گل افروز طراحی و جهت افزایش دانش گلخانه سازان عزیز خدمت شما ارائه شده  است و شامل انواع سازه نمونه کار ، انواع سازه گلخانه، تجهیزات و اطلاعات تکمیلی در مورد گلخانه می باشد.
+          </p>
         </div>
       </div>
     </section>
 
 <section class="container p-10 mx-auto text-right">
-      <div class="bg-gray-100 bg-card-b p-6 rounded-large">
-          <h2 class="px-4 text-6xl font-medium pt-16 pb-6 mb-2 font-roboto text-white">گسترش گلخانه</h2>
-          <p class="px-4 text-2xl text-white pb-16 font-roboto"> قوانین موفقیت در همه ی کار ها اثرگذار است و در کار گلخانه بیشتر از هر کار دیگری جلوه می کند</p>
+      <div class="bg-gray-100 bg-card-b p-6 rounded-large shadow-2xl">
+          <h2 class="px-4 text-6xl font-medium pt-16 pb-6 mb-2 font-roboto text-white">قرار داد</h2>
+          <p class="px-4 text-2xl text-white pb-16 font-roboto">
+          برای شروع ساخت گلخانه باید هزینه های مربوط به ساخت سازه و تجهیز کردن ان براورد شود که ما دراین بخش هزینه های مربوط به ساخت سازه  و و تجهیز ان (صفرتا صد ) انواع سازه گلخانه را برآورد کرده ایم تا شما با آگاهی بیشتری سازه ی مد نظرتان را انتخاب کنید .
+        </p>
         </div>
       </div>
     </section>
@@ -519,14 +528,14 @@ document.addEventListener("DOMContentLoaded", function() {
   </span>
     <h1
         class="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center from-blue-500 via-teal-500 to-pink-500 bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto">
-            گالری تصاویر مجموعه گا افروز
+            گالری تصاویر مجموعه گل افروز
 
     </h1>
   <div class="mx-auto max-w-6xl px-6 p-8">
     <div class="flex">
       
       <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://savoura.com/wp-content/uploads/2019/07/gPmdKSvK.jpg" alt="green house" />
+        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/14001224000851_Test_PhotoN.jpg" alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8">
             <div class="flex gap-3 text-white">
@@ -548,7 +557,7 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
     </div>
           <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://atavita.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-07-22-at-3.54.00-PM-1.jpeg" alt="green house" />
+        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/3005496.jpg" alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8 ">
             <div class="flex gap-3 text-white">
@@ -573,7 +582,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
     
           <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://savoura.com/wp-content/uploads/2019/07/2jRsf2Om.jpg" alt="green house" />
+        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/DD1C84B6-10F9-47C7-9B0A-F3A86781D32C.jpeg" alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8">
             <div class="flex gap-3 text-white content-end items-end">
@@ -594,7 +603,7 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
     </div>
           <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://savoura.com/wp-content/uploads/2019/08/DJI_Saguenay_01_VR.jpg" alt="green house" />
+        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/5da97a9a9434a.jpg" alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8">
             <div class="flex gap-3 text-white">
@@ -616,7 +625,7 @@ document.addEventListener("DOMContentLoaded", function() {
       </div>
     </div>
           <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://savoura.com/wp-content/uploads/2019/08/DJI_Ste_Marthe_01_VR.jpg" alt="green house" />
+        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/08987DCB-7F58-4D57-BDF5-4C797F62735C-1024x863-1.jpeg" alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8">
             <div class="flex gap-3 text-white">
@@ -645,8 +654,8 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
   <section class="text-gray-900 dark:text-neutral-300">
   <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-    <h3 class="mb-6 text-3xl font-bold text-gray-900">نظر مشتریان</h3>
-    <p class="mb-6 pb-2 md:mb-12 md:pb-0 text-gray-900">نظری مشتریان درباره شکرت گلخانه سازی گل افروز </p>
+    <h3 class="mb-6 pt-10 text-3xl font-bold text-gray-900">رضایت شما ارزشمندترین دارایی ماست </h3>
+    <p class="mb-6 pb-2 md:mb-12 md:pb-0 text-gray-900">تیم ما سخت در تلاش است تا بهترین را در حداقل زمان ممکن به شما رائه دهد و ما در شرکت گل افروز بی صبرانه منتظر شنیدن نظرات شما هستیم . </p>
   </div>
 
   <div class="grid gap-6 text-center md:grid-cols-3 p-10">
@@ -654,10 +663,10 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" />
+          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240423_093625_681.jpg" />
         </div>
         <div class="p-6">
-          <h4 class="mb-4 text-2xl font-semibold">مریم سعادتی</h4>
+          <h4 class="mb-4 text-2xl font-semibold">ناصر خدابنده</h4>
           <hr />
           <p class="mt-4">
             <span class="inline-block pe-2 [&>svg]:w-5"
@@ -666,7 +675,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            خدماتشون بی نظیر بود همیشه به موقع و با حوصله پاسخ دادند وکیفیت محصولاتشون درجه یک است
+            سازه ای که برای من ساختن سازه یخیلی محکم و خوبیه واقعا دستشون درد نکنه 
           </p>
         </div>
       </div>
@@ -675,10 +684,10 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-pink-500 via-teal-500 to-blue-500"></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" />
+          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240423_093757_712.jpg" />
         </div>
         <div class="p-6">
-          <h4 class="mb-4 text-2xl font-semibold">ندا آرزومند</h4>
+          <h4 class="mb-4 text-2xl font-semibold">ولی فراتی </h4>
           <hr />
           <p class="mt-4">
             <span class="inline-block pe-2 [&>svg]:w-5"
@@ -687,7 +696,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            در کمترین زمان ممکن یه گلخونه بزرگ رو احداث کردند  سرعت عملشون بی نظیره 
+            از لحاظ قیمت بهترینن همه جوره باهام کنار اومدن خدمات عالی با قیمت خوب
           </p>
         </div>
       </div>
@@ -696,7 +705,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-sky-500 via-teal-500 to-purple-500"></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" />
+          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240423_093822_529.jpg" />
         </div>
         <div class="p-6">
           <h4 class="mb-4 text-2xl font-semibold">حسین شکری</h4>
@@ -708,7 +717,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            اینو از زبون بزرگ ترین گلخانه دار ایران می شنوید این مجموعه بی نظیره 
+            یه سازه برای من ساختن با تجهیزات کامل بخاری و فن هایی که برام نصب کردن خیلی عالیه نمونشو جایی ندیدم
           </p>
         </div>
       </div>
@@ -760,13 +769,12 @@ document.addEventListener("DOMContentLoaded", function() {
                         type="reset">
                 </div>
 <a href="https://veilmail.io/e/FkKh7o" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Or click here to reveal our protected email address</a>
-    
+
             </form>
         </div>
-        
     </div>
 </div>
-  <div>-----------------------------------</div>
+<div>-----------------------------------</div>
 
   <?php get_footer() ; ?>
 
