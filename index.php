@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <img id="slide-4" src="https://golafrooz.com/wp-content/uploads/2024/04/4.jpg" alt="golafrooz">
         <img id="slide-5" src="https://golafrooz.com/wp-content/uploads/2024/04/5-scaled.jpg" alt="golafrooz">
         <img id="slide-6" src="https://golafrooz.com/wp-content/uploads/2024/04/6-scaled.jpg" alt="golafrooz">
-        <img id="slide-7" src="https://golafrooz.com/wp-content/uploads/2024/04/7.jpeg" alt="golafrooz">
+        <img id="slide-7" src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_115644_183-scaled.jpg" alt="golafrooz">
         <img id="slide-8" src="https://golafrooz.com/wp-content/uploads/2024/04/8-scaled.jpeg" alt="golafrooz">
       </div>
       <div class="slider-nav">
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
     </div>
 </section>
-<div>---------------------شش-----------------------</div>
+<!-- <div>---------------------شش-----------------------</div> -->
 
 <div class="p-1 flex flex-wrap items-center justify-center">
 
@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
                 style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
             </div>
-            <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
+            <img class="relative w-40 h-48" src="https://golafrooz.com/wp-content/uploads/2024/04/Clipped_image_20240424_122129-1.png" alt="">
         </div>
         <div class="relative text-white px-6 pb-6 mt-6">
         <span class="block opacity-75 mb-1 text-right">راهنمای</span>
@@ -205,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
                 style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
             </div>
-            <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
+            <img class="relative w-40 h-48" src="https://golafrooz.com/wp-content/uploads/2024/04/Clipped_image_20240424_122849.png" alt="">
         </div>
         <div class="relative text-white px-6 pb-6 mt-6">
         <span class="block opacity-75 mb-1 text-right">راهنمای</span>
@@ -217,8 +217,10 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
     </div>
     
+<div class="m-16  w-full">
 
-  <div>------------------نمونه کار-----------------</div>
+</div>
+  <!-- <div>------------------نمونه کار-----------------</div> -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
@@ -407,7 +409,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <div class="mx-auto max-w-screen-xl p-5 text-right sm:p-10 md:p-16">
   <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3">
     <div class="shadow-2xl flex flex-col justify-between rounded-lg border-4 border-b border-gray-900 bg-gray-900 leading-normal lg:border-gray-900">
-      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-212340.jpg" class="mb-3 h-full w-full rounded-lg" />
+      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-210170-scaled.jpg" class="mb-3 h-full w-full rounded-lg" />
       <div class="p-4 pt-2">
         <div class="mb-8">
           <p class="flex items-center text-sm text-gray-200">
@@ -420,7 +422,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <p class="text-sm text-gray-100">شرایط لازم برای ساخت گلخانه وام ساخت گلخانه شرکت گل افروز : این شرایط شامل افرادی می شود که ...</p>
         </div>
         <div class="flex items-center">
-          <a href="#"><img class="mr-4 h-10 w-10 rounded-full" src="https://golafrooz.com/wp-content/uploads/2024/04/0ae9ed80-d75a-11ee-8ad5-ff43cbdef7a2.jpg" alt="Avatar of Jonathan Reinink" /></a>
+          <a href="#"><img class="mr-4 h-10 w-10 rounded-full" src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-210168.jpg" alt="Avatar of Jonathan Reinink" /></a>
           <div class="text-sm">
             <a href="#" class="font-semibold leading-none text-gray-100 hover:text-indigo-600">وحید سهرابی</a>
             <p class="text-gray-300">Aug 18</p>
@@ -430,7 +432,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
 
     <div class="shadow-2xl flex flex-col justify-between rounded-lg border-4 border-b border-gray-900 bg-gray-900 leading-normal lg:border-gray-900">
-      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-212386.jpg" class="mb-3 h-full w-full rounded-lg" />
+      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-210168.jpg" class="mb-3 h-full w-full rounded-lg" />
       <div class="p-4 pt-2">
         <div class="mb-8">
           <p class="flex items-center text-sm text-gray-200">
@@ -443,7 +445,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <p class="text-sm text-gray-100">انواع وام ساخت گلخانه وام گلخانه جهاد کشاورزی یکی از مهم‌ترین منابع تأمین مالی برای احداث و ساخت گلخانه، ...</p>
         </div>
         <div class="flex items-center">
-          <a href="#"><img class="mr-4 h-10 w-10 rounded-full" src="https://golafrooz.com/wp-content/uploads/2024/04/e4632990-9da0-11ee-87f0-5dfdd11747ca.jpg" alt="Avatar of Jonathan Reinink" /></a>
+          <a href="#"><img class="mr-4 h-10 w-10 rounded-full" src="https://golafrooz.com/wp-content/uploads/2024/04/asadesmaeeli_11_.jpg" alt="Avatar of Jonathan Reinink" /></a>
           <div class="text-sm">
             <a href="#" class="font-semibold leading-none text-gray-100 hover:text-indigo-600">علی رضازاده</a>
             <p class="text-gray-200">oct 8</p>
@@ -453,7 +455,7 @@ document.addEventListener("DOMContentLoaded", function() {
     </div>
 
     <div class="shadow-2xl flex flex-col justify-between rounded-lg border-4 border-gray-900 bg-gray-900 leading-normal lg:border-gray-900">
-      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-212392.jpg" class="mb-3 h-full w-full rounded-lg" />
+      <img src="https://golafrooz.com/wp-content/uploads/2024/04/2147483648_-210164-scaled.jpg" class="mb-3 h-full w-full rounded-lg" />
       <div class="p-4 pt-2">
         <div class="mb-8">
           <p class="flex items-center text-sm text-gray-200">

@@ -72,7 +72,7 @@
 </style>
 </head>
 <body>
-<header class="fixed sticky z-50 top-0 flex w-full flex-wrap items-center bg-gray-900 px-8 py-8 text-white shadow-md lg:px-16">
+<header class="fixed sticky z-50 top-0 flex w-full flex-wrap items-center bg-gray-900 px-8 py-3 text-white shadow-md lg:px-16">
     <script>
 
       const logos = [

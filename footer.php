@@ -204,7 +204,7 @@
   <div class="py-4"></div>
   <div class="py-12" >
     <div class="items-center justify-center w-full bg-black/5 p-3 text-center backdrop-blur-lg bg-white/30 rounded-2xl">
-    <span>© 2023 Copyright:</span>
+    <span>© 2024 Copyright:</span>
     <a class="font-semibold" href="#"
       >Atroopa</a>
   </div></div>
