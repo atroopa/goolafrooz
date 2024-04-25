@@ -75,8 +75,7 @@
         </svg>
         <div class="space-y-2">
           <h3 class="font-bold">خدمات</h3>
-          <p class="text-sm text-muted-foreground">گل افروز با سال ها تجربه در کنار شماست
-            tools.</p>
+          <p class="text-sm text-muted-foreground">گل افروز با سال ها تجربه در کنار شماست</p>
         </div>
       </div>
     </div>
@@ -773,20 +772,18 @@
 
       <form action="https://fabform.io/f/{form-id}" method="post">
 
-        <input class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Name" name="name">
+        <input class="text-right shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="نام" name="name">
 
-        <input class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Email" name="email">
+        <input class="text-right shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="ایمیل" name="email">
 
-        <input class="shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Subject" name="_subject">
+        <input class="text-right shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="موضوع" name="_subject">
 
-        <textarea class="shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Type your message here..." name="message" style="height: 121px;"></textarea>
+        <textarea class="text-right shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="متن پیام" name="message" style="height: 121px;"></textarea>
 
         <div class="flex justify-between">
-          <input class="shadow bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" value="Send ➤">
+          <input class="shadow bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" value="ارسال ➤">
           <input class="shadow bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="reset">
         </div>
-        <a href="https://veilmail.io/e/FkKh7o" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Or click here to reveal our protected email address</a>
-
       </form>
     </div>
   </div>
