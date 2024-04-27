@@ -36,7 +36,7 @@
           <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
             ارتباط با ما
           </h6>
-          <p class="mb-4 flex items-center justify-center md:justify-start">
+          <p class="mb-4 flex text-right items-center justify-center md:justify-start">
             <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
@@ -74,40 +74,28 @@
           </p>
         </div>
         <!-- Products section -->
-        <div>
-          <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+        <div class="items-center justify-center">
+          <h6 class="mb-4 flex flex-col items-center justify-center font-semibold uppercase md:justify-center">
             محصولات
           </h6>
-          <p class="mb-4">
-            <a href="#!">محصول اول</a>
-          </p>
-          <p class="mb-4">
-            <a href="#!">محصول دوم</a>
-          </p>
-          <p class="mb-4">
-            <a href="#!">محصول سوم</a>
-          </p>
-          <p>
-            <a href="#!">محصول پنجم</a>
-          </p>
+          <?php wp_nav_menu(array(
+            'theme_location' => 'footer_one',
+            'depth' => '1',
+            'container'      => 'div',
+            'menu_class'  => 'text-brown items-center justify-center gap-x-5 w-full flex flex-col',
+          )); ?>
         </div>
         <!-- Useful links section -->
-        <div>
-          <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+        <div class="items-center justify-center">
+          <h6 class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-center">
             خدمات
           </h6>
-          <p class="mb-4">
-            <a href="#!">خدمات اول</a>
-          </p>
-          <p class="mb-4">
-            <a href="#!">خدمات دوم</a>
-          </p>
-          <p class="mb-4">
-            <a href="#!">خدمات سوم</a>
-          </p>
-          <p>
-            <a href="#!">خدمات چهارم</a>
-          </p>
+          <?php wp_nav_menu(array(
+            'theme_location' => 'footer_two',
+            'depth' => '1',
+            'container'      => 'div',
+            'menu_class'  => 'text-brown items-center justify-center gap-x-5 w-full flex flex-col',
+          )); ?>
         </div>
         <!-- TW Elements section -->
         <div class="">
