@@ -28,9 +28,9 @@
   <div class="slider-wrapper">
     <div class="slider">
       <img id="slide-1" src="https://golafrooz.com/wp-content/uploads/2024/04/1.jpeg" alt="golafrooz">
-      <img id="slide-2" src="https://golafrooz.com/wp-content/uploads/2024/04/2.jpg" alt="golafrooz">
-      <img id="slide-3" src="https://golafrooz.com/wp-content/uploads/2024/04/3-scaled.jpeg" alt="golafrooz">
-      <img id="slide-4" src="https://golafrooz.com/wp-content/uploads/2024/04/4.jpg" alt="golafrooz">
+      <img id="slide-2" src="https://golafrooz.com/wp-content/uploads/2024/04/saarlucon-4-00-meter-kappen-scaled.jpg" alt="golafrooz">
+      <img id="slide-3" src="https://golafrooz.com/wp-content/uploads/2024/04/business-area_commercial-greenhouse-_2021_1600-x-450.png" alt="golafrooz">
+      <img id="slide-4" src="https://golafrooz.com/wp-content/uploads/2024/04/60-2048x1152-1.jpg" alt="golafrooz">
       <img id="slide-5" src="https://golafrooz.com/wp-content/uploads/2024/04/5-scaled.jpg" alt="golafrooz">
       <img id="slide-6" src="https://golafrooz.com/wp-content/uploads/2024/04/6-scaled.jpg" alt="golafrooz">
       <img id="slide-7" src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_115644_183-scaled.jpg" alt="golafrooz">
@@ -114,7 +114,7 @@
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
         <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-        <span class="block font-semibold text-l ">گلخانه اسپانیایی</span>
+        <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ 1</span>
 
       </div>
     </div>
@@ -133,7 +133,7 @@
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
         <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-        <span class="block font-semibold text-l ">گلخانه هلندی</span>
+        <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ 2</span>
 
       </div>
     </div>
@@ -154,7 +154,7 @@
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
         <span class="block bg-white rounded-full text-amber-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-        <span class="block font-semibold text-l ">گلخانه هیدروپونیک</span>
+        <span class="block font-semibold text-l p-1 ">گلخانه شیشه ای هلندی</span>
 
       </div>
     </div>
@@ -174,7 +174,7 @@
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
         <span class="block bg-white rounded-full text-pink-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-        <span class="block font-semibold text-l ">گلخانه ایرانی</span>
+        <span class="block font-semibold text-l ">گلخانه تونلی</span>
 
       </div>
     </div>
@@ -465,7 +465,7 @@
     <div class="flex items-start justify-start  ">
       <a href="">
         <button type="button" class="mx-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-800 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
-          دریافت قرارداد
+          دریافت نمونه قرارداد
         </button>
       </a>
     </div>
