@@ -1,5 +1,5 @@
 <!doctype html>
-<html <?php language_attributes() ; ?> >
+<html <?php language_attributes(); ?>>
 
 <head>
   <meta charset="UTF-8">
@@ -68,11 +68,30 @@
     #menu-toggle:checked+#menu {
       display: block;
     }
+
+    #menu-main-menu {
+      background-color: yellow;
+      /* رنگ پس زمینه */
+      color: white;
+      /* رنگ متن */
+    }
+
+    /* استایل دهی به لینک‌های منو */
+    #menu-main-menu li a {
+      color: white;
+      /* رنگ متن لینک */
+    }
+
+    /* استایل دهی به لینک‌های هوور */
+    #menu-main-menu li a:hover {
+      color: black;
+      /* رنگ متن لینک هوور */
+    }
   </style>
 </head>
 
 <body>
-  <header class="fixed sticky z-50 top-0 flex w-full flex-wrap items-center bg-gray-900 px-8 py-3 text-white shadow-md lg:px-16">
+  <header class="fixed sticky z-50 top-0 flex w-full  flex-row justify-between items-center bg-gray-900 px-8 py-3 text-white shadow-md lg:px-10">
     <script>
       const logos = [
         'https://golafrooz.com/wp-content/uploads/2024/04/golafrooz.png',
@@ -86,7 +105,7 @@
         logoElement.src = logos[currentLogoIndex];
       }, 2000);
     </script>
-    <div class="flex flex-1 items-center justify-between">
+    <div class=" flex flex-row items-center justify-between">
       <a href="https://golafrooz.com" class="flex items-center space-x-3 rtl:space-x-reverse m-2">
         <img class="logo-image w-24 h-24 rounded-full mx-auto" src="https://golafrooz.com/wp-content/uploads/2024/04/golafrooz.png" alt="logo" width="384" height="512">
         <span class="self-center text-sm md:text-2xl font-semibold whitespace-nowrap text-white">GOLAFROOZ CO</span>
@@ -100,33 +119,16 @@
     </label>
     <input type="checkbox" id="menu-toggle" class="hidden" />
     <div class="text-right font-bold  md:text-sm hidden md:flex md:items-center md:w-auto w-full" id="menu">
-      <nav>
-        <ul class="items-center justify-between pt-4 text-base md:flex md:pt-0">
-          <li>
-            <a href="#" class="text-sm md:text-xl block px-0 py-3 md:p-4 hover:text-blue-500">تماس با ما</a>
-          </li>
-          <li>
-            <a href="#" class="text-sm md:text-xl block px-0 py-3 md:p-4 hover:text-blue-500">درباره ما</a>
-          </li>
-          <li>
-            <a href="#" class="text-sm md:text-xl block px-0 py-3 md:p-4 hover:text-blue-500">وبلاگ</a>
-          </li>
-          <li>
-            <a href="#" class="text-sm md:text-xl block px-0 py-3 md:p-4 hover:text-blue-500">گالری</a>
-          </li>
-          <li>
-            <a href="#" class="text-sm md:text-xl block px-0 py-3 md:p-4 hover:text-blue-500">خدمات</a>
-          </li>
-          <li>
-            <a href="#" class="text-sm md:text-xl block px-0 py-3 md:p-4 hover:text-blue-500">گلخانه ها</a>
-          </li>
-          <li>
-            <a href="#" class="text-sm md:text-xl block px-0 py-3 md:p-4 hover:text-blue-500">خانه</a>
-          </li>
-          <li>
-            <div class="text-sm md:text-xl px-20 py-4 md:px-8"></div>
-          </li>
-          <li>
+      <nav class="flex flex-row items-center justify-between">
+        <div class="flex flex-row items-center justify-between pt-4 text-base md:flex md:pt-0">
+          <?PHP wp_nav_menu(array(
+            'theme_location' => 'Main_Menu',
+            'depth' => '1',
+            'menu'           => false,
+            'container'      => 'div',
+            'menu_class'  => 'text-white items-start justify-start gap-x-5 px-10 w-full flex flex-row',
+          )); ?>
+          <div>
             <script>
               setInterval(() => {
                 const button = document.getElementById('color-changing-button');
@@ -139,9 +141,10 @@
                 }
               }, 2000);
             </script>
-            <button id="color-changing-button" class="text-sm md:text-xl rounded-lg bg-blue-700 px-8 py-4 text-center font-bold text-black hover:bg-blue-900">محصولات و تجهیزات</button>
-          </li>
-        </ul>
+            <button id="color-changing-button" class="text-sm md:text-xl rounded-lg bg-blue-700 px-12 py-4 text-center font-bold text-black hover:bg-blue-900">محصولات و تجهیزات</button>
+          </div>
+        </div>
       </nav>
     </div>
+    <div class=" mx-10 md:mx-0"></div>
   </header>
