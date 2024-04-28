@@ -50,7 +50,7 @@
 <!-- <div>--------------------------------------------</div> -->
 <section id="features" class=" px-2 space-y-6 py-8 md:py-12 lg:py-24 max-w-5xl mx-auto">
   <div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-    <h2 class="font-heading text-green-800 text-3xl leading-[1.1] sm:text-3xl md:text-6xl pb-8 font-bold">...شرکت گلخانه سازی گل افروز</h2>
+    <h2 class="font-heading text-green-800 text-3xl leading-[1.1] sm:text-3xl md:text-6xl pb-8 font-bold">شرکت گلخانه سازی گل افروز...</h2>
     <p class="pb-8 max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
       شرکت گل افروز پس از سالها فعالیت در زمینه ساخت گلخانه های مدرن و صنعتی در سال ۱۳۹۸ به شماره: ۴۴۶۲۳ در تهران بزرگ به ثبت رسید. ما در این شرکت توانسته ایم با بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۱۵۰هکتار از اراضی میهن عزیزمان را به گلخانه های صنعتی و مدرن تبدیل کنیم و همزمان با تولید تجهیزات و سازه های گلخانه ای، از مرحله طراحی تا عرضه ی این محصولات با بالاترین کیفیت ممکن، در بازارهای داخلی و خارجی فعالیت موثر و موفق داشته باشیم.
   </div>
@@ -113,8 +113,8 @@
 
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
-        <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
         <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ 1</span>
+        <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
 
       </div>
     </div>
@@ -132,9 +132,8 @@
     <div class="relative text-white px-6 pb-6 mt-6">
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
-        <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
         <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ 2</span>
-
+        <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
       </div>
     </div>
   </div>
@@ -153,9 +152,8 @@
     <div class="relative text-white px-6 pb-6 mt-6">
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
-        <span class="block bg-white rounded-full text-amber-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
         <span class="block font-semibold text-l p-1 ">گلخانه شیشه ای هلندی</span>
-
+        <span class="block bg-white rounded-full text-amber-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
       </div>
     </div>
   </div>
@@ -172,76 +170,61 @@
     </div>
     <div class="relative text-white px-6 pb-6 mt-6">
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
-      <div class="flex justify-between">
-        <span class="block bg-white rounded-full text-pink-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
+      <div class="flex justify-between">3
         <span class="block font-semibold text-l ">گلخانه تونلی</span>
-
+        <span class="block bg-white rounded-full text-pink-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
       </div>
     </div>
   </div>
 
-  <div class="m-16  w-full">
-
+  <div class="m-1 h-600 bg-red-100 w-full">
   </div>
   <!-- <div>------------------نمونه کار-----------------</div> -->
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-  <main class="grid min-h-screen w-full bg-gray-900">
-
-    <div class="relative overflow-hidden bg-whit ">
-      <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-        <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
-          <div class="sm:max-w-lg">
-            <h1 class="text-right font text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl mb-8">افتخارات شرکت گلخانه سازی گل افروز</h1>
-            <p class="text-right mt-4 text-xl text-gray-100">درباره شرکت پالیز کامیاب گل افروز
-              شرکت پالیز کامیاب گل افروز پس از سال ها فعالیت در زمینه ساخت گلخانه های مدرن و صنعتی در سال ۱۳۹۸ به شماره : ۴۴۶۲۳ در تهران بزرگ به ثبت رسید .
-              ما در این شرکت توانسته ایم با بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۱۵۰ هکتار از اراضی میهن عزیزمان را به گلخانه های صنعتی و مدرن تبدیل کنیم و همزمان با تولید تجهیزات و سازه های گلخانه ای، از مرحله طراحی تا عرضه ی این محصولات با بالاترین کیفیت ممکن، در بازارهای داخلی و خارجی فعالیت موثر و موفق داشته باشیم..</p>
-          </div>
-          <div>
-            <div class="mt-10">
-              <!-- Decorative image grid -->
-              <div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
-                <div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                  <div class="flex items-center space-x-6 lg:space-x-8">
-                    <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                        <img src="https://golafrooz.com/wp-content/uploads/2024/04/1.jpg" class="h-full w-full object-cover object-center">
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="https://golafrooz.com/wp-content/uploads/2024/04/2-1.jpg" alt="" class="h-full w-full object-cover object-center">
-                      </div>
-                    </div>
-                    <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="https://golafrooz.com/wp-content/uploads/2024/04/3.jpg" alt="" class="h-full w-full object-cover object-center">
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="https://golafrooz.com/wp-content/uploads/2024/04/4-1.jpg" alt="" class="h-full w-full object-cover object-center">
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="https://golafrooz.com/wp-content/uploads/2024/04/5.webp" alt="" class="h-full w-full object-cover object-center">
-                      </div>
-                    </div>
-                    <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="https://golafrooz.com/wp-content/uploads/2024/04/6.webp" alt="" class="h-full w-full object-cover object-center">
-                      </div>
-                      <div class="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="https://golafrooz.com/wp-content/uploads/2024/04/7.jpg" alt="" class="h-full w-full object-cover object-center">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <a href="#" class="inline-block rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700">بیشتر بخوانید</a>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="w-full relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+  <img src="https://golafrooz.com/wp-content/uploads/2024/04/dark-scaled.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+  <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+  </div>
+  <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+  </div>
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">شرکت گلخانه سازی گل افروز</h2>
+      <p class="mt-6 text-lg leading-8 text-gray-300">شرکت پالیز کامیاب گل افروز پس از سال ها فعالیت در زمینه ساخت گلخانه های مدرن و صنعتی در سال ۱۳۹۸ به شماره : ۴۴۶۲۳ در تهران بزرگ به ثبت رسید .
+ما در این شرکت توانسته ایم با بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۱۵۰ هکتار از اراضی میهن عزیزمان را به گلخانه های صنعتی و مدرن تبدیل کنیم و همزمان با تولید تجهیزات و سازه های گلخانه ای، از مرحله طراحی تا عرضه ی این محصولات با بالاترین کیفیت ممکن، در بازارهای داخلی و خارجی فعالیت موثر و موفق داشته باشیم.</p>
     </div>
-  </main>
+    <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+      <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+        <a href="#"><span class="p-1">⇚</span>قبل از هرچیزی بخوانید </a>
+        <a href="#"><span class="p-1">⇚</span>نکات مهم گلخانه سازی</a>
+        <a href="#"><span class="p-1">⇚</span>چرا مشاوره مهم  است</a>
+        <a href="#"><span class="p-1">⇚</span>چه چیزی مناسب اقلیم شماست</a>
+      </div>
+      <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="flex flex-col-reverse">
+          <dt class="text-base leading-7 text-gray-300">بهترین طرح ها را داریم</dt>
+          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">پیشرو</dd>
+        </div>
+        <div class="flex flex-col-reverse">
+          <dt class="text-base leading-7 text-gray-300">در هرکجای ایران </dt>
+          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">وسیع</dd>
+        </div>
+        <div class="flex flex-col-reverse">
+          <dt class="text-base leading-7 text-gray-300">بیشتریم بهره وری</dt>
+          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">خلاق</dd>
+        </div>
+        <div class="flex flex-col-reverse">
+          <dt class="text-base leading-7 text-gray-300">انتخاب همیشه شما خواهیم شد</dt>
+          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">مسئول</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>
+
+  <div class="m-16 bg-red-100 w-full">
+  </div>
   <div>-----------------------------------</div>
   <p class="justify-center items-center text-4xl font-bold p-10">محصولات</p>
   <div>-----------------------------------</div>
@@ -445,7 +428,7 @@
       <p class="px-4 text-2xl text-black pb-16 md:pr-10 font-roboto">
         تمامی کاتالوگ هایی که در این بخش قرار گرفته توسط شرکت گل افروز طراحی و جهت افزایش دانش گلخانه سازان عزیز خدمت شما ارائه شده است و شامل انواع سازه نمونه کار ، انواع سازه گلخانه، تجهیزات و اطلاعات تکمیلی در مورد گلخانه می باشد.
       </p>
-      <div class="flex items-start justify-start  ">
+      <div class="flex items-end justify-end  ">
         <a href="">
           <button type="button" class="mx-10 bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
             دریافت کاتالوگ
@@ -462,7 +445,7 @@
     <p class="px-4 text-2xl text-white pb-16 font-roboto">
       برای شروع ساخت گلخانه باید هزینه های مربوط به ساخت سازه و تجهیز کردن ان براورد شود که ما دراین بخش هزینه های مربوط به ساخت سازه و و تجهیز ان (صفرتا صد ) انواع سازه گلخانه را برآورد کرده ایم تا شما با آگاهی بیشتری سازه ی مد نظرتان را انتخاب کنید .
     </p>
-    <div class="flex items-start justify-start  ">
+    <div class="flex items-end justify-end  ">
       <a href="">
         <button type="button" class="mx-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-800 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
           دریافت نمونه قرارداد
@@ -641,7 +624,9 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            سازه ای که برای من ساختن سازه یخیلی محکم و خوبیه واقعا دستشون درد نکنه
+            با سلام و احترام 
+باعث افتخار در سال   در شهر کنگاور کرمانشاه با هم آشنا شدیم البته اگر بجا بیارید . می بینم که همچنان در حال فعالیت کاری هستید ایشالا بتونیم باهم همکاری بیشتری داشته باشیم .
+
           </p>
         </div>
       </div>
@@ -662,7 +647,7 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            سازه ای که برای من ساختن سازه یخیلی محکم و خوبیه واقعا دستشون درد نکنه
+            پیکار جان وقت عالی بخیر یادش بخیر سال 91 روی گلخانه ما فعالیت داشتی بابت همکاری اون موقع دستت درد نکنه بازم نیاز به مشاوره برای ادامه پروژه داریم. لطفا یه قرار جلسه مشخص کن 🙏 🌹
           </p>
         </div>
       </div>
@@ -683,7 +668,9 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            سازه ای که برای من ساختن سازه یخیلی محکم و خوبیه واقعا دستشون درد نکنه
+            با سلام و درود 
+جناب پیکار عزیز پروژه ای که در کشور بلاروس اگر اشتباه نکنم سال 89 احداثش صورت گرفت  اگر بخواهیم همچین پروژه ای را دوباره راه اندازی کنیم به مقیاس 6 هکتار با مدل شیشه ای هلندی صفر تا صد چقدر درمیاد؟ 
+
           </p>
         </div>
       </div>
@@ -704,7 +691,7 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            سازه ای که برای من ساختن سازه یخیلی محکم و خوبیه واقعا دستشون درد نکنه
+            سلام استاد بزرگوار وقت عالی بخیر جناب مهندس عزیز پروژه ای که در استان کرمان که نظارتش بر عهده خودتون بود . سازه اش به مقیاس حدودا چهل هکتار بود . برای اونجا یک سازه به روز تر چی پیشنهاد میدید .  این سازه مدلش قدیمی شد مال تاریخ 89 هستش. تصمیم گرفتیم سازه را به کلی تغییر بدیم.  
           </p>
         </div>
       </div>
@@ -725,7 +712,9 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            از لحاظ قیمت بهترینن همه جوره باهام کنار اومدن خدمات عالی با قیمت خوب
+            سلام خداقوت جناب مهندس پیکار عزیز 
+سال 98 پروژه گلخانه در ورامین شهرک گل و گیاه سازه ای که احداث نمودی خیلی ممنونم پوشش پلاستیک سازه گلخانه ما به پایان رسیده است . اگر امکان دارد جهت پوشش جدید لطفا با تیمتون هماهنگی کنید  با تشکر از شما
+
           </p>
         </div>
       </div>
@@ -746,7 +735,9 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            یه سازه برای من ساختن با تجهیزات کامل بخاری و فن هایی که برام نصب کردن خیلی عالیه نمونشو جایی ندیدم
+            سلام استاد پیکار عزیز
+خیلی خوبه آفرین هنوز داری در زمینه گلخانه فعالیت می کنی نمی دونم بجا آوردی یا نه  ؟  سال 84 پروژه گلخانه ما رو در روستای برزول کار کردی در اصل تعمیرات کلی برامون انجام دادی خیلی ممنونم ازت ایشالا که همیشه موفق و سربلند باشی 
+
           </p>
         </div>
       </div>

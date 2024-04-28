@@ -64,29 +64,63 @@
     #color-changing-button.green {
       background-color: var(--green-color);
     }
+    .container {
+  padding-top: 2rem; /* padding-top برابر با 2rem */
+  padding-right: 0; /* padding-right برابر با 0 */
+  padding-bottom: 0; /* padding-bottom برابر با 0 */
+  padding-left: 0; /* padding-left برابر با 0 */
+}
 
-    #menu-toggle:checked+#menu {
-      display: block;
-    }
 
-    #menu-main-menu {
-      background-color: yellow;
-      /* رنگ پس زمینه */
-      color: white;
-      /* رنگ متن */
-    }
+.slider-wrapper{
+  position: relative;
+  width: 100%;
 
-    /* استایل دهی به لینک‌های منو */
-    #menu-main-menu li a {
-      color: white;
-      /* رنگ متن لینک */
-    }
+  margin: 0 auto;
+}
 
-    /* استایل دهی به لینک‌های هوور */
-    #menu-main-menu li a:hover {
-      color: black;
-      /* رنگ متن لینک هوور */
-    }
+.slider {
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.7rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+  max-height: 500px; /* حداکثر ارتفاع 500 پیکسل */
+  width: 100%; /* ارتفاع 100% */
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.slider-nav{
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+  opacity: 1;
+}
   </style>
 </head>
 
