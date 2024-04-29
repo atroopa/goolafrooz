@@ -52,20 +52,22 @@
             </div>
             <div class="w-full md:w-1/4 px-4">
                 <div class="bg-gray-100 p-4">
-                    <h2 class="text-xl font-bold text-gray-800 mb-4">Recent Posts</h2>
+                    <h2 class="text-xl font-bold text-gray-800 mb-4">مطالب مرتبط</h2>
                     <ul class="list-none">
-                        <li class="mb-2">
-                            <a href="#" class="text-gray-700 hover:text-gray-900">Blog Post 1</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#" class="text-gray-700 hover:text-gray-900">Blog Post 2</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#" class="text-gray-700 hover:text-gray-900">Blog Post 3</a>
-                        </li>
-                        <li class="mb-2">
-                            <a href="#" class="text-gray-700 hover:text-gray-900">Blog Post 4</a>
-                        </li>
+                        <?php
+                        // Display related posts
+                        $related_posts = get_posts(array(
+                            'posts_per_page' => 4, // Number of related posts to display
+                            'post__not_in' => array(get_the_ID()), // Exclude the current post
+                            'category__in' => wp_get_post_categories(get_the_ID()), // Get related posts by category
+                            'orderby' => 'rand', // Randomize the order of related posts
+                        ));
+                        foreach ($related_posts as $post) : setup_postdata($post); ?>
+                            <li class="mb-2">
+                                <a href="<?php the_permalink(); ?>" class="text-gray-700 hover:text-gray-900"><?php the_title(); ?></a>
+                            </li>
+                        <?php endforeach;
+                        wp_reset_postdata(); // Reset the post data query ?>
                     </ul>
                 </div>
                 <div class="bg-gray-100 p-4 mt-4">
