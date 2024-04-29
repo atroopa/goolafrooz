@@ -181,174 +181,65 @@
   </div>
   <!-- <div>------------------نمونه کار-----------------</div> -->
   <div class="w-full relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-  <img src="https://golafrooz.com/wp-content/uploads/2024/04/dark-scaled.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
-  <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-  </div>
-  <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-  </div>
-  <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto max-w-2xl lg:mx-0">
-      <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">شرکت گلخانه سازی گل افروز</h2>
-      <p class="mt-6 text-lg leading-8 text-gray-300">شرکت پالیز کامیاب گل افروز پس از سال ها فعالیت در زمینه ساخت گلخانه های مدرن و صنعتی در سال ۱۳۹۸ به شماره : ۴۴۶۲۳ در تهران بزرگ به ثبت رسید .
-ما در این شرکت توانسته ایم با بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۱۵۰ هکتار از اراضی میهن عزیزمان را به گلخانه های صنعتی و مدرن تبدیل کنیم و همزمان با تولید تجهیزات و سازه های گلخانه ای، از مرحله طراحی تا عرضه ی این محصولات با بالاترین کیفیت ممکن، در بازارهای داخلی و خارجی فعالیت موثر و موفق داشته باشیم.</p>
+    <img src="https://golafrooz.com/wp-content/uploads/2024/04/dark-scaled.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+    <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+      <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
-    <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-      <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-        <a href="#"><span class="p-1">⇚</span>قبل از هرچیزی بخوانید </a>
-        <a href="#"><span class="p-1">⇚</span>نکات مهم گلخانه سازی</a>
-        <a href="#"><span class="p-1">⇚</span>چرا مشاوره مهم  است</a>
-        <a href="#"><span class="p-1">⇚</span>چه چیزی مناسب اقلیم شماست</a>
+    <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+      <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">شرکت گلخانه سازی گل افروز</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-300">شرکت پالیز کامیاب گل افروز پس از سال ها فعالیت در زمینه ساخت گلخانه های مدرن و صنعتی در سال ۱۳۹۸ به شماره : ۴۴۶۲۳ در تهران بزرگ به ثبت رسید .
+          ما در این شرکت توانسته ایم با بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۱۵۰ هکتار از اراضی میهن عزیزمان را به گلخانه های صنعتی و مدرن تبدیل کنیم و همزمان با تولید تجهیزات و سازه های گلخانه ای، از مرحله طراحی تا عرضه ی این محصولات با بالاترین کیفیت ممکن، در بازارهای داخلی و خارجی فعالیت موثر و موفق داشته باشیم.</p>
       </div>
-      <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gray-300">بهترین طرح ها را داریم</dt>
-          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">پیشرو</dd>
+      <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+        <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+          <a href="#"><span class="p-1">⇚</span>قبل از هرچیزی بخوانید </a>
+          <a href="#"><span class="p-1">⇚</span>نکات مهم گلخانه سازی</a>
+          <a href="#"><span class="p-1">⇚</span>چرا مشاوره مهم است</a>
+          <a href="#"><span class="p-1">⇚</span>چه چیزی مناسب اقلیم شماست</a>
         </div>
-        <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gray-300">در هرکجای ایران </dt>
-          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">وسیع</dd>
-        </div>
-        <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gray-300">بیشتریم بهره وری</dt>
-          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">خلاق</dd>
-        </div>
-        <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gray-300">انتخاب همیشه شما خواهیم شد</dt>
-          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">مسئول</dd>
-        </div>
-      </dl>
+        <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="flex flex-col-reverse">
+            <dt class="text-base leading-7 text-gray-300">بهترین طرح ها را داریم</dt>
+            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">پیشرو</dd>
+          </div>
+          <div class="flex flex-col-reverse">
+            <dt class="text-base leading-7 text-gray-300">در هرکجای ایران </dt>
+            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">وسیع</dd>
+          </div>
+          <div class="flex flex-col-reverse">
+            <dt class="text-base leading-7 text-gray-300">بیشتریم بهره وری</dt>
+            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">خلاق</dd>
+          </div>
+          <div class="flex flex-col-reverse">
+            <dt class="text-base leading-7 text-gray-300">انتخاب همیشه شما خواهیم شد</dt>
+            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">مسئول</dd>
+          </div>
+        </dl>
+      </div>
     </div>
   </div>
-</div>
 
   <div class="m-16 bg-red-100 w-full">
   </div>
-  <div>-----------------------------------</div>
-  <p class="justify-center items-center text-4xl font-bold p-10">محصولات</p>
-  <div>-----------------------------------</div>
-  <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
-  <script src="//unpkg.com/alpinejs" defer></script>
-  <div x-data="swipeCards()" x-init="
-			let isDown = false;
-			let startX;
-			let scrollLeft;
-			$el.addEventListener('mousedown', (e) => {
-			isDown = true;
-			startX = e.pageX - $el.offsetLeft;
-			scrollLeft = $el.scrollLeft;
-			});
-			$el.addEventListener('mouseleave', () => {
-			isDown = false;
-			});
-			$el.addEventListener('mouseup', () => {
-			isDown = false;
-			});
-			$el.addEventListener('mousemove', (e) => {
-			if (!isDown) return;
-			e.preventDefault();
-			const x = e.pageX - $el.offsetLeft;
-			const walk = (x - startX) * 1;
-			$el.scrollLeft = scrollLeft - walk;
-			});
-			" class="overflow-x-scroll scrollbar-hide mb-4 relative px-0.5 " style="overflow-y: hidden;">
-    <div class="flex snap-x snap-mandatory gap-4 " style="width: max-content;">
-      <template x-for="card in cards" :key="card.id">
-        <div class="flex-none w-64 snap-center shadow-lg ">
-          <div class="bg-white border-1 border border-gray-200 rounded-lg overflow-hidden mb-4 ">
-            <img :src="card.image" alt="" class="w-50 h-40 object-cover">
-            <div class="p-4">
-              <h3 class="text-lg leading-6 font-bold text-gray-900" x-text="card.title"></h3>
-              <p class="text-gray-600 mt-2 text-sm" x-text="card.description"></p>
-              <div class="flex justify-between items-center mt-4">
-                <span class="text-2xl font-extrabold text-gray-900" x-text="'$' + card.price.toFixed(2)"></span>
-                <a :href="card.link" class="text-white bg-gray-900 hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
-                  <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px" height="22px" viewBox="0 0 414.287 414.287" xml:space="preserve">
-                    <g>
-                      <path d="M412.398,202.993L288.535,95.289c-1.502-1.305-3.591-1.699-5.463-1.027c-1.873,0.67-3.237,2.3-3.568,4.261l-8.938,52.887
-		H40.554c-2.684,0-4.976,1.938-5.423,4.583l-3.054,18.067c-0.27,1.597,0.177,3.23,1.223,4.467c1.045,1.237,2.581,1.95,4.2,1.95
-		h103.982l-2.208,15H8.134c-2.684,0-4.976,1.938-5.423,4.583l-2.634,15.584c-0.27,1.597,0.177,3.229,1.223,4.467
-		c1.045,1.236,2.581,1.949,4.2,1.949h159.196l-2.206,15H63.505c-2.684,0-4.976,1.938-5.423,4.583l-2.505,14.817
-		c-0.271,1.597,0.177,3.229,1.222,4.467c1.046,1.237,2.582,1.95,4.201,1.95h190.721l-8.628,51.053
-		c-0.366,2.168,0.593,4.346,2.439,5.538c0.908,0.586,1.945,0.879,2.982,0.879c1.07,0,2.141-0.312,3.067-0.935l160.272-107.704
-		c1.421-0.955,2.316-2.518,2.422-4.225C414.385,205.776,413.689,204.116,412.398,202.993z" />
-                    </g>
-                  </svg></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </template>
-    </div>
+  <div class="flex flex-row justify-center items-center text-2xl font-bold p-10 w-full">
+    <div> ----------------------------------- </div>
+     محصولات 
+    <div> ----------------------------------- </div>
   </div>
-  <script>
-    function swipeCards() {
-      return {
-        cards: [{
-            id: 1,
-            image: `https://golafrooz.com/wp-content/uploads/2024/04/هیتر300000.jpg`,
-            title: 'هیتر 300000',
-            description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح',
-            link: 'https://golafrooz.com/'
-          },
-          {
-            id: 2,
-            image: `https://golafrooz.com/wp-content/uploads/2024/04/نخ-گلخانه-ای.jpg`,
-            title: 'نخ گلخانه ای',
-            description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح',
-            link: 'https://golafrooz.com/'
-          },
-          {
-            id: 3,
-            image: `https://golafrooz.com/wp-content/uploads/2024/04/ناودان-لاکینگ-خور.jpg`,
-            title: 'ناودان لاکینگ خور',
-            description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح',
-            link: 'https://golafrooz.com/'
-          },
-          {
-            id: 4,
-            image: `https://golafrooz.com/wp-content/uploads/2024/04/مشعل-گازوئیلی.jpg`,
-            title: 'مشعل گاز',
-            description: 'توضیحات مختصر و مفید درباره راک پینتون',
-            link: 'https://golafrooz.com/'
-          },
-          {
-            id: 5,
-            image: `https://golafrooz.com/wp-content/uploads/2024/04/لوله-سایز3.jpg`,
-            title: 'لوله سایز 3',
-            description: ' توضیحات مختصر و مفید درباره بست دوش و تمامی متعلقات آن',
+  <?PHP get_template_part("inc/product", "boxes"); ?>
 
-            link: 'https://golafrooz.com/'
-          },
-          {
-            id: 6,
-            image: `https://golafrooz.com/wp-content/uploads/2024/04/فن-سیرکوله.jpg`,
-            title: 'فن سیرکوله',
-            description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح',
+  <div class="flex flex-row justify-center items-center text-2xl font-bold p-10 w-full">
+    <div> ----------------------------------- </div>
+     وبلاگ 
+    <div> ----------------------------------- </div>
+  </div>
 
-            link: 'https://golafrooz.com/'
-          },
-          {
-            id: 7,
-            image: `https://golafrooz.com/wp-content/uploads/2024/04/سرستون-ایرانی.jpg`,
-            title: 'سر سوتون ایرانی',
-            description: 'توضیحات مختصر و مفید درباره و تمام متعلقات مربوط به آن با دقت و وضوح.',
+  <?PHP get_template_part("inc/index", "blog"); ?>
 
-            link: 'https://golafrooz.com/'
-          }
-        ],
-        addToCart(product) {
-          // Implement your add to cart logic here
-          console.log('Adding to cart:', product);
-        }
-      };
-    }
-  </script>
-  <div>-----------------------------------</div>
-  <p class="justify-center items-center text-4xl font-bold p-10">وبلاگ</p>
-  <div>-----------------------------------</div>
-  <?PHP get_template_part("inc/index","blog"); ?>
 
   <!-- <div>-----------------------------------------------</div> -->
   <section class="container p-10 mx-auto text-right ">
@@ -553,8 +444,8 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            با سلام و احترام 
-باعث افتخار در سال   در شهر کنگاور کرمانشاه با هم آشنا شدیم البته اگر بجا بیارید . می بینم که همچنان در حال فعالیت کاری هستید ایشالا بتونیم باهم همکاری بیشتری داشته باشیم .
+            با سلام و احترام
+            باعث افتخار در سال در شهر کنگاور کرمانشاه با هم آشنا شدیم البته اگر بجا بیارید . می بینم که همچنان در حال فعالیت کاری هستید ایشالا بتونیم باهم همکاری بیشتری داشته باشیم .
 
           </p>
         </div>
@@ -597,8 +488,8 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            با سلام و درود 
-جناب پیکار عزیز پروژه ای که در کشور بلاروس اگر اشتباه نکنم سال 89 احداثش صورت گرفت  اگر بخواهیم همچین پروژه ای را دوباره راه اندازی کنیم به مقیاس 6 هکتار با مدل شیشه ای هلندی صفر تا صد چقدر درمیاد؟ 
+            با سلام و درود
+            جناب پیکار عزیز پروژه ای که در کشور بلاروس اگر اشتباه نکنم سال 89 احداثش صورت گرفت اگر بخواهیم همچین پروژه ای را دوباره راه اندازی کنیم به مقیاس 6 هکتار با مدل شیشه ای هلندی صفر تا صد چقدر درمیاد؟
 
           </p>
         </div>
@@ -620,7 +511,7 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            سلام استاد بزرگوار وقت عالی بخیر جناب مهندس عزیز پروژه ای که در استان کرمان که نظارتش بر عهده خودتون بود . سازه اش به مقیاس حدودا چهل هکتار بود . برای اونجا یک سازه به روز تر چی پیشنهاد میدید .  این سازه مدلش قدیمی شد مال تاریخ 89 هستش. تصمیم گرفتیم سازه را به کلی تغییر بدیم.  
+            سلام استاد بزرگوار وقت عالی بخیر جناب مهندس عزیز پروژه ای که در استان کرمان که نظارتش بر عهده خودتون بود . سازه اش به مقیاس حدودا چهل هکتار بود . برای اونجا یک سازه به روز تر چی پیشنهاد میدید . این سازه مدلش قدیمی شد مال تاریخ 89 هستش. تصمیم گرفتیم سازه را به کلی تغییر بدیم.
           </p>
         </div>
       </div>
@@ -641,8 +532,8 @@
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            سلام خداقوت جناب مهندس پیکار عزیز 
-سال 98 پروژه گلخانه در ورامین شهرک گل و گیاه سازه ای که احداث نمودی خیلی ممنونم پوشش پلاستیک سازه گلخانه ما به پایان رسیده است . اگر امکان دارد جهت پوشش جدید لطفا با تیمتون هماهنگی کنید  با تشکر از شما
+            سلام خداقوت جناب مهندس پیکار عزیز
+            سال 98 پروژه گلخانه در ورامین شهرک گل و گیاه سازه ای که احداث نمودی خیلی ممنونم پوشش پلاستیک سازه گلخانه ما به پایان رسیده است . اگر امکان دارد جهت پوشش جدید لطفا با تیمتون هماهنگی کنید با تشکر از شما
 
           </p>
         </div>
@@ -665,7 +556,7 @@
               </svg>
             </span>
             سلام استاد پیکار عزیز
-خیلی خوبه آفرین هنوز داری در زمینه گلخانه فعالیت می کنی نمی دونم بجا آوردی یا نه  ؟  سال 84 پروژه گلخانه ما رو در روستای برزول کار کردی در اصل تعمیرات کلی برامون انجام دادی خیلی ممنونم ازت ایشالا که همیشه موفق و سربلند باشی 
+            خیلی خوبه آفرین هنوز داری در زمینه گلخانه فعالیت می کنی نمی دونم بجا آوردی یا نه ؟ سال 84 پروژه گلخانه ما رو در روستای برزول کار کردی در اصل تعمیرات کلی برامون انجام دادی خیلی ممنونم ازت ایشالا که همیشه موفق و سربلند باشی
 
           </p>
         </div>

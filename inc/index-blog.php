@@ -2,7 +2,8 @@
 $index_posts = new WP_Query(array(
     'post_type' => 'post',
     'post_per_page' => '3',
-    'post_status' => 'publish'
+    'post_status' => 'publish',
+    'category_name' => 'green-house-blog'
 ));
 
 if ($index_posts->have_posts()) {
