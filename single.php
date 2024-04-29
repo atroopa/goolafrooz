@@ -50,9 +50,10 @@
                 </div>
                     <?PHP the_tags('<ul class="p-2 mb-12 whitespace-nowrap no-scrollbar overflow-x-scroll overflow-y-hidden"><li class="w-fit inline-block mx-1 p-3 px-8 border-gray-900 border rounded">#', '</li><li class="w-fit inline-block mx-1 p-3 px-8 border-gray-900 border rounded">#', '</li></ul>'); ?>
             </div>
+            <?PHP } ?>
                     <?PHP get_sidebar(); ?>
         </div>
-    <?PHP } ?>
+
     </div>
 </div>
 
