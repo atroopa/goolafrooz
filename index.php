@@ -29,12 +29,12 @@ if ($index1_post->have_posts()) {
               $index1_post->the_post();  ?>
                 <div class="sm:w-1/2 relative">
                   <div>
-                    <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0"><?PHP echo get_the_date(); ?></p>
+                    <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
                     <div class="absolute bottom-0 left-0 p-6">
-                      <h2 class="text-xl font-semibold 5 text-white"><?PHP the_title(); ?></h2>
-                      <div class="text-base leading-4 text-white mt-2"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></div>
+                      <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
+                      <div class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></div>
                       <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                        <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold"> ادامه مطلب</a></div>
+                        <div class="pr-2 text-sm font-medium leading-none text-white "><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
                       </a>
                     </div>
                   </div>
@@ -64,12 +64,12 @@ if ($index1_post->have_posts()) {
                 $index2_post->the_post();
             ?>
             <div>
-              <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0"><?PHP echo get_the_date(); ?></p>
+              <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
               <div class="absolute bottom-0 left-0 md:p-10 p-6">
-                <h2 class="text-xl font-semibold 5 text-white"><?PHP the_title(); ?></h2>
-                <p class="text-base leading-4 text-white mt-2"><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
+                <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
+                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold"> ادامه مطلب</a></div>
+                <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
 
                 </a>
               </div>
@@ -88,7 +88,7 @@ if ($index1_post->have_posts()) {
       <div class="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
         <div class="relative">
         <?PHP
-            $index2_post = new WP_Query(array(
+            $index3_post = new WP_Query(array(
               'post_type' => 'post',
               'posts_per_page' => '1',
               'offset'=> '3',
@@ -101,20 +101,17 @@ if ($index1_post->have_posts()) {
                 $index3_post->the_post();
             ?>
           <div>
-            <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0"><?PHP echo get_the_date(); ?></p>
+            <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
             <div class="absolute bottom-0 left-0 md:p-10 p-6">
-              <h2 class="text-xl font-semibold 5 text-white">سوم</h2>
-              <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+              <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
+              <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
               <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                <p class="pr-2 text-sm font-medium leading-none">Read More</p>
-                <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
+              <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
               </a>
             </div>
           </div>
-          <img src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" class="w-full sm:block hidden" />
-          <img class="w-full sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
+          <img src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>" class="w-full sm:block hidden" />
+          <img class="w-full sm:hidden" src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>"/>
         </div>
         <?PHP
             }
