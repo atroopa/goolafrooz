@@ -1,603 +1,228 @@
 <?php get_header(); ?>
-<!-- component -->
+
+<?PHP
+$index1_post = new WP_Query(array(
+  'post_type' => 'post',
+  'posts_per_page' => '2',
+  'post_status' => 'publish',
+  'category_name' => 'green-house-blog'
+));
+
+if ($index1_post->have_posts()) {
+
+?>
+
+  <!-- component -->
 
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const slider = document.querySelector('.slider');
-    let slideIndex = 0;
+  <div class="flex justify-center items-center">
+    <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
+    <div class="2xl:mx-auto 2xl:container lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto">
+      <div role="main" class="flex flex-col items-center justify-center">
+        <h1 class="text-4xl font-semibold leading-9 text-center text-gray-900 dark:text-gray-900">به دنیای شگفت انگیز گلخانه داری خوش آمدید!</h1>
+        <p class="text-base leading-normal text-center text-gray-600 dark:text-gray-900 mt-4 lg:w-1/2 md:w-10/12 w-11/12">در این صفحه، مجموعه ای از مقالات جامع و کاربردی در زمینه ی گلخانه داری گردآوری شده است. چه یک گلخانه دار باتجربه باشید و چه تازه کار، در اینجا می توانید اطلاعات و راهنمایی های ارزشمندی برای ارتقای مهارت های خود و پرورش گل ها و گیاهان تان به بهترین نحو پیدا کنید.</p>
+      </div>
+      <div class="lg:flex items-stretch md:mt-12 mt-8">
+        <div class="lg:w-1/2">
+          <div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6">
+            <?PHP while ($index1_post->have_posts()) {
+              $index1_post->the_post();  ?>
+                <div class="sm:w-1/2 relative">
+                  <div>
+                    <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0"><?PHP echo get_the_date(); ?></p>
+                    <div class="absolute bottom-0 left-0 p-6">
+                      <h2 class="text-xl font-semibold 5 text-white"><?PHP the_title(); ?></h2>
+                      <div class="text-base leading-4 text-white mt-2"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></div>
+                      <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                        <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold"> ادامه مطلب</a></div>
+                      </a>
+                    </div>
+                  </div>
+                  <?PHP if (has_post_thumbnail()) { ?>
+                    <img src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>" class="w-ful h-80" />
+                  <?PHP } ?>
+                </div>
+              <?PHP } // end if
+              ?>
+            <?PHP } //end while
+            ?>
+          </div>
+            <!-- ----------------------------------حالت اول ----------------------------------------------- -->
 
-    function showSlides() {
-      const slides = slider.querySelectorAll('img');
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {
-        slideIndex = 1;
-      }
+          <div class="relative">
+          <?PHP
+            $index2_post = new WP_Query(array(
+              'post_type' => 'post',
+              'posts_per_page' => '1',
+              'offset'=> '2',
+              'post_status' => 'publish',
+              'category_name' => 'green-house-blog'
+            ));
 
-      slides[slideIndex - 1].style.display = "block";
-    }
+            if ($index2_post->have_posts()) {
+              while ($index2_post->have_posts()) {
+                $index2_post->the_post();
+            ?>
+            <div>
+              <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0"><?PHP echo get_the_date(); ?></p>
+              <div class="absolute bottom-0 left-0 md:p-10 p-6">
+                <h2 class="text-xl font-semibold 5 text-white"><?PHP the_title(); ?></h2>
+                <p class="text-base leading-4 text-white mt-2"><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
+                <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold"> ادامه مطلب</a></div>
 
-    setInterval(showSlides, 2000);
-  });
-</script>
+                </a>
+              </div>
+            </div>
+            <?PHP if (has_post_thumbnail()) { ?>
+            <img src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>" class="w-full mt-8 md:mt-6 hidden sm:block" />
+            <img class="w-full mt-4 sm:hidden" src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>" />
+            <?PHP } ?>
+          </div>
+        </div>
+        <?PHP
+            }
+          }
+            ?>
+      <!-- ----------------------------------حالت دوم ----------------------------------------------- -->
+      <div class="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
+        <div class="relative">
+        <?PHP
+            $index2_post = new WP_Query(array(
+              'post_type' => 'post',
+              'posts_per_page' => '1',
+              'offset'=> '3',
+              'post_status' => 'publish',
+              'category_name' => 'green-house-blog'
+            ));
 
-<section class="w-full">
-  <div class="slider-wrapper">
-    <div class="slider">
-      <img id="slide-1" src="https://golafrooz.com/wp-content/uploads/2024/04/1.jpeg" alt="golafrooz">
-      <img id="slide-2" src="https://golafrooz.com/wp-content/uploads/2024/04/saarlucon-4-00-meter-kappen-scaled.jpg" alt="golafrooz">
-      <img id="slide-3" src="https://golafrooz.com/wp-content/uploads/2024/04/business-area_commercial-greenhouse-_2021_1600-x-450.png" alt="golafrooz">
-      <img id="slide-4" src="https://golafrooz.com/wp-content/uploads/2024/04/60-2048x1152-1.jpg" alt="golafrooz">
-      <img id="slide-5" src="https://golafrooz.com/wp-content/uploads/2024/04/5-scaled.jpg" alt="golafrooz">
-      <img id="slide-6" src="https://golafrooz.com/wp-content/uploads/2024/04/6-scaled.jpg" alt="golafrooz">
-      <img id="slide-7" src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_115644_183-scaled.jpg" alt="golafrooz">
-      <img id="slide-8" src="https://golafrooz.com/wp-content/uploads/2024/04/8-scaled.jpeg" alt="golafrooz">
-    </div>
-    <div class="slider-nav">
-      <a href="#slide-1"></a>
-      <a href="#slide-2"></a>
-      <a href="#slide-3"></a>
-      <a href="#slide-4"></a>
-      <a href="#slide-5"></a>
-    </div>
-  </div>
-</section>
-<!-- <div>--------------------------------------------</div> -->
-
-<!-- <div>--------------------------------------------</div> -->
-<section id="features" class=" px-2 space-y-6 py-8 md:py-12 lg:py-24 max-w-5xl mx-auto">
-  <div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-    <h2 class="font-heading text-green-800 text-3xl leading-[1.1] sm:text-3xl md:text-6xl pb-8 font-bold">شرکت گلخانه سازی گل افروز...</h2>
-    <p class="pb-8 max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-      شرکت گل افروز پس از سالها فعالیت در زمینه ساخت گلخانه های مدرن و صنعتی در سال ۱۳۹۸ به شماره: ۴۴۶۲۳ در تهران بزرگ به ثبت رسید. ما در این شرکت توانسته ایم با بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۱۵۰هکتار از اراضی میهن عزیزمان را به گلخانه های صنعتی و مدرن تبدیل کنیم و همزمان با تولید تجهیزات و سازه های گلخانه ای، از مرحله طراحی تا عرضه ی این محصولات با بالاترین کیفیت ممکن، در بازارهای داخلی و خارجی فعالیت موثر و موفق داشته باشیم.
-  </div>
-  <div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-    <div class=" relative overflow-hidden rounded-lg border border-gray-900 bg-gray-100/50 p-2">
-      <div class="items-end text-right bg-blue-200 flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
-          <polygon points="12 2 19 21 12 17 5 21 12 2"></polygon>
-        </svg>
-        <div class="space-y-2">
-          <h3 class="font-bold">مشاوره رایگان</h3>
-          <p class="text-sm text-muted-foreground">قبل از هرکاری با متخصصان ما مشاوره بگیرید
-          </p>
+            if ($index3_post->have_posts()) {
+              while ($index3_post->have_posts()) {
+                $index3_post->the_post();
+            ?>
+          <div>
+            <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0"><?PHP echo get_the_date(); ?></p>
+            <div class="absolute bottom-0 left-0 md:p-10 p-6">
+              <h2 class="text-xl font-semibold 5 text-white">سوم</h2>
+              <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+              <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                <p class="pr-2 text-sm font-medium leading-none">Read More</p>
+                <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <img src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" class="w-full sm:block hidden" />
+          <img class="w-full sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
+        </div>
+        <?PHP
+            }
+          }
+            ?>
+         <!-- ----------------------------------حالت سوم ----------------------------------------------- -->
+        <div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
+          <div class="relative w-full">
+            <div>
+              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+              <div class="absolute bottom-0 left-0 p-6">
+                <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
+                <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                  <p class="pr-2 text-sm font-medium leading-none">Read More</p>
+                  <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <img src="https://i.ibb.co/3yvZBpm/img-5.png" class="w-full" alt="chair" />
+          </div>
+          <div class="relative w-full sm:mt-0 mt-4">
+            <div>
+              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+              <div class="absolute bottom-0 left-0 p-6">
+                <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
+                <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                  <p class="pr-2 text-sm font-medium leading-none">Read More</p>
+                  <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <img src="https://i.ibb.co/gDdnJb5/img-6.png" class="w-full" alt="wall design" />
+          </div>
         </div>
       </div>
+      </div>
     </div>
-    <div class="relative overflow-hidden rounded-lg border bg-gray-100/50 p-2 border-gray-900">
-      <div class="items-end text-right bg-blue-200 flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
-          <circle cx="12" cy="12" r="10"></circle>
-          <line x1="12" y1="8" x2="12" y2="16"></line>
-          <line x1="12" y1="16" x2="16" y2="12"></line>
-          <line x1="12" y1="16" x2="8" y2="12"></line>
-        </svg>
-        <div class="space-y-2">
-          <h3 class="font-bold">خدمات</h3>
-          <p class="text-sm text-muted-foreground">گل افروز با سال ها تجربه در کنار شماست</p>
+  </div>
+  <!-- ------------------------------------------- -->
+  <section class="dark:bg-gray-100 dark:text-gray-800">
+    <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+      <a rel="noopener noreferrer" href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
+        <img src="https://source.unsplash.com/random/480x360" alt="" class="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500">
+        <div class="p-6 space-y-2 lg:col-span-5">
+          <h3 class="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Noster tincidunt reprimique ad pro</h3>
+          <span class="text-xs dark:text-gray-600">February 19, 2021</span>
+          <p>Ei delenit sensibus liberavisse pri. Quod suscipit no nam. Est in graece fuisset, eos affert putent doctus id.</p>
         </div>
-      </div>
-    </div>
-    <div class="relative overflow-hidden rounded-lg border border-gray-900 bg-gray-100/50 p-2">
-      <div class="items-end text-right bg-blue-200 flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
-          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-          <line x1="3" y1="9" x2="21" y2="9"></line>
-          <line x1="3" y1="15" x2="21" y2="15"></line>
-          <line x1="9" y1="3" x2="9" y2="21"></line>
-          <line x1="15" y1="3" x2="15" y2="21"></line>
-        </svg>
-        <div class="space-y-2">
-          <h3 class="font-bold">محصولات</h3>
-          <p class="text-sm text-muted-foreground">بالاترین کیفیت نازلترین قیمت.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- <div>---------------------شش-----------------------</div> -->
-
-<div class="p-1 flex flex-wrap items-center justify-center">
-
-  <div class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-lg">
-    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
-      <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
-      <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
-    </svg>
-    <div class="relative pt-10 px-10 flex items-center justify-center">
-      <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
-      </div>
-      <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
-    </div>
-    <div class="relative text-white px-6 pb-6 mt-6">
-
-      <span class="block opacity-75 mb-1 text-right">راهنمای</span>
-      <div class="flex justify-between">
-        <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ 1</span>
-        <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-
-      </div>
-    </div>
-  </div>
-  <div class="flex-shrink-0 m-6 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg">
-    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
-      <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
-      <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
-    </svg>
-    <div class="relative pt-10 px-10 flex items-center justify-center">
-      <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
-      </div>
-      <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png" alt="">
-    </div>
-    <div class="relative text-white px-6 pb-6 mt-6">
-      <span class="block opacity-75 mb-1 text-right">راهنمای</span>
-      <div class="flex justify-between">
-        <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ 2</span>
-        <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="flex-shrink-0 m-6 relative overflow-hidden bg-amber-500 rounded-lg max-w-xs shadow-lg">
-    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
-      <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
-      <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
-    </svg>
-    <div class="relative pt-10 px-10 flex items-center justify-center">
-      <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
-      </div>
-      <img class="relative w-40 h-48" src="https://golafrooz.com/wp-content/uploads/2024/04/Clipped_image_20240424_122129-1.png" alt="">
-    </div>
-    <div class="relative text-white px-6 pb-6 mt-6">
-      <span class="block opacity-75 mb-1 text-right">راهنمای</span>
-      <div class="flex justify-between">
-        <span class="block font-semibold text-l p-1 ">گلخانه شیشه ای هلندی</span>
-        <span class="block bg-white rounded-full text-amber-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="flex-shrink-0 m-6 relative overflow-hidden bg-pink-500 rounded-lg max-w-xs shadow-lg">
-    <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
-      <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white" />
-      <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white" />
-    </svg>
-    <div class="relative pt-10 px-10 flex items-center justify-center">
-      <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
-      </div>
-      <img class="relative w-40 h-48" src="https://golafrooz.com/wp-content/uploads/2024/04/Clipped_image_20240424_122849.png" alt="">
-    </div>
-    <div class="relative text-white px-6 pb-6 mt-6">
-      <span class="block opacity-75 mb-1 text-right">راهنمای</span>
-      <div class="flex justify-between">3
-        <span class="block font-semibold text-l ">گلخانه تونلی</span>
-        <span class="block bg-white rounded-full text-pink-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="m-1 h-600 bg-red-100 w-full">
-  </div>
-  <!-- <div>------------------نمونه کار-----------------</div> -->
-  <div class="w-full relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-    <img src="https://golafrooz.com/wp-content/uploads/2024/04/dark-scaled.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
-    <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-      <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div>
-    <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-      <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-    </div>
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">شرکت گلخانه سازی گل افروز</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-300">شرکت پالیز کامیاب گل افروز پس از سال ها فعالیت در زمینه ساخت گلخانه های مدرن و صنعتی در سال ۱۳۹۸ به شماره : ۴۴۶۲۳ در تهران بزرگ به ثبت رسید .
-          ما در این شرکت توانسته ایم با بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۱۵۰ هکتار از اراضی میهن عزیزمان را به گلخانه های صنعتی و مدرن تبدیل کنیم و همزمان با تولید تجهیزات و سازه های گلخانه ای، از مرحله طراحی تا عرضه ی این محصولات با بالاترین کیفیت ممکن، در بازارهای داخلی و خارجی فعالیت موثر و موفق داشته باشیم.</p>
-      </div>
-      <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-        <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-          <a href="#"><span class="p-1">⇚</span>قبل از هرچیزی بخوانید </a>
-          <a href="#"><span class="p-1">⇚</span>نکات مهم گلخانه سازی</a>
-          <a href="#"><span class="p-1">⇚</span>چرا مشاوره مهم است</a>
-          <a href="#"><span class="p-1">⇚</span>چه چیزی مناسب اقلیم شماست</a>
-        </div>
-        <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-          <div class="flex flex-col-reverse">
-            <dt class="text-base leading-7 text-gray-300">بهترین طرح ها را داریم</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">پیشرو</dd>
+      </a>
+      <div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+          <img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?1">
+          <div class="p-6 space-y-2">
+            <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+            <span class="text-xs dark:text-gray-600">January 21, 2021</span>
+            <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
           </div>
-          <div class="flex flex-col-reverse">
-            <dt class="text-base leading-7 text-gray-300">در هرکجای ایران </dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">وسیع</dd>
+        </a>
+        <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+          <img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?2">
+          <div class="p-6 space-y-2">
+            <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+            <span class="text-xs dark:text-gray-600">January 22, 2021</span>
+            <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
           </div>
-          <div class="flex flex-col-reverse">
-            <dt class="text-base leading-7 text-gray-300">بیشتریم بهره وری</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">خلاق</dd>
+        </a>
+        <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
+          <img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?3">
+          <div class="p-6 space-y-2">
+            <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+            <span class="text-xs dark:text-gray-600">January 23, 2021</span>
+            <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
           </div>
-          <div class="flex flex-col-reverse">
-            <dt class="text-base leading-7 text-gray-300">انتخاب همیشه شما خواهیم شد</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-white">مسئول</dd>
+        </a>
+        <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
+          <img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?4">
+          <div class="p-6 space-y-2">
+            <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+            <span class="text-xs dark:text-gray-600">January 24, 2021</span>
+            <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
           </div>
-        </dl>
-      </div>
-    </div>
-  </div>
-
-  <div class="m-16 bg-red-100 w-full">
-  </div>
-  <div class=" flex flex-row justify-center items-center text-2xl font-bold p-10 w-full">
-    <div class="px-3"> ----------------------------------- </div>
-     محصولات 
-    <div class="px-3"> ----------------------------------- </div>
-  </div>
-  <?PHP get_template_part("inc/product", "boxes"); ?>
-
-  <div class="flex flex-row justify-center items-center text-2xl font-bold p-10 w-full">
-    <div class="px-3"> ----------------------------------- </div>
-     وبلاگ 
-    <div class="px-3"> ----------------------------------- </div>
-  </div>
-
-  <?PHP get_template_part("inc/index", "blog"); ?>
-
-  <!-- <div>-----------------------------------------------</div> -->
-  <section class="container p-10 mx-auto text-right ">
-    <div class="container mx-auto bg-card p-10 rounded-large shadow-2xl">
-      <h2 class="px-4 text-6xl pt-16 pb-4 mb-2 text-black font-bold font-roboto">کاتالوگ</h2>
-      <p class="px-4 text-2xl text-black pb-16 md:pr-10 font-roboto">
-        تمامی کاتالوگ هایی که در این بخش قرار گرفته توسط شرکت گل افروز طراحی و جهت افزایش دانش گلخانه سازان عزیز خدمت شما ارائه شده است و شامل انواع سازه نمونه کار ، انواع سازه گلخانه، تجهیزات و اطلاعات تکمیلی در مورد گلخانه می باشد.
-      </p>
-      <div class="flex items-end justify-end  ">
-        <a href="">
-          <button type="button" class="mx-10 bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
-            دریافت کاتالوگ
-          </button>
+        </a>
+        <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
+          <img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?5">
+          <div class="p-6 space-y-2">
+            <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+            <span class="text-xs dark:text-gray-600">January 25, 2021</span>
+            <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+          </div>
+        </a>
+        <a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
+          <img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?6">
+          <div class="p-6 space-y-2">
+            <h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
+            <span class="text-xs dark:text-gray-600">January 26, 2021</span>
+            <p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
+          </div>
         </a>
       </div>
-    </div>
-</div>
-</section>
-
-<section class="container p-10 mx-auto text-right">
-  <div class="bg-gray-100 bg-card-b p-6 rounded-large shadow-2xl">
-    <h2 class="px-4 text-6xl font-medium pt-16 pb-6 mb-2 font-roboto text-white">قرار داد</h2>
-    <p class="px-4 text-2xl text-white pb-16 font-roboto">
-      برای شروع ساخت گلخانه باید هزینه های مربوط به ساخت سازه و تجهیز کردن ان براورد شود که ما دراین بخش هزینه های مربوط به ساخت سازه و و تجهیز ان (صفرتا صد ) انواع سازه گلخانه را برآورد کرده ایم تا شما با آگاهی بیشتری سازه ی مد نظرتان را انتخاب کنید .
-    </p>
-    <div class="flex items-end justify-end  ">
-      <a href="">
-        <button type="button" class="mx-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-800 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
-          دریافت نمونه قرارداد
-        </button>
-      </a>
-    </div>
-  </div>
-  </div>
-</section>
-
-<div class="flex flex-row items-center justify-center">
-  <div>-----------------------------------------------</div>
-  <p class="justify-center items-center text-4xl font-bold p-10">گالری</p>
-  <div>-----------------------------------------------</div>
-</div>
-<div class="flex flex-col min-h-screen items-center justify-center bg-gray-900">
-  <ul class="flex flex-col md:grid grid-cols-3 gap-5  text-redis-neutral-800 max-w-2xl mx-auto p-10 mt-10">
-    <li class="w-full text-sm font-semibold text-slate-900 p-6 bg-white border border-slate-900/10 bg-clip-padding shadow-md shadow-slate-900/5 rounded-lg flex flex-col justify-center">
-      <span class="mb-1 text-teal-400 font-display text-5xl text-center">95</span>
-      <div class="text-right">هکتار کارشده از سال 98 تا امروز</div>
-    </li>
-    <li class="w-full text-sm font-semibold text-slate-900 p-6 bg-white border border-slate-900/10 bg-clip-padding shadow-md shadow-slate-900/5 rounded-lg flex flex-col justify-center">
-      <span class="mb-1 text-teal-400 font-display text-5xl text-center">78K+</span>
-      <div class="text-right">نفر بازدیدکننده تا به امروز</div>
-    </li>
-    <li class="w-full text-sm font-semibold text-slate-900 p-6 bg-white border border-slate-900/10 bg-clip-padding shadow-md shadow-slate-900/5 rounded-lg flex flex-col justify-center">
-      <span class="mb-1 text-teal-400 font-display text-5xl text-center">34</span>
-      <div class="text-right">پروژه از سال 98 تا امروز</div>
-    </li>
-  </ul>
-  <span class="absolute mx-auto py-4 flex border w-fit bg-gradient-to-r blur-xl from-blue-500 via-teal-500 to-pink-500 bg-clip-text text-6xl box-content font-extrabold text-transparent text-center select-none">
-    گالری تصاویر مجموعه گل افروز
-  </span>
-  <h1 class="relative top-0 w-fit h-auto py-4 justify-center flex bg-gradient-to-r items-center from-blue-500 via-teal-500 to-pink-500 bg-clip-text text-6xl font-extrabold text-transparent text-center select-auto">
-    گالری تصاویر مجموعه گل افروز
-  </h1>
-  <div class="mx-auto max-w-6xl px-6 p-8">
-    <div class="flex">
-      <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/14001224000851_Test_PhotoN.jpg" alt="green house" />
-        <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
-          <div class="absolute bottom-6 left-8">
-            <div class="flex gap-3 text-white">
-              <svg width="48" height="48" viewBox="0 0 32 32">
-                <path d="M11 2H2v9h2V4h7V2z" fill="currentColor" />
-                <path d="M2 21v9h9v-2H4v-7H2z" fill="currentColor" />
-                <path d="M30 11V2h-9v2h7v7h2z" fill="currentColor" />
-                <path d="M21 30h9v-9h-2v7h-7v2z" fill="currentColor" />
-                <path d="M25.49 10.131-9-5a1 1 0 0 0-1 01-9 5A 1 0 0 0 6 11v10a1 1 0 0 0 .51.8719 5a1 1 0 0 0 .51.8719 5a1 1 0 0 0 1 0919-5A1 1 0 0 0" fill="currentColor" />
-              </svg>
-              <div>
-                <p class="font-semibold text-xl text-gray-100">گل افروز، سرزمین گل‌های شاداب!</p>
-                <p class="text-gray-300">Better Design</p>
-                </div1>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/3005496.jpg" alt="green house" />
-        <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
-          <div class="absolute bottom-6 left-8 ">
-            <div class="flex gap-3 text-white">
-              <svg width="48" height="48" viewBox="0 0 32 32">
-                <path d="M11 2H2v9h2V4h7V2z" fill="currentColor" />
-                <path d="M2 21v9h9v-2H4v-7H2z" fill="currentColor" />
-                <path d="M30 11V2h-9v2h7v7h2z" fill="currentColor" />
-                <path d="M21 30h9v-9h-2v7h-7v2z" fill="currentColor" />
-                <path d="M25.49 10.131-9-5a1 1 0 0 0-1 01-9 5A 1 0 0 0 6 11v10a1 1 0 0 0 .51.8719 5a1 1 0 0 0 .51.8719 5a1 1 0 0 0 1 0919-5A1 1 0 0 0" fill="currentColor" />
-              </svg>
-              <div>
-                <p class="font-semibold text-xl text-gray-100">گل افروز، انتخابی ایده‌آل برای عاشقان گل و گیاه</p>
-                <p class="text-gray-300">Better Design</p>
-                </div1>
-              </div>
-            </div>
-            <div class="flex justify-end gap-3 text-gray-200">
-              svg place
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/DD1C84B6-10F9-47C7-9B0A-F3A86781D32C.jpeg" alt="green house" />
-        <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
-          <div class="absolute bottom-6 left-8">
-            <div class="flex gap-3 text-white content-end items-end">
-              <svg width="48" height="48" viewBox="0 0 32 32">
-                <path d="M11 2H2v9h2V4h7V2z" fill="currentColor" />
-                <path d="M2 21v9h9v-2H4v-7H2z" fill="currentColor" />
-                <path d="M30 11V2h-9v2h7v7h2z" fill="currentColor" />
-                <path d="M21 30h9v-9h-2v7h-7v2z" fill="currentColor" />
-                <path d="M25.49 10.131-9-5a1 1 0 0 0-1 01-9 5A 1 0 0 0 6 11v10a1 1 0 0 0 .51.8719 5a1 1 0 0 0 .51.8719 5a1 1 0 0 0 1 0919-5A1 1 0 0 0" fill="currentColor" />
-              </svg>
-              <div>
-                <p class="font-semibold text-xl text-gray-100">گلخانه سازی گل افروز، متخصص طراحی و ساخت گلخانه‌های رویایی</p>
-                <p class="text-gray-300">Better Design</p>
-                </div1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/5da97a9a9434a.jpg" alt="green house" />
-        <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
-          <div class="absolute bottom-6 left-8">
-            <div class="flex gap-3 text-white">
-              <svg width="48" height="48" viewBox="0 0 32 32">
-                <path d="M11 2H2v9h2V4h7V2z" fill="currentColor" />
-                <path d="M2 21v9h9v-2H4v-7H2z" fill="currentColor" />
-                <path d="M30 11V2h-9v2h7v7h2z" fill="currentColor" />
-                <path d="M21 30h9v-9h-2v7h-7v2z" fill="currentColor" />
-                <path d="M25.49 10.131-9-5a1 1 0 0 0-1 01-9 5A 1 0 0 0 6 11v10a1 1 0 0 0 .51.8719 5a1 1 0 0 0 .51.8719 5a1 1 0 0 0 1 0919-5A1 1 0 0 0" fill="currentColor" />
-              </svg>
-              <div>
-                <p class="font-semibold text-xl text-gray-100">گل افروز، جایی که گل‌ها به شکوفایی می‌رسند</p>
-                <p class="text-gray-300">Better Design</p>
-                </div1>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/08987DCB-7F58-4D57-BDF5-4C797F62735C-1024x863-1.jpeg" alt="green house" />
-        <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
-          <div class="absolute bottom-6 left-8">
-            <div class="flex gap-3 text-white">
-              <svg width="48" height="48" viewBox="0 0 32 32">
-                <path d="M11 2H2v9h2V4h7V2z" fill="currentColor" />
-                <path d="M2 21v9h9v-2H4v-7H2z" fill="currentColor" />
-                <path d="M30 11V2h-9v2h7v7h2z" fill="currentColor" />
-                <path d="M21 30h9v-9h-2v7h-7v2z" fill="currentColor" />
-                <path d="M25.49 10.131-9-5a1 1 0 0 0-1 01-9 5A 1 0 0 0 6 11v10a1 1 0 0 0 .51.8719 5a1 1 0 0 0 .51.8719 5a1 1 0 0 0 1 0919-5A1 1 0 0 0" fill="currentColor" />
-              </svg>
-              <div>
-                <p class="font-semibold text-xl text-gray-100">با گل افروز، به طبیعت نزدیک‌تر شوید</p>
-                <p class="text-gray-300">Better all Design</p>
-                </div1>
-              </div>
-            </div>
-
-          </div>
-        </div>
+      <div class="flex justify-center">
+        <button type="button" class="px-6 py-3 text-sm rounded-md hover:underline dark:bg-gray-50 dark:text-gray-600">Load more posts...</button>
       </div>
     </div>
-  </div>
-</div>
-<div class="flex flex-row items-center justify-center">
-
-</div>
-<section class="text-gray-900 dark:text-neutral-300">
-  <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-    <h3 class="mb-6 pt-10 text-3xl font-bold text-gray-900">رضایت شما ارزشمندترین دارایی ماست </h3>
-    <p class="mb-6 pb-2 md:mb-12 md:pb-0 text-gray-900">تیم ما سخت در تلاش است تا بهترین را در حداقل زمان ممکن به شما رائه دهد و ما در شرکت گل افروز بی صبرانه منتظر شنیدن نظرات شما هستیم . </p>
-  </div>
-
-  <div class="grid gap-6 text-center md:grid-cols-3 p-10">
-    <div>
-      <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
-        <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
-        <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155225_346.jpg" />
-        </div>
-        <div class="p-6">
-          <h4 class="mb-4 text-2xl font-semibold">بهرام خوش اندام</h4>
-          <h2 class="mb-4 text-xl font-semibold">همدان</h2>
-          <hr />
-          <p class="mt-4">
-            <span class="inline-block pe-2 [&>svg]:w-5"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-              </svg>
-            </span>
-            با سلام و احترام
-            باعث افتخار در سال در شهر کنگاور کرمانشاه با هم آشنا شدیم البته اگر بجا بیارید . می بینم که همچنان در حال فعالیت کاری هستید ایشالا بتونیم باهم همکاری بیشتری داشته باشیم .
-
-          </p>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
-        <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
-        <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155313_145.jpg" />
-        </div>
-        <div class="p-6">
-          <h4 class="mb-4 text-2xl font-semibold">نیما ابراهیمی</h4>
-          <h2 class="mb-4 text-xl font-semibold">تهران ولنجک</h2>
-          <hr />
-          <p class="mt-4">
-            <span class="inline-block pe-2 [&>svg]:w-5"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-              </svg>
-            </span>
-            پیکار جان وقت عالی بخیر یادش بخیر سال 91 روی گلخانه ما فعالیت داشتی بابت همکاری اون موقع دستت درد نکنه بازم نیاز به مشاوره برای ادامه پروژه داریم. لطفا یه قرار جلسه مشخص کن 🙏 🌹
-          </p>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
-        <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
-        <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155414_916.jpg" />
-        </div>
-        <div class="p-6">
-          <h4 class="mb-4 text-2xl font-semibold">حسین پناه نژاد</h4>
-          <h2 class="mb-4 text-xl font-semibold">بلاروس</h2>
-          <hr />
-          <p class="mt-4">
-            <span class="inline-block pe-2 [&>svg]:w-5"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-              </svg>
-            </span>
-            با سلام و درود
-            جناب پیکار عزیز پروژه ای که در کشور بلاروس اگر اشتباه نکنم سال 89 احداثش صورت گرفت اگر بخواهیم همچین پروژه ای را دوباره راه اندازی کنیم به مقیاس 6 هکتار با مدل شیشه ای هلندی صفر تا صد چقدر درمیاد؟
-
-          </p>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
-        <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
-        <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155341_231.jpg" />
-        </div>
-        <div class="p-6">
-          <h4 class="mb-4 text-2xl font-semibold">مهندس عربی</h4>
-          <h2 class="mb-4 text-xl font-semibold">مازندران</h2>
-          <hr />
-          <p class="mt-4">
-            <span class="inline-block pe-2 [&>svg]:w-5"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-              </svg>
-            </span>
-            سلام استاد بزرگوار وقت عالی بخیر جناب مهندس عزیز پروژه ای که در استان کرمان که نظارتش بر عهده خودتون بود . سازه اش به مقیاس حدودا چهل هکتار بود . برای اونجا یک سازه به روز تر چی پیشنهاد میدید . این سازه مدلش قدیمی شد مال تاریخ 89 هستش. تصمیم گرفتیم سازه را به کلی تغییر بدیم.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
-        <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-pink-500 via-teal-500 to-blue-500"></div>
-        <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155524_607.jpg" />
-        </div>
-        <div class="p-6">
-          <h4 class="mb-4 text-2xl font-semibold">مهندس انوری</h4>
-          <h2 class="mb-4 text-xl font-semibold">تهران ورامین</h2>
-          <hr />
-          <p class="mt-4">
-            <span class="inline-block pe-2 [&>svg]:w-5"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-              </svg>
-            </span>
-            سلام خداقوت جناب مهندس پیکار عزیز
-            سال 98 پروژه گلخانه در ورامین شهرک گل و گیاه سازه ای که احداث نمودی خیلی ممنونم پوشش پلاستیک سازه گلخانه ما به پایان رسیده است . اگر امکان دارد جهت پوشش جدید لطفا با تیمتون هماهنگی کنید با تشکر از شما
-
-          </p>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
-        <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-sky-500 via-teal-500 to-purple-500"></div>
-        <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_160012_331.jpg" />
-        </div>
-        <div class="p-6">
-          <h4 class="mb-4 text-2xl font-semibold">مسلم سلگی</h4>
-          <h2 class="mb-4 text-xl font-semibold">نهاوند</h2>
-          <hr />
-          <p class="mt-4">
-            <span class="inline-block pe-2 [&>svg]:w-5"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
-                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
-              </svg>
-            </span>
-            سلام استاد پیکار عزیز
-            خیلی خوبه آفرین هنوز داری در زمینه گلخانه فعالیت می کنی نمی دونم بجا آوردی یا نه ؟ سال 84 پروژه گلخانه ما رو در روستای برزول کار کردی در اصل تعمیرات کلی برامون انجام دادی خیلی ممنونم ازت ایشالا که همیشه موفق و سربلند باشی
-
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-</div>
-<div class="min-h-screen w-full  py-6 flex flex-col justify-center sm:py-12">
-  <div class="relative py-3 sm:max-w-xl sm:mx-auto">
-    <div class="absolute inset-0 bg-gradient-to-r from-indigo-700 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
-    </div>
-    <div class="text-white relative px-4 py-10 bg-indigo-400 shadow-lg sm:rounded-3xl sm:p-20">
-
-      <div class="text-center pb-6">
-        <h1 class="text-3xl">ارتباط با ما</h1>
-
-        <p class="text-gray-300">
-          پیام خود را برای ما بگذارید تا در اولین فرصت با شما تماس گرفته شود
-        </p>
-      </div>
-
-      <form action="https://fabform.io/f/{form-id}" method="post">
-
-        <input class="text-right shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="نام" name="name">
-
-        <input class="text-right shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="ایمیل" name="email">
-
-        <input class="text-right shadow mb-4 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="موضوع" name="_subject">
-
-        <textarea class="text-right shadow mb-4 min-h-0 appearance-none border rounded h-64 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="متن پیام" name="message" style="height: 121px;"></textarea>
-
-        <div class="flex justify-between">
-          <input class="shadow bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" value="ارسال ➤">
-          <input class="shadow bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="reset">
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
-
-
-<?php get_footer(); ?>
+  </section>
+  <?php get_footer(); ?>
