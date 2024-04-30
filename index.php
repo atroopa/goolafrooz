@@ -110,53 +110,91 @@ if ($index1_post->have_posts()) {
               </a>
             </div>
           </div>
+          <?PHP if (has_post_thumbnail()) { ?>
           <img src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>" class="w-full sm:block hidden" />
           <img class="w-full sm:hidden" src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>"/>
+          <?PHP } ?>
         </div>
         <?PHP
             }
           }
             ?>
          <!-- ----------------------------------حالت سوم ----------------------------------------------- -->
-        <div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
+        <div class=" sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
+          <!-- ------------------------------------------------------------------------------------------- -->
+          <?PHP
+            $index4_post = new WP_Query(array(
+              'post_type' => 'post',
+              'posts_per_page' => '1',
+              'offset'=> '4',
+              'post_status' => 'publish',
+              'category_name' => 'green-house-blog'
+            ));
+
+            if ($index4_post->have_posts()) {
+              while ($index4_post->have_posts()) {
+                $index4_post->the_post();
+            ?>
           <div class="relative w-full">
             <div>
-              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
               <div class="absolute bottom-0 left-0 p-6">
-                <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
+                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></p>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                  <p class="pr-2 text-sm font-medium leading-none">Read More</p>
-                  <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
+                <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
+
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/3yvZBpm/img-5.png" class="w-full" alt="chair" />
+            <?PHP if (has_post_thumbnail()) { ?>
+            <img src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>"class="w-full h-80"  />
+            <?PHP } ?>
           </div>
-          <div class="relative w-full sm:mt-0 mt-4">
+          <?PHP
+            }
+          }
+            ?>
+<!-- --------------------------------------------------------حالت چهارم-------------------------------------------------------------- -->
+<?PHP
+            $index5_post = new WP_Query(array(
+              'post_type' => 'post',
+              'posts_per_page' => '1',
+              'offset'=> '5',
+              'post_status' => 'publish',
+              'category_name' => 'green-house-blog'
+            ));
+
+            if ($index5_post->have_posts()) {
+              while ($index5_post->have_posts()) {
+                $index5_post->the_post();
+            ?>
+          <div class="relative w-full">
             <div>
-              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0">12 April 2021</p>
+              <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
               <div class="absolute bottom-0 left-0 p-6">
-                <h2 class="text-xl font-semibold 5 text-white">The Decorated Ways</h2>
-                <p class="text-base leading-4 text-white mt-2">Dive into minimalism</p>
+                <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
+                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></p>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
-                  <p class="pr-2 text-sm font-medium leading-none">Read More</p>
-                  <svg class="fill-stroke" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
+                <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
+
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/gDdnJb5/img-6.png" class="w-full" alt="wall design" />
+            <?PHP if (has_post_thumbnail()) { ?>
+            <img src="<?PHP the_post_thumbnail_url(); ?>" alt="<?PHP the_title(); ?>"class="w-full h-80"  />
+            <?PHP } ?>
           </div>
+          <?PHP
+            }
+          }
+            ?>
+          <!-- ------------------------------حالت پنجم--------------------------------------------- -->
         </div>
       </div>
       </div>
     </div>
   </div>
-  <!-- ------------------------------------------- -->
   <section class="dark:bg-gray-100 dark:text-gray-800">
     <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
       <a rel="noopener noreferrer" href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
