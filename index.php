@@ -32,7 +32,7 @@ if ($index1_post->have_posts()) {
                     <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
                     <div class="absolute bottom-0 left-0 p-6">
                       <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
-                      <div class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></div>
+                      <div class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg hidden lg:block"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></div>
                       <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                         <div class="pr-2 text-sm font-medium leading-none text-white "><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
                       </a>
@@ -67,7 +67,7 @@ if ($index1_post->have_posts()) {
               <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
               <div class="absolute bottom-0 left-0 md:p-10 p-6">
                 <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
-                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
+                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg hidden lg:block"><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                 <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
 
@@ -104,7 +104,7 @@ if ($index1_post->have_posts()) {
             <p class="md:p-10 p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
             <div class="absolute bottom-0 left-0 md:p-10 p-6">
               <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
-              <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
+              <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg hidden lg:block"><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
               <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
               <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
               </a>
@@ -140,7 +140,7 @@ if ($index1_post->have_posts()) {
               <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
               <div class="absolute bottom-0 left-0 p-6">
                 <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
-                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></p>
+                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg hidden lg:block"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></p>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                 <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
 
@@ -174,7 +174,7 @@ if ($index1_post->have_posts()) {
               <p class="p-6 text-xs font-medium leading-3 text-white absolute top-0 right-0 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP echo get_the_date(); ?></p>
               <div class="absolute bottom-0 left-0 p-6">
                 <h2 class="text-xl font-semibold 5 text-white backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?PHP the_title(); ?></h2>
-                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></p>
+                <p class="text-base leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-2 rounded-lg hidden lg:block"><?php echo wp_trim_words(get_the_excerpt(), 10); ?></p>
                 <a href="javascript:void(0)" class="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                 <div class="pr-2 text-sm font-medium leading-none text-white"><a href="<?PHP the_permalink(); ?>" class="font-bold backdrop-blur-sm bg-black/30 p-2 rounded-lg"> ادامه مطلب</a></div>
 
