@@ -263,7 +263,6 @@ if ($index1_post->have_posts()) {
         $args = [
           'prev_text' => '&laquo;',
           'next_text' => '&raquo;',
-          
         ];
         echo str_replace("<ul class='page-numbers'>", '<ul class="pagination">', paginate_links($args));
         ?>
