@@ -22,9 +22,8 @@
             }
         } else {
             ?>
-            <h2 style='font-weight:bold;color:#000'>Nothing Found</h2>
-            <div class="alert alert-info">
-                <p>Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
+            <h2 style='font-weight:bold;color:#000' class="mx-14">نتیجه موجود نیست</h2>
+            <div class="alert alert-info mx-14">
             </div>
         <?php } ?>
         <div class="bg-white py-8">
@@ -72,9 +71,9 @@
                                 }
                             } else {
                                 ?>
-                                <h2 style='font-weight:bold;color:#000'>Nothing Found</h2>
+                                <h2 style='font-weight:bold;color:#000'>نتیجه ای یافت نشد</h2>
                                 <div class="alert alert-info">
-                                    <p>Sorry, but nothing matched your search criteria. Please try again with some different keywords.</p>
+                                    <p>لطفا برای جستجو بهتر از کلمات صحیح استفاده کنید</p>
                                 </div>
                             <?php } ?>
 
