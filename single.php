@@ -53,7 +53,6 @@
             <?PHP } ?>
                     <?PHP get_sidebar(); ?>
         </div>
-
     </div>
 </div>
 
