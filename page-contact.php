@@ -5,16 +5,17 @@
   <div id="map" class="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3234.6227926002107!2d51.0057053!3d35.8337295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dbf9b5e10235b%3A0xadc2aff3d54f937b!2z2KfYs9iq2KfZhiDYp9mE2KjYsdiy2Iwg2qnYsdis2Iwg2LnYuNuM2YXbjNmH2Iwg2KjZhNmI2KfYsSDYt9in2YTZgtin2YbbjCDYtNmF2KfZhNuM2Iwg2KjYsdisINmC2KfYptmF!5e0!3m2!1sfa!2s!4v1714566354377!5m2!1sfa!2s" 
     width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
   </div>
-  <div class="container px-6 md:px-12">
+  <div class="container px-6 md:px-12 ">
     <div
-      class="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
+      class="bg-gray-100 block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
       <div class="flex flex-wrap">
         <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
           <form>
             <div class="relative mb-6" data-te-input-wrapper-init>
               <input type="text"
-                  class=" peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
+                  class=" peer block min-h-[auto] w-full rounded border-2 bg-transparent border-gray-900 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
                   id="exampleInput90" />
               <label
                   class="pointer-events-none absolute top-0 right-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none "
@@ -23,7 +24,7 @@
             </div>
             <div class="relative mb-6" data-te-input-wrapper-init>
               <input type="email"
-                  class="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
+                  class="border-gray-900 peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
                   id="exampleInput91" />
               <label
                   class="pointer-events-none absolute top-0 right-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none "
@@ -32,7 +33,7 @@
             </div>
             <div class="relative mb-6" data-te-input-wrapper-init>
               <textarea
-                  class="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
+                  class="border-gray-900 peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
                   id="exampleFormControlTextarea1" rows="3"></textarea>
               <label for="exampleFormControlTextarea1"
                   class="pointer-events-none absolute top-0 right-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none ">پیام</label>
@@ -43,7 +44,7 @@
             </div>
             <button type="button"
                 class="mb-6 w-full rounded bg-gray-900 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal   lg:mb-0">
-                Send
+                ارسال
               </button>
           </form>
         </div>
