@@ -1,4 +1,5 @@
 <?PHP //Template Name: products ?>
+
 <?php get_header(); ?>
 
 <?PHP
@@ -9,7 +10,9 @@ $slides = array(
 );
 
 foreach ($slides as $slide) {
-    echo "---------";
+
+    get_template_part("inc/product", "title");
+
     get_template_part("inc/product", "slide", $slide);
 }
 
