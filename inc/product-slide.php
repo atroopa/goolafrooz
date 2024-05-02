@@ -33,12 +33,11 @@
 }
 
 @keyframes moveSlideshow {
-  100% { 
-    transform: translateX(-66.6666%);  
+  100% {
+    transform: translateX(-66.6666%);
   }
 }
 </style>
-<!-- <div><?PHP //print( $args['IMAGE_URL'] ); ?></div> -->
 <div class="tech-slideshow"  >
   <div class="mover-1" style='background-image: url("<?PHP print( $args['IMAGE_URL'] ); ?>");'></div>
 </div>
