@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <?PHP
 
 if (is_category()) {
@@ -19,8 +20,6 @@ if (is_category()) {
             <ul>
                 <li><?PHP the_title(); ?></li>
             </ul>
-
-  
 
                 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
                 <style>
@@ -52,7 +51,7 @@ if (is_category()) {
                 </style>
 
 
-            <body class="bg-gray-100 flex 
+            <div class="bg-gray-100 flex 
              justify-center 
              items-center h-screen">
                 <div class="grid grid-cols-1 
@@ -66,7 +65,7 @@ if (is_category()) {
                         <div class="p-4">
                             <h3 class="text-xl 
                            font-semibold 
-                           text-gray-800">Product Name 1</h3>
+                           text-gray-800"><?PHP the_title(); ?></h3>
                             <p class="text-gray-600
                           mt-2">here content goes for the card 1</p>
                             <p class="text-gray-700 
@@ -142,9 +141,8 @@ if (is_category()) {
                         </div>
                     </div>
                 </div>
-            </body>
+                </div>
 
-            </html>
 
 
 <?php
@@ -152,3 +150,4 @@ if (is_category()) {
     }
 }
 ?>
+<?php get_footer(); ?>
