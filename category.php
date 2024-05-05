@@ -8,12 +8,23 @@ if(is_category()){
         'post_type' => 'post',
         'posts_per_page' => -1,
         'post_status' => 'publish',
-        'category_name' => 'green-house-blog'
+        'category_name' => $category->slug
       ));
 
+      if ($cat_post->have_posts()) { ?>
 
-}else {
-    echo "null: ";
-}
+        <?PHP while ($cat_post->have_posts()) {
+            $cat_post->the_post();  ?>
 
-?>
+            <ul>
+                <li><?PHP the_title(); ?></li>
+            </ul>
+
+
+
+
+    <?php
+            }
+     }
+    }
+    ?>
