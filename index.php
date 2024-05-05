@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <?PHP
+
 $index1_post = new WP_Query(array(
   'post_type' => 'post',
   'posts_per_page' => '2',
