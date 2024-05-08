@@ -38,6 +38,7 @@
   }
 }
 </style>
-<div class="tech-slideshow"  >
+
+<div class="tech-slideshow">
   <div class="mover-1" style='background-image: url("<?PHP print( $args['IMAGE_URL'] ); ?>");'></div>
 </div>

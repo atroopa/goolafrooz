@@ -52,8 +52,11 @@ if (is_category()) {
                     <div class="p-4">
                             <h3 class="text-xl font-semibold text-gray-800"><?PHP the_title(); ?></h3>
                             <p class="text-gray-600 mt-2"><?PHP the_excerpt(); ?></p>
-                            <button class="bg-blue-500 text-white font-semibold py-2 px-4 mt-4 rounded-lg hover:bg-blue-600 transition-all duration-300">
-                                اطلاعات بیشتر</button>
+                            <a href="<?PHP the_permalink(); ?>">
+                                <button  class="bg-blue-500 text-white font-semibold py-2 px-4 mt-4 rounded-lg hover:bg-blue-600 transition-all duration-300">
+                                    اطلاعات بیشتر
+                                </button>
+                            </a>
                         </div>
                     </div>
                 <?php
