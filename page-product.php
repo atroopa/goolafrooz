@@ -18,6 +18,8 @@ $slides = array(
     array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/fan-slider_1_11zon.webp"),
     array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/pipe-slider_11zon.png"),
     array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/mashal-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/profeel-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/sarsoton-slider_11zon.webp"),
 );
 
 $icons = array(
@@ -25,13 +27,17 @@ $icons = array(
     array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/navdani.png"),
     array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/fan.png") ,
     array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/pipe.png"),
-    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/mashal.png")
+    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/mashal.png"),
+    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/profeel.png"),
+    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/sarsoton.png")
 );
 
 $sub_terms = get_terms($args);
 
 if ($sub_terms) {
     $imageMap = array(
+        "greenhouse-sarsoton" => array($slides[6]["IMAGE_URL"], $icons[6]["ICON_URL"]),
+        "greenhouse-profeel" => array($slides[5]["IMAGE_URL"], $icons[5]["ICON_URL"]),
         "greenhouse-mashal" => array($slides[4]["IMAGE_URL"], $icons[4]["ICON_URL"]),
         "greenhouse-pipe" => array($slides[3]["IMAGE_URL"], $icons[3]["ICON_URL"]),
         "greenhouse-fan" => array($slides[2]["IMAGE_URL"], $icons[2]["ICON_URL"]),
@@ -52,7 +58,7 @@ if ($sub_terms) {
                 <div class=" w-full dark:bg-slate-800 gap-6 flex items-center justify-center">
                     <div class="md:w-full lg:w-1/2 bg-gray-100 dark:bg-gray-700 relative shadow-xl overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-500 transform">
                         <div class="flex items-center gap-4">
-                            <img src="<?php echo $iconURL; ?>" class="bg-gray-200 p-3 w-32 group-hover:w-36 group-hover:h-36 h-32 object-center object-cover rounded-full transition-all duration-500 delay-500 transform" />
+                        <img src="<?php echo $iconURL; ?>" class="bg-gray-200 p-5 w-32 group-hover:w-36 group-hover:h-36 object-contain rounded-xl transition-all duration-500 delay-500 transform" />
                             <div class="w-fit transition-all transform duration-500">
                                 <h1 class="text-gray-600 dark:text-gray-200 font-bold">
                                     <a href="<?php echo get_term_link($sub_term); ?>"><?php echo $sub_term->name; ?></a>
