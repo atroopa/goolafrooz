@@ -11,7 +11,7 @@ $args = array(
     'hide_empty' => false,
     'parent' => $parent_term->term_id,
 );
-// 
+
 $slides = array(
     array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/hitter-slider_3_11zon.webp"),
     array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/navdani-slider_2_11zon.webp"),

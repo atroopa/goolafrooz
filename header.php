@@ -128,8 +128,8 @@
   <header class="fixed sticky z-50 top-0 flex w-full  flex-row justify-between items-center bg-gray-900 px-8 py-3 text-white shadow-md lg:px-10">
     <script>
       const logos = [
-        'https://golafrooz.com/wp-content/uploads/2024/04/golafrooz.png',
-        'https://golafrooz.com/wp-content/uploads/2024/04/golafrooz-1.png'
+        "<?php echo get_template_directory_uri() ?>/img/logo/golafrooz.png",
+        "<?php echo get_template_directory_uri() ?>/img/logo/golafrooz-1.png"
       ];
       let currentLogoIndex = 0;
 
