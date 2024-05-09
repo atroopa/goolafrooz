@@ -13,23 +13,23 @@ $args = array(
 );
 // 
 $slides = array(
-    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/hitter-slider_3_11zon.webp"),
-    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/navdani-slider_2_11zon.webp"),
-    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/fan-slider_1_11zon.webp"),
-    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/pipe-slider_11zon.png"),
-    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/mashal-slider_11zon.webp"),
-    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/profeel-slider_11zon.webp"),
-    array("IMAGE_URL" => get_template_directory_uri()."/img/slider/webp/sarsoton-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/hitter-slider_3_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/navdani-slider_2_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/fan-slider_1_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/pipe-slider_11zon.png"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/mashal-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/profeel-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/sarsoton-slider_11zon.webp"),
 );
 
 $icons = array(
-    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/flame.png"),
-    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/navdani.png"),
-    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/fan.png") ,
-    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/pipe.png"),
-    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/mashal.png"),
-    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/profeel.png"),
-    array("ICON_URL" => get_template_directory_uri()."/img/slider/icons/sarsoton.png")
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/flame.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/navdani.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/fan.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/pipe.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/mashal.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/profeel.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/sarsoton.png")
 );
 
 $sub_terms = get_terms($args);
@@ -52,34 +52,38 @@ if ($sub_terms) {
             list($imageURL, $iconURL) = $imageMap[$sub_term->slug];
             $slide = array('IMAGE_URL' => $imageURL);
 ?>
+            <a href="<?php echo get_term_link($sub_term); ?>">
+                <li>
+                    <!-- ----------- TITLE CAT -------------- -->
+                    <div class=" w-full dark:bg-slate-800 gap-6 flex items-center justify-center">
+                        <div class="md:w-full lg:w-1/2 bg-gray-100 dark:bg-gray-700 relative shadow-xl overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-500 transform">
+                            <div class="flex items-center gap-4">
+                                <img src="<?php echo $iconURL; ?>" class="bg-gray-200 p-5 w-32 group-hover:w-36 group-hover:h-36 object-contain rounded-xl transition-all duration-500 delay-500 transform" />
+                                <div class="w-fit transition-all transform duration-500">
+                                    <h1 class="text-gray-600 dark:text-gray-200 font-bold">
+                                        <a href="<?php echo get_term_link($sub_term); ?>"><?php echo $sub_term->name; ?></a>
+                                    </h1>
+                                    <div class="text-gray-400"><?PHP echo $sub_term->description; ?></div>
 
-            <li>
-                <!-- ----------- TITLE CAT -------------- -->
-                <div class=" w-full dark:bg-slate-800 gap-6 flex items-center justify-center">
-                    <div class="md:w-full lg:w-1/2 bg-gray-100 dark:bg-gray-700 relative shadow-xl overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-500 transform">
-                        <div class="flex items-center gap-4">
-                        <img src="<?php echo $iconURL; ?>" class="bg-gray-200 p-5 w-32 group-hover:w-36 group-hover:h-36 object-contain rounded-xl transition-all duration-500 delay-500 transform" />
-                            <div class="w-fit transition-all transform duration-500">
-                                <h1 class="text-gray-600 dark:text-gray-200 font-bold">
-                                    <a href="<?php echo get_term_link($sub_term); ?>"><?php echo $sub_term->name; ?></a>
-                                </h1>
-                                <div class="text-gray-400"><?PHP echo $sub_term->description; ?></div>
-
-                                <a class="text-xs text-gray-500 dark:text-gray-200 group-hover:opacity-100 opacity-0 transform transition-all delay-300 duration-500">
-                                </a>
+                                </div>
+                                <div class=" w-1/2 h-20 flex flex-row items-center justify-center ">
+                                    <a href="<?php echo get_term_link($sub_term); ?>">
+                                        <img src="<?php echo get_template_directory_uri() ?>/img/slider/icons/arrow.png" class="bg-gray-200 w-20 h-20 group-hover:w-30 group-hover:h-30 object-contain rounded-full transition-all duration-500 delay-500 transform" />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="absolute group-hover:bottom-1 delay-300 -bottom-16 transition-all duration-500 bg-gray-600 dark:bg-gray-100 right-1 rounded-lg">
-                            <div class="flex justify-evenly items-center gap-2 p-1 text-2xl text-white dark:text-gray-800">
+                            <div class="absolute group-hover:bottom-1 delay-300 -bottom-16 transition-all duration-500 bg-gray-600 dark:bg-gray-100 right-1 rounded-lg">
+                                <div class="flex justify-evenly items-center gap-2 p-1 text-2xl text-white dark:text-gray-800">
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- ------ SLIDER --------- -->
-                <?php get_template_part("inc/product", "slide", $slide); ?>
+                    <!-- ------ SLIDER --------- -->
+                    <?php get_template_part("inc/product", "slide", $slide); ?>
 
-            </li>
+                </li>
+            </a>
 
 <?php // Close the PHP tag within the loop for proper syntax
         }
