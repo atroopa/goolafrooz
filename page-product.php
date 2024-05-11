@@ -13,8 +13,6 @@ get_header(); ?>
 
 
 <?php
-
-
 $parent_term_slug = 'green-house-products';
 $parent_term = get_term_by('slug', $parent_term_slug, 'category');
 
