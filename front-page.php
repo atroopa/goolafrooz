@@ -227,14 +227,14 @@
   </div>
   <div class=" flex flex-row justify-center items-center text-2xl font-bold p-10 w-full">
     <div class="px-3"> ----------------------------------- </div>
-     محصولات 
+     محصولات
     <div class="px-3"> ----------------------------------- </div>
   </div>
   <?PHP get_template_part("inc/product", "boxes"); ?>
 
   <div class="flex flex-row justify-center items-center text-2xl font-bold p-10 w-full">
     <div class="px-3"> ----------------------------------- </div>
-     وبلاگ 
+     وبلاگ
     <div class="px-3"> ----------------------------------- </div>
   </div>
 
