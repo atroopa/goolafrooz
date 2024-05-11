@@ -1,6 +1,7 @@
 <?php
 // Template Name: products
 get_header(); ?>
+
 <div class="flex flex-col items-center justify-center bg-gray-900  w-ful">
     <h1 class="font-extrabold text-transparent text-8xl py-10 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
         گل افروز
