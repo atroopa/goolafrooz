@@ -20,6 +20,12 @@ $slides = array(
     array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/mashal-slider_11zon.webp"),
     array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/profeel-slider_11zon.webp"),
     array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/sarsoton-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/poshesh-slider_11zon.png"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/generator-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/tajhizat-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/bast-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/abyari-slider_11zon.webp"),
+    array("IMAGE_URL" => get_template_directory_uri() . "/img/slider/webp/sarmayeshi-slider_11zon.webp"),
 );
 
 $icons = array(
@@ -29,13 +35,25 @@ $icons = array(
     array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/pipe.png"),
     array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/mashal.png"),
     array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/profeel.png"),
-    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/sarsoton.png")
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/sarsoton.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/poshesh.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/generator.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/tajhizat.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/bast.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/abyari.png"),
+    array("ICON_URL" => get_template_directory_uri() . "/img/slider/icons/sarmayeshi.png"),
 );
 
 $sub_terms = get_terms($args);
 
 if ($sub_terms) {
     $imageMap = array(
+        "greenhouse-sarmayeshi" => array($slides[12]["IMAGE_URL"], $icons[12]["ICON_URL"]),
+        "greenhouse-abyari" => array($slides[11]["IMAGE_URL"], $icons[11]["ICON_URL"]),
+        "greenhouse-bast" => array($slides[10]["IMAGE_URL"], $icons[10]["ICON_URL"]),
+        "greenhouse-tajhizat" => array($slides[9]["IMAGE_URL"], $icons[9]["ICON_URL"]),
+        "greenhouse-generator" => array($slides[8]["IMAGE_URL"], $icons[8]["ICON_URL"]),
+        "greenhouse-poshesh" => array($slides[7]["IMAGE_URL"], $icons[7]["ICON_URL"]),
         "greenhouse-sarsoton" => array($slides[6]["IMAGE_URL"], $icons[6]["ICON_URL"]),
         "greenhouse-profeel" => array($slides[5]["IMAGE_URL"], $icons[5]["ICON_URL"]),
         "greenhouse-mashal" => array($slides[4]["IMAGE_URL"], $icons[4]["ICON_URL"]),
