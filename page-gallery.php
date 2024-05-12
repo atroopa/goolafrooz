@@ -112,6 +112,7 @@ get_header();
             -webkit-transition: all 0.4s;
             -o-transition: all 0.4s;
             transition: all 0.4s;
+            color: #fff;
         }
 
         a:focus {
