@@ -445,63 +445,77 @@ $albums = array(
             "https://gratisography.com/thumbnails/gratisography-305-thumbnail-small.jpg",
             "https://gratisography.com/thumbnails/gratisography-286-thumbnail-small.jpg"
         )
-        ),
-        array(
-            "card-title" => "تیتر کارت پنجم",
-            "title" => "تایتل پنجم",
-            "subtitle" => "ساب تایتل پنجم ",
-            "image_src" => "https://gratisography.com/thumbnails/gratisography-brick-vine-thumbnail.jpg",
-            "modal_id" => "#workModal5",
-            "text" => "متن آلبوم پنجم",
-            "images" => array(
-                "https://gratisography.com/thumbnails/gratisography-brick-vine-thumbnail.jpg",
-                "https://gratisography.com/thumbnails/gratisography-291-thumbnail-small.jpg",
-                "https://gratisography.com/thumbnails/gratisography-197-thumbnail-small.jpg",
-                "https://gratisography.com/thumbnails/gratisography-219-thumbnail-small.jpg",
-            )
-        ),
-        array(
-            "card-title" => "تیتر کارت ششم",
-            "title" => "تایتل ششم",
-            "subtitle" => "ساب تایتل ششم ",
-            "image_src" => "https://gratisography.com/thumbnails/gratisography-64-thumbnail.jpg",
-            "modal_id" => "#workModal6",
-            "text" => "متن آلبوم ششم",
-            "images" => array(
-                "https://gratisography.com/thumbnails/gratisography-64-thumbnail.jpg",
-                "https://gratisography.com/thumbnails/gratisography-135-thumbnail-small.jpg",
-                "https://gratisography.com/thumbnails/gratisography-148-thumbnail-small.jpg",
-                "https://gratisography.com/thumbnails/gratisography-84-thumbnail-small.jpg",
-            )
-            ),
-            array(
-                "card-title" => "تیتر کارت هفتم",
-                "title" => "تایتل هفتم",
-                "subtitle" => "ساب تایتل هفتم ",
-                "image_src" => "https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg",
-                "modal_id" => "#workModal7",
-                "text" => "متن آلبوم هفتم",
-                "images" => array(
-                    "https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg",
-                    "https://gratisography.com/thumbnails/gratisography-92-thumbnail-small.jpg",
-                    "https://gratisography.com/thumbnails/gratisography-85-thumbnail-small.jpg",
-                    "https://gratisography.com/thumbnails/gratisography-88-thumbnail-small.jpg",
-                )
-                ),
-                array(
-                    "card-title" => "تیتر کارت هشتم",
-                    "title" => "تایتل هشتم",
-                    "subtitle" => "ساب تایتل هشتم ",
-                    "image_src" => "https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg",
-                    "modal_id" => "#workModal8",
-                    "text" => "متن آلبوم هشتم",
-                    "images" => array(
-                        "https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg",
-                        "https://gratisography.com/thumbnails/gratisography-59-thumbnail-small.jpg",
-                        "https://gratisography.com/thumbnails/gratisography-57-thumbnail-small.jpg",
-                        "https://gratisography.com/thumbnails/gratisography-19-thumbnail-small.jpg",
-                    )
-                )
+    ),
+    array(
+        "card-title" => "تیتر کارت پنجم",
+        "title" => "تایتل پنجم",
+        "subtitle" => "ساب تایتل پنجم ",
+        "image_src" => "https://gratisography.com/thumbnails/gratisography-brick-vine-thumbnail.jpg",
+        "modal_id" => "#workModal5",
+        "text" => "متن آلبوم پنجم",
+        "images" => array(
+            "https://gratisography.com/thumbnails/gratisography-brick-vine-thumbnail.jpg",
+            "https://gratisography.com/thumbnails/gratisography-291-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-197-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-219-thumbnail-small.jpg",
+        )
+    ),
+    array(
+        "card-title" => "تیتر کارت ششم",
+        "title" => "تایتل ششم",
+        "subtitle" => "ساب تایتل ششم ",
+        "image_src" => "https://gratisography.com/thumbnails/gratisography-64-thumbnail.jpg",
+        "modal_id" => "#workModal6",
+        "text" => "متن آلبوم ششم",
+        "images" => array(
+            "https://gratisography.com/thumbnails/gratisography-64-thumbnail.jpg",
+            "https://gratisography.com/thumbnails/gratisography-135-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-148-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-84-thumbnail-small.jpg",
+        )
+    ),
+    array(
+        "card-title" => "تیتر کارت هفتم",
+        "title" => "تایتل هفتم",
+        "subtitle" => "ساب تایتل هفتم ",
+        "image_src" => "https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg",
+        "modal_id" => "#workModal7",
+        "text" => "متن آلبوم هفتم",
+        "images" => array(
+            "https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg",
+            "https://gratisography.com/thumbnails/gratisography-92-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-85-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-88-thumbnail-small.jpg",
+        )
+    ),
+    array(
+        "card-title" => "تیتر کارت هشتم",
+        "title" => "تایتل هشتم",
+        "subtitle" => "ساب تایتل هشتم ",
+        "image_src" => "https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg",
+        "modal_id" => "#workModal8",
+        "text" => "متن آلبوم هشتم",
+        "images" => array(
+            "https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg",
+            "https://gratisography.com/thumbnails/gratisography-59-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-57-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-19-thumbnail-small.jpg",
+        )
+    ),
+    array(
+        "card-title" => "تیتر کارت نهم",
+        "title" => "تایتل نهم",
+        "subtitle" => "ساب تایتل نهم ",
+        "image_src" => "https://gratisography.com/thumbnails/gratisography-61-thumbnail.jpg",
+        "modal_id" => "#workModal9",
+        "text" => "متن آلبوم نهم",
+        "images" => array(
+            "https://gratisography.com/thumbnails/gratisography-61-thumbnail.jpg",
+            "https://gratisography.com/thumbnails/gratisography-colorful-wall-geometry-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-9-thumbnail-small.jpg",
+            "https://gratisography.com/thumbnails/gratisography-5-thumbnail-small.jpg",
+        )
+    )
 );
 ?>
 
@@ -557,8 +571,7 @@ $albums = array(
 
                 <!-- Card for Album5 -->
                 <div class="card col-12 col-md-4 item exhibition">
-                    <img class="card-img-top work-img" src="<?php echo $albums[4]['image_src']; ?>" data-toggle="modal" 
-                    data-target="<?php echo $albums[4]['modal_id']; ?>" />
+                    <img class="card-img-top work-img" src="<?php echo $albums[4]['image_src']; ?>" data-toggle="modal" data-target="<?php echo $albums[4]['modal_id']; ?>" />
                     <div class="text-center h-10">
                         <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
                             <?php echo $albums[4]['card-title']; ?>
@@ -568,8 +581,7 @@ $albums = array(
 
                 <!-- Card for Album6 -->
                 <div class="card col-12 col-md-4 item archi">
-                    <img class="card-img-top work-img" src="<?php echo $albums[5]['image_src']; ?>" data-toggle="modal" 
-                    data-target="<?php echo $albums[5]['modal_id']; ?>" />
+                    <img class="card-img-top work-img" src="<?php echo $albums[5]['image_src']; ?>" data-toggle="modal" data-target="<?php echo $albums[5]['modal_id']; ?>" />
                     <div class="text-center h-10">
                         <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
                             <?php echo $albums[5]['card-title']; ?>
@@ -579,8 +591,7 @@ $albums = array(
 
                 <!-- Card for Album7 -->
                 <div class="card col-12 col-md-4 item archi">
-                    <img class="card-img-top work-img" src="<?php echo $albums[6]['image_src']; ?>" data-toggle="modal" 
-                    data-target="<?php echo $albums[6]['modal_id']; ?>" />
+                    <img class="card-img-top work-img" src="<?php echo $albums[6]['image_src']; ?>" data-toggle="modal" data-target="<?php echo $albums[6]['modal_id']; ?>" />
                     <div class="text-center h-10">
                         <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
                             <?php echo $albums[6]['card-title']; ?>
@@ -590,24 +601,24 @@ $albums = array(
 
                 <!-- Card for Album8 -->
                 <div class="card col-12 col-md-4 item archi">
-                    <img class="card-img-top work-img" src="<?php echo $albums[7]['image_src']; ?>" data-toggle="modal" 
-                    data-target="<?php echo $albums[7]['modal_id']; ?>" />
+                    <img class="card-img-top work-img" src="<?php echo $albums[7]['image_src']; ?>" 
+                    data-toggle="modal" data-target="<?php echo $albums[7]['modal_id']; ?>" />
                     <div class="text-center h-10">
                         <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
                             <?php echo $albums[7]['card-title']; ?>
                         </h2>
                     </div>
                 </div>
-
-                <div class="card col-12  col-md-4 item archi">
-                    <img class="card-img-top  work-img" src="https://gratisography.com/thumbnails/gratisography-61-thumbnail.jpg" data-toggle="modal" data-target="#workModal9" />
+                <!-- Card for Album9 -->
+                <div class="card col-12 col-md-4 item archi">
+                    <img class="card-img-top work-img" src="<?php echo $albums[8]['image_src']; ?>" data-toggle="modal" 
+                    data-target="<?php echo $albums[8]['modal_id']; ?>" />
                     <div class="text-center h-10">
                         <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
-                            Album9
+                            <?php echo $albums[8]['card-title']; ?>
                         </h2>
                     </div>
                 </div>
-
 
             </div>
         </div>
@@ -987,15 +998,12 @@ $albums = array(
                     </button>
                 </div>
                 <div class="modal-body">
-
                     <div class="upper">
                         <div class="text">
-                            <h2>title1</h2>
-                            <h3>sub title1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus
-                                enim nam in ex voluptate voluptates veniam iusto alias aspernatur?</p>
+                            <h2><?php echo $albums[8]['title']; ?></h2>
+                            <h3><?php echo $albums[8]['subtitle']; ?></h3>
+                            <p><?php echo $albums[8]['text']; ?></p>
                         </div>
-
                         <div class="product-image">
                             <img class="active1">
                         </div>
@@ -1003,24 +1011,22 @@ $albums = array(
                     <div class="sideImg">
                         <ul class="image-list">
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-61-thumbnail.jpg">
+                                <img src="<?php echo $albums[8]['images'][0]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-colorful-wall-geometry-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[8]['images'][1]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-9-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[8]['images'][2]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-5-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[8]['images'][3]; ?>">
                             </li>
                         </ul>
                     </div>
-
                 </div>
                 <div class="modal-footer">
                 </div>
-
             </div>
         </div>
     </div>
