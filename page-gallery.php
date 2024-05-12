@@ -184,7 +184,6 @@ get_header();
             cursor: pointer;
             overflow: visible;
             padding: 5px;
-
             margin-bottom: 20px; /* فاصله بین کارت‌ها */
         }
 
