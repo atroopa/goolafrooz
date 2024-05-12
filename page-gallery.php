@@ -183,6 +183,8 @@ get_header();
             cursor: pointer;
             overflow: visible;
             padding: 5px;
+            flex: 0 0 calc(33.33% - 20px); /* تنظیمات انعطاف‌پذیری برای کارت‌ها */
+            margin-bottom: 20px; /* فاصله بین کارت‌ها */
         }
 
         img {
@@ -529,7 +531,7 @@ $albums = array(
             <li data-filter=".archi"><a href="#!">گلخانه اسپانیایی تیپ یک</a></li>
         </ul>
 
-        <div class="projects">
+        <div class="flex flex-wrap justify-between">
             <div class="row col-12">
                 <div class="card col-12  col-md-4 item graphic">
                     <img class="card-img-top work-img" src="<?php echo $albums[0]['image_src']; ?>" data-toggle="modal" data-target="<?php echo $albums[0]['modal_id']; ?>" />
