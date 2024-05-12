@@ -479,7 +479,7 @@ $albums = array(
                 "title" => "تایتل هفتم",
                 "subtitle" => "ساب تایتل هفتم ",
                 "image_src" => "https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg",
-                "modal_id" => "#workModal6",
+                "modal_id" => "#workModal7",
                 "text" => "متن آلبوم هفتم",
                 "images" => array(
                     "https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg",
@@ -487,7 +487,21 @@ $albums = array(
                     "https://gratisography.com/thumbnails/gratisography-85-thumbnail-small.jpg",
                     "https://gratisography.com/thumbnails/gratisography-88-thumbnail-small.jpg",
                 )
-            )
+                ),
+                array(
+                    "card-title" => "تیتر کارت هشتم",
+                    "title" => "تایتل هشتم",
+                    "subtitle" => "ساب تایتل هشتم ",
+                    "image_src" => "https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg",
+                    "modal_id" => "#workModal8",
+                    "text" => "متن آلبوم هشتم",
+                    "images" => array(
+                        "https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg",
+                        "https://gratisography.com/thumbnails/gratisography-59-thumbnail-small.jpg",
+                        "https://gratisography.com/thumbnails/gratisography-57-thumbnail-small.jpg",
+                        "https://gratisography.com/thumbnails/gratisography-19-thumbnail-small.jpg",
+                    )
+                )
 );
 ?>
 
@@ -574,14 +588,17 @@ $albums = array(
                     </div>
                 </div>
 
-                <div class="card col-12  col-md-4 item exhibition">
-                    <img class="card-img-top  work-img" src="https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg" data-toggle="modal" data-target="#workModal8" />
+                <!-- Card for Album8 -->
+                <div class="card col-12 col-md-4 item archi">
+                    <img class="card-img-top work-img" src="<?php echo $albums[7]['image_src']; ?>" data-toggle="modal" 
+                    data-target="<?php echo $albums[7]['modal_id']; ?>" />
                     <div class="text-center h-10">
                         <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
-                            Album8
+                            <?php echo $albums[7]['card-title']; ?>
                         </h2>
                     </div>
                 </div>
+
                 <div class="card col-12  col-md-4 item archi">
                     <img class="card-img-top  work-img" src="https://gratisography.com/thumbnails/gratisography-61-thumbnail.jpg" data-toggle="modal" data-target="#workModal9" />
                     <div class="text-center h-10">
@@ -873,7 +890,7 @@ $albums = array(
     <!-- modal6 end -->
 
     <!-- modal7 -->
-    <div class="modal fade" id="workModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="workModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -926,15 +943,12 @@ $albums = array(
                     </button>
                 </div>
                 <div class="modal-body">
-
                     <div class="upper">
                         <div class="text">
-                            <h2>title1</h2>
-                            <h3>sub title1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus
-                                enim nam in ex voluptate voluptates veniam iusto alias aspernatur?</p>
+                            <h2><?php echo $albums[7]['title']; ?></h2>
+                            <h3><?php echo $albums[7]['subtitle']; ?></h3>
+                            <p><?php echo $albums[7]['text']; ?></p>
                         </div>
-
                         <div class="product-image">
                             <img class="active1">
                         </div>
@@ -942,24 +956,22 @@ $albums = array(
                     <div class="sideImg">
                         <ul class="image-list">
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg">
+                                <img src="<?php echo $albums[7]['images'][0]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-59-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[7]['images'][1]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-57-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[7]['images'][2]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-19-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[7]['images'][3]; ?>">
                             </li>
                         </ul>
                     </div>
-
                 </div>
                 <div class="modal-footer">
                 </div>
-
             </div>
         </div>
     </div>
