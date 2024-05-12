@@ -173,7 +173,7 @@ get_header();
         .col-12 {
             height: 100%;
             margin: 0;
-            overflow: visible;
+            overflow: auto;
         }
 
         .card {
@@ -183,7 +183,7 @@ get_header();
             cursor: pointer;
             overflow: visible;
             padding: 5px;
-            flex: 0 0 calc(33.33% - 20px); /* تنظیمات انعطاف‌پذیری برای کارت‌ها */
+
             margin-bottom: 20px; /* فاصله بین کارت‌ها */
         }
 
@@ -521,8 +521,9 @@ $albums = array(
 );
 ?>
 
-<body class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-    <div class="col-12">
+<body class=" bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+    
+<div class=" col-12">
         <ul class="nav navbar navbar-light filters text-center">
             <li class="active" data-filter="*"><a href="#!">همه</a></li>
             <li data-filter=".graphic"><a href="#!">گلخانه تونلی</a></li>
@@ -531,7 +532,7 @@ $albums = array(
             <li data-filter=".archi"><a href="#!">گلخانه اسپانیایی تیپ یک</a></li>
         </ul>
 
-        <div class="flex flex-wrap justify-between">
+        <div class="projects">
             <div class="row col-12">
                 <div class="card col-12  col-md-4 item graphic">
                     <img class="card-img-top work-img" src="<?php echo $albums[0]['image_src']; ?>" data-toggle="modal" data-target="<?php echo $albums[0]['modal_id']; ?>" />
