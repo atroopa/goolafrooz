@@ -121,6 +121,7 @@
 .slider-nav a:hover{
   opacity: 1;
 }
+
   </style>
 </head>
 
@@ -160,7 +161,7 @@
             'depth' => '1',
             'menu'           => false,
             'container'      => 'div',
-            'menu_class'  => 'text-white items-start justify-start gap-x-5 px-10 w-full flex flex-row',
+            'menu_class'  => ' text-white items-start justify-start gap-x-5 px-10 w-full flex flex-row ',
           )); ?>
           <div>
             <script>

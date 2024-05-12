@@ -160,13 +160,13 @@ $(document).ready(function () {
         }
 
         .navbar li a:hover {
-            color: #00a7be;
+            color: #A7F5FF;
             text-decoration: none;
         }
 
         .navbar li.active a {
             font-weight: bold;
-            color: #00a7be;
+            color: #D1E8EB;
         }
 
         /*---------- Nav area css ends -------------*/
@@ -386,8 +386,46 @@ $(document).ready(function () {
 
 
 </head>
+<?php
+// اطلاعات مربوط به عکس‌ها و متن‌ها
+$albums = array(
+    array(
+        "card-title" => "تیتر کارت تونلی",
+        "title" => "گلخانه تونلی تایتل",
+        "subtitle" => "گلخانه تونلی ساب تایتل",
+        "image_src" => "https://gratisography.com/wp-content/uploads/2019/12/gratisography-concrete-architecture-2-900x600.jpg",
+        "modal_id" => "#workModal1",
+        "text" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus enim nam in ex voluptate voluptates veniam iusto alias aspernatur?",
+        "images" => array(
+                "https://gratisography.com/wp-content/uploads/2019/12/gratisography-concrete-architecture-2-900x600.jpg",
+                "https://gratisography.com/thumbnails/gratisography-2-thumbnail-small.jpg",
+                "https://gratisography.com/thumbnails/gratisography-245-thumbnail-small.jpg",
+                "https://gratisography.com/thumbnails/gratisography-36-thumbnail-small.jpg"
+            )
 
-<body>
+    ),
+    array(
+        "card-title","تیتر کارت دوم",
+        "title" => "Album2",
+        "subtitle" => "Subtitle2",
+        "image_src" => "https://gratisography.com/wp-content/uploads/2019/12/gratisography-mountains-scenic-horizon-900x547.jpg",
+        "modal_id" => "#workModal2",
+        "modal_content" => array(
+            "subtitle" => "sub title2",
+            "text" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus enim nam in ex voluptate voluptates veniam iusto alias aspernatur?",
+            "images" => array(
+                "https://gratisography.com/wp-content/uploads/2019/12/gratisography-mountains-scenic-horizon-900x547.jpg",
+                "https://gratisography.com/thumbnails/gratisography-desert-landscape-sky-thumbnail-small.jpg",
+                "https://gratisography.com/thumbnails/gratisography-field-blue-sky-thumbnail-small.jpg",
+                "https://gratisography.com/thumbnails/gratisography-butterfly-flower-thumbnail-small.jpg"
+            )
+        )
+    ),
+    // سایر آلبوم‌ها را به همین شکل اضافه کنید
+);
+?>
+
+<body class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
     <div class="col-12">
         <ul class="nav navbar navbar-light filters text-center">
             <li class="active" data-filter="*"><a href="#!">همه</a></li>
@@ -401,10 +439,12 @@ $(document).ready(function () {
             <div class="row col-12">
                 <div class="card col-12  col-md-4 item graphic">
                     <img class="card-img-top work-img"
-                        src="https://gratisography.com/wp-content/uploads/2019/12/gratisography-concrete-architecture-2-900x600.jpg"
-                        data-toggle="modal" data-target="#workModal1" />
+                        src="<?php echo $albums[0]['image_src']; ?>"
+                        data-toggle="modal" data-target="<?php echo $albums[0]['modal_id']; ?>" />
                     <div class="text-center h-10">
-                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">عنوان آلبوم گلخانه تونلی</h2>
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            <?php echo $albums[0]['card-title']; ?>
+                        </h2>
                     </div>
                 </div>
 
@@ -412,8 +452,10 @@ $(document).ready(function () {
                     <img class="card-img-top  work-img"
                         src="https://gratisography.com/wp-content/uploads/2019/12/gratisography-mountains-scenic-horizon-900x547.jpg"
                         data-toggle="modal" data-target="#workModal2" />
-                    <div class="card-body">
-                        <h2 class="card-text">Album2</h2>
+                    <div class="text-center h-10">
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            Album2
+                        </h2>
                     </div>
                 </div>
 
@@ -421,8 +463,10 @@ $(document).ready(function () {
                     <img class="card-img-top  work-img"
                         src="https://gratisography.com/wp-content/uploads/2019/11/gratisography-city-glass-buildings-900x600.jpg"
                         data-toggle="modal" data-target="#workModal3" />
-                    <div class="card-body">
-                        <h2 class="card-text">Album3</h2>
+                    <div class="text-center h-10">
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            Album3
+                        </h2>
                     </div>
                 </div>
 
@@ -430,8 +474,10 @@ $(document).ready(function () {
                     <img class="card-img-top  work-img"
                         src="https://gratisography.com/wp-content/uploads/2019/11/gratisography-urban-construction-staging-900x600.jpg"
                         data-toggle="modal" data-target="#workModal4" />
-                    <div class="card-body">
-                        <h2 class="card-text">Album4</h2>
+                    <div class="text-center h-10">
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            Album4
+                        </h2>
                     </div>
                 </div>
 
@@ -439,8 +485,10 @@ $(document).ready(function () {
                     <img class="card-img-top  work-img"
                         src="https://gratisography.com/thumbnails/gratisography-brick-vine-thumbnail.jpg"
                         data-toggle="modal" data-target="#workModal5" />
-                    <div class="card-body">
-                        <h2 class="card-text">Album5</h2>
+                    <div class="text-center h-10">
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            Album5
+                        </h2>
                     </div>
                 </div>
 
@@ -448,8 +496,10 @@ $(document).ready(function () {
                     <img class="card-img-top  work-img"
                         src="https://gratisography.com/thumbnails/gratisography-64-thumbnail.jpg" data-toggle="modal"
                         data-target="#workModal6" />
-                    <div class="card-body">
-                        <h2 class="card-text">Album6</h2>
+                    <div class="text-center h-10">
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            Album6
+                        </h2>
                     </div>
                 </div>
 
@@ -457,8 +507,10 @@ $(document).ready(function () {
                     <img class="card-img-top  work-img"
                         src="https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg" data-toggle="modal"
                         data-target="#workModal7" />
-                    <div class="card-body">
-                        <h2 class="card-text">Album7</h2>
+                    <div class="text-center h-10">
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            Album7
+                        </h2>
                     </div>
                 </div>
 
@@ -466,16 +518,20 @@ $(document).ready(function () {
                     <img class="card-img-top  work-img"
                         src="https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg" data-toggle="modal"
                         data-target="#workModal8" />
-                    <div class="card-body">
-                        <h2 class="card-text">Album8</h2>
+                    <div class="text-center h-10">
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            Album8
+                        </h2>
                     </div>
                 </div>
                 <div class="card col-12  col-md-4 item archi">
                     <img class="card-img-top  work-img"
                         src="https://gratisography.com/thumbnails/gratisography-61-thumbnail.jpg" data-toggle="modal"
                         data-target="#workModal9" />
-                    <div class="card-body">
-                        <h2 class="card-text">Album9</h2>
+                    <div class="text-center h-10">
+                        <h2 class="flex flex-col items-center justify-center bg-gray-900 text-white h-full py-3 text-sm hover:text-sky-400">
+                            Album9
+                        </h2>
                     </div>
                 </div>
 
@@ -501,10 +557,9 @@ $(document).ready(function () {
                 <div class="modal-body">
                     <div class="upper">
                         <div class="text">
-                            <h2>گلخانه تونلی</h2>
-                            <h3>sub title1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus
-                                enim nam in ex voluptate voluptates veniam iusto alias aspernatur?</p>
+                            <h2><?php echo $albums[0]['title']; ?></h2>
+                            <h3><?php echo $albums[0]['subtitle']; ?></h3>
+                            <p><?php echo $albums[0]['text']; ?></p>
                         </div>
                         <div class="product-image">
                             <img class="active1">
@@ -514,16 +569,16 @@ $(document).ready(function () {
                         <ul class="image-list">
                             <li class="image-item">
                                 <img
-                                    src="https://gratisography.com/wp-content/uploads/2019/12/gratisography-concrete-architecture-2-900x600.jpg">
+                                    src="<?php echo $albums[0]['images'][0]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-2-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[0]['images'][1]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-245-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[0]['images'][2]; ?>">
                             </li>
                             <li class="image-item">
-                                <img src="https://gratisography.com/thumbnails/gratisography-36-thumbnail-small.jpg">
+                                <img src="<?php echo $albums[0]['images'][3]; ?>">
                             </li>
                         </ul>
                     </div>
