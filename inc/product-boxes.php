@@ -9,7 +9,7 @@ $product_posts = new WP_Query(array(
 if ($product_posts->have_posts()) {
 
 ?>
-    <div>
+    <div class="overflow-x-scroll">
         <script src="https://cdn.jsdelivr.net/npm/tailwindcss-cdn@3.4.1/tailwindcss.js"></script>
         <script src="//unpkg.com/alpinejs" defer></script>
         <div x-data="swipeCards()" x-init="
