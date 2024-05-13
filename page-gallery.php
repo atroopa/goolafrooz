@@ -522,7 +522,6 @@ $albums = array(
 ?>
 
 <body class=" bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-    
 <div class=" col-12">
         <ul class="nav navbar navbar-light filters text-center">
             <li class="active" data-filter="*"><a href="#!">همه</a></li>

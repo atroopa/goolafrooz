@@ -27,14 +27,10 @@
 <section class="w-full">
   <div class="slider-wrapper">
     <div class="slider">
-      <img id="slide-1" src="https://golafrooz.com/wp-content/uploads/2024/04/1.jpeg" alt="golafrooz">
-      <img id="slide-2" src="https://golafrooz.com/wp-content/uploads/2024/04/saarlucon-4-00-meter-kappen-scaled.jpg" alt="golafrooz">
-      <img id="slide-3" src="https://golafrooz.com/wp-content/uploads/2024/04/business-area_commercial-greenhouse-_2021_1600-x-450.png" alt="golafrooz">
-      <img id="slide-4" src="https://golafrooz.com/wp-content/uploads/2024/04/60-2048x1152-1.jpg" alt="golafrooz">
-      <img id="slide-5" src="https://golafrooz.com/wp-content/uploads/2024/04/5-scaled.jpg" alt="golafrooz">
-      <img id="slide-6" src="https://golafrooz.com/wp-content/uploads/2024/04/6-scaled.jpg" alt="golafrooz">
-      <img id="slide-7" src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_115644_183-scaled.jpg" alt="golafrooz">
-      <img id="slide-8" src="https://golafrooz.com/wp-content/uploads/2024/04/8-scaled.jpeg" alt="golafrooz">
+      <img id="slide-1" src="<?php echo get_template_directory_uri().'/img/home-slider/1.webp' ?>" alt="golafrooz">
+      <img id="slide-2" src="<?php echo get_template_directory_uri().'/img/home-slider/2.webp' ?>" alt="golafrooz">
+      <img id="slide-3" src="<?php echo get_template_directory_uri().'/img/home-slider/3.webp' ?>" alt="golafrooz">
+      <img id="slide-4" src="<?php echo get_template_directory_uri().'/img/home-slider/4.webp' ?>" alt="golafrooz">
     </div>
     <div class="slider-nav">
       <a href="#slide-1"></a>
@@ -107,7 +103,7 @@
     <div class="relative pt-10 px-10 flex items-center justify-center">
       <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
       </div>
-      <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069899-8bdaa180-cc97-11e9-9b19-1a9e1a254c18.png" alt="">
+      <img class="relative w-40" src="<?php echo get_template_directory_uri().'/img/gol/1.png' ?>" alt="">
     </div>
     <div class="relative text-white px-6 pb-6 mt-6">
 
@@ -127,7 +123,7 @@
     <div class="relative pt-10 px-10 flex items-center justify-center">
       <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
       </div>
-      <img class="relative w-40" src="https://user-images.githubusercontent.com/2805249/64069998-305de300-cc9a-11e9-8ae7-5a0fe00299f2.png" alt="">
+      <img class="relative w-40" src="<?php echo get_template_directory_uri().'/img/gol/2.png' ?>" alt="">
     </div>
     <div class="relative text-white px-6 pb-6 mt-6">
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
@@ -147,7 +143,7 @@
     <div class="relative pt-10 px-10 flex items-center justify-center">
       <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
       </div>
-      <img class="relative w-40 h-48" src="https://golafrooz.com/wp-content/uploads/2024/04/Clipped_image_20240424_122129-1.png" alt="">
+      <img class="relative w-40 h-48" src="<?php echo get_template_directory_uri().'/img/gol/3.png' ?>" alt="">
     </div>
     <div class="relative text-white px-6 pb-6 mt-6">
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
@@ -166,7 +162,7 @@
     <div class="relative pt-10 px-10 flex items-center justify-center">
       <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3" style="background: radial-gradient(black, transparent 60%); transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1); opacity: 0.2;">
       </div>
-      <img class="relative w-40 h-48" src="https://golafrooz.com/wp-content/uploads/2024/04/Clipped_image_20240424_122849.png" alt="">
+      <img class="relative w-40 h-48" src="<?php echo get_template_directory_uri().'/img/gol/4.png' ?>" alt="">
     </div>
     <div class="relative text-white px-6 pb-6 mt-6">
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
