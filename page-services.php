@@ -12,7 +12,7 @@ get_header();
 
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
         <div class="relative">
-            
+
             <div class="flex items-center justify-center -space-x-2">
                 <img loading="lazy" width="400" height="400" src="https://randomuser.me/api/portraits/women/12.jpg" alt="member photo" class="h-8 w-8 rounded-full object-cover">
                 <img loading="lazy" width="200" height="200" src="https://randomuser.me/api/portraits/women/45.jpg" alt="member photo" class="h-12 w-12 rounded-full object-cover">
@@ -53,16 +53,14 @@ get_header();
     <li class="relative flex flex-col sm:flex-row xl:flex-col items-start">
         <div class="order-1 sm:ml-6 xl:ml-0">
             <h3 class="mb-1 text-slate-900 font-semibold">
-                <span class="mb-1 block text-sm leading-6 text-indigo-500">معماری سازه ها</span>Completely unstyled, fully
-                accessible UI components
+                <span class="mb-1 block text-sm leading-6 text-indigo-500">معماری سازه ها</span>
+                سازه های مدرن و حرفه ای شرکت گلخانه سازی گل افروز 
             </h3>
             <div class="prose prose-slate prose-sm text-slate-600">
-                <p>Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind
-                    CSS.</p>
+                <p>آیا می دانستید که سازه ی های مدرن تاثیر بسیار زیادی در کیفیت و کمیت تولید محصولات کشاورزی شما دارد . شرکت گلخانه سازی گل افروز با ارائه بهترین طرح ها و مصالح اماده ارائه خدمات نوین به شما کشاورزان عزیز می باشد. </p>
             </div><a
                 class="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900 focus:ring-slate-500 mt-6"
-                href="">Learn
-                more<span class="sr-only">, Completely unstyled, fully accessible UI components</span>
+                href="">بیشتر بخوانید<span class="sr-only">                سازه های مدرن و حرفه ای شرکت گلخانه سازی گل افروز </span>
                 <svg class="overflow-visible ml-3 text-slate-300 group-hover:text-slate-400"
                     width="3" height="6" viewBox="0 0 3 6" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
