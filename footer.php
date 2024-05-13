@@ -1,7 +1,7 @@
 <!-- Footer container -->
 
 
-<footer class="text-center  bg-gray-900 font-bold text-brown lg:text-left ">
+<footer class="relative  text-center font-bold text-brown lg:text-left ">
   <div class="bg-cover bg-center w-full h-full " style="background-image: url(https://golafrooz.com/wp-content/uploads/2024/04/R-1-scaled.jpeg)">
     <div class="flex items-center justify-center  py-20"></div>
     <div class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
