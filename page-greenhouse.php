@@ -4,9 +4,9 @@ get_header();
 
 <div>
 
-    <div class="flex flex-col justify-center items-center h-400">
-        <div class="bg-cover bg-no-repeat w-full" style="background-image: url('https://images.unsplash.com/photo-1530053969600-caed2596d242');">
-            <h1 class="py-10 font-black text-7xl md:text-8xl bg-gray-100 mix-blend-lighten uppercase text-center">
+    <div class="flex flex-col justify-center items-center h-400 drop-shadow-lg">
+        <div class=" bg-cover bg-no-repeat w-full" style="background-image: url('https://images.unsplash.com/photo-1530053969600-caed2596d242');">
+            <h1 class=" py-10 font-black text-7xl md:text-8xl bg-gray-100 mix-blend-lighten uppercase text-center">
                 گلخانه سازی <br>
                 گل افروز <br>
 
@@ -45,46 +45,53 @@ get_header();
 
                 <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
                     <!-- image - start -->
-                    <a href="#" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <a href="#" class="group relative flex h-48 items-center justify-center text-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                         <img src="<?php echo get_template_directory_uri() . '/img/greenhouse/1.webp' ?>" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                         <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
-
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white font-bold md:ml-5 md:text-lg">گلخانه تونلی</span>
+                        <div class="text-2xl font-bold leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-4 rounded-lg hidden lg:block w-full">
+                            گلخانه تونلی
+                        </div>
                     </a>
                     <!-- image - end -->
 
                     <!-- image - start -->
-                    <a href="#" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                    <a href="#" class="group relative flex h-48 items-center justify-center text-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                         <img src="<?php echo get_template_directory_uri() . '/img/greenhouse/2.webp' ?>" loading="lazy" alt="Photo by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                         <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+                        <div class="text-2xl font-bold leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-4 rounded-lg hidden lg:block w-full">
+                            گلخانه اسپانیایی تیپ اول
+                        </div>
                     </a>
                     <!-- image - end -->
 
                     <!-- image - start -->
-                    <a href="#" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                    <a href="#" class="group relative flex h-48 items-center justify-center text-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
                         <img src="<?php echo get_template_directory_uri() . '/img/greenhouse/3.webp' ?>" loading="lazy" alt="Photo by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                         <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+                        <div class="text-2xl font-bold leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-4 rounded-lg hidden lg:block w-full">
+                            گلخانه اسپانیایی تیپ دوم
+                        </div>
                     </a>
                     <!-- image - end -->
 
                     <!-- image - start -->
-                    <a href="#" class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                    <a href="#" class="group relative flex h-48 items-center justify-center text-center overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                         <img src="<?php echo get_template_directory_uri() . '/img/greenhouse/4.webp' ?>" loading="lazy" alt="Photo by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                         <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+                        <div class="text-2xl font-bold leading-4 text-white mt-2 backdrop-blur-sm bg-black/30 p-4 rounded-lg hidden lg:block w-full">
+                            گلخانه هلندی
+                        </div>
                     </a>
                     <!-- image - end -->
                 </div>
