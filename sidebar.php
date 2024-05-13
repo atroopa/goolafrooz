@@ -1,6 +1,6 @@
 <div class="w-full md:w-1/4 px-4">
     <div class="py-2">
-        <form role="search"  class="max-w-md mx-auto" action="<?PHP bloginfo("home"); ?>" method="get">
+        <form role="search" class="max-w-md mx-auto" action="<?PHP bloginfo("home"); ?>" method="get">
             <label for="default-search" class=" mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
             <div class="relative">
                 <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -13,7 +13,7 @@
             </div>
         </form>
     </div>
-    
+
     <div class="bg-gray-100 p-4">
         <h2 class="text-xl font-bold text-gray-800 mb-4">مطالب مرتبط</h2>
         <ul class="list-none">

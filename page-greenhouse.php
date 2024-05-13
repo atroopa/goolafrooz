@@ -91,9 +91,12 @@ get_header();
             </div>
         </div>
     </div>
+
+</div>
+
     <!-- --------------------------------------- -->
-    <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% relative  h-[400px] ">
-        <div class="flex flex-col gap-4 justify-center items-center w-full h-full px-3 md:px-0">
+    <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% relative h-[400px] ">
+        <div class="flex flex-col gap-4 justify-center items-center w-full h-full px-1 md:px-0">
 
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white">
                 جستوجو
@@ -102,12 +105,12 @@ get_header();
                 برای جستجو بیشتر در مورد نوع گلخانه کلمه مورد نظر را وارد کنید 
             </p>
 
-
+            <form role="search" class="w-full max-w-md mx-auto" action="<?PHP bloginfo("home"); ?>" method="get">
             <div class="relative p-3 border border-gray-200 rounded-lg w-full max-w-lg">
-                <input type="text" class="rounded-md w-full p-3 " placeholder="">
+                <input value="<?php the_search_query(); ?>" name="s" type="search" type="text" class="rounded-md w-full p-3 " placeholder="گلخانه ...">
 
 
-                <button type="submit" class="absolute right-6 top-6">
+                <button type="submit" class="absolute left-6 top-6">
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -115,11 +118,9 @@ get_header();
                 </button>
 
             </div>
+            </form>
         </div>
 
     </div>
-</div>
-
-
 
 <?PHP get_footer();  ?>
