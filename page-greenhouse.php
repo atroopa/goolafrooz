@@ -27,7 +27,7 @@ get_header();
             // and adds a dash at the end of the number
             -->
     <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-        <div class=" bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% dark:bg-gray-800 h-screen h-full py-6 sm:py-8 lg:py-12">
+        <div class=" bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% dark:bg-gray-800 h-full py-6 sm:py-8 lg:py-12">
             <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
                     <div class="flex flex-row items-center justify-center gap-12">
