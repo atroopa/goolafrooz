@@ -268,7 +268,7 @@
   </div>
   </div>
 </section>
-
+<a  href="<?php echo home_url()."/گالری/"; ?>">
 <div class="flex flex-row items-center justify-center">
   <div>-----------------------------------------------</div>
   <p class="justify-center items-center text-4xl font-bold p-10">گالری</p>
@@ -411,6 +411,8 @@
     </div>
   </div>
 </div>
+</a>
+<!-- ---------------------------------------------------------------- -->
 <div class="flex flex-row items-center justify-center">
 
 </div>

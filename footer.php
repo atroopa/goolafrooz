@@ -79,26 +79,26 @@
         </div>
         <!-- Products section -->
         <div class="items-center justify-center">
-          <h6 class="mb-4 flex flex-col items-center justify-center font-semibold uppercase md:justify-center">
+          <h6 class="mb-4 flex flex-col items-start justify-start font-semibold uppercase md:justify-center">
             محصولات
           </h6>
           <?php wp_nav_menu(array(
             'theme_location' => 'footer_one',
             'depth' => '1',
             'container'      => 'div',
-            'menu_class'  => 'text-brown items-center justify-center gap-x-5 w-full flex flex-col',
+            'menu_class'  => 'text-brown items-start justify-start gap-x-5 w-full flex flex-col',
           )); ?>
         </div>
         <!-- Useful links section -->
-        <div class="items-center justify-center">
-          <h6 class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-center">
+        <div class="items-start justify-center">
+          <h6 class="mb-4 flex flex-col items-start justify-start font-semibold uppercase md:justify-center">
             خدمات
           </h6>
           <?php wp_nav_menu(array(
             'theme_location' => 'footer_two',
             'depth' => '1',
             'container'      => 'div',
-            'menu_class'  => 'text-brown items-center justify-center gap-x-5 w-full flex flex-col',
+            'menu_class'  => 'text-brown items-start justify-start gap-x-5 w-full flex flex-col',
           )); ?>
         </div>
         <!-- TW Elements section -->
