@@ -425,7 +425,7 @@
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155225_346.jpg" />
+          <img src="<?php echo get_template_directory_uri().'/img/customer/bahram-khoshandam.webp' ?>" />
         </div>
         <div class="p-6">
           <h4 class="mb-4 text-2xl font-semibold">بهرام خوش اندام</h4>
@@ -448,7 +448,7 @@
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155313_145.jpg" />
+          <img src="<?php echo get_template_directory_uri().'/img/customer/nima-ebrahimi.webp' ?>"  />
         </div>
         <div class="p-6">
           <h4 class="mb-4 text-2xl font-semibold">نیما ابراهیمی</h4>
@@ -469,7 +469,7 @@
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155414_916.jpg" />
+          <img src="<?php echo get_template_directory_uri().'/img/customer/hossein-panahnejad.webp' ?>"  />
         </div>
         <div class="p-6">
           <h4 class="mb-4 text-2xl font-semibold">حسین پناه نژاد</h4>
@@ -492,7 +492,7 @@
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-blue-500 via-teal-500 to-pink-500 "></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155341_231.jpg" />
+          <img src="<?php echo get_template_directory_uri().'/img/customer/mohandes-arabi.webp' ?>" />
         </div>
         <div class="p-6">
           <h4 class="mb-4 text-2xl font-semibold">مهندس عربی</h4>
@@ -513,7 +513,7 @@
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-pink-500 via-teal-500 to-blue-500"></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_155524_607.jpg" />
+          <img src="<?php echo get_template_directory_uri().'/img/customer/mohandes-anvari.webp' ?>"  />
         </div>
         <div class="p-6">
           <h4 class="mb-4 text-2xl font-semibold">مهندس انوری</h4>
@@ -536,7 +536,7 @@
       <div class="block rounded-lg bg-white shadow-lg dark:bg-gray-800 dark:shadow-black/30">
         <div class="h-28 overflow-hidden rounded-t-lg bg-gradient-to-r from-sky-500 via-teal-500 to-purple-500"></div>
         <div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
-          <img src="https://golafrooz.com/wp-content/uploads/2024/04/IMG_20240424_160012_331.jpg" />
+          <img src="<?php echo get_template_directory_uri().'/img/customer/moslem-solgi.webp' ?>"  />
         </div>
         <div class="p-6">
           <h4 class="mb-4 text-2xl font-semibold">مسلم سلگی</h4>
