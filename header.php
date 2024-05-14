@@ -144,7 +144,7 @@
     <div class=" flex flex-row items-center justify-between">
       <a href="https://golafrooz.com" class="flex items-center space-x-3 rtl:space-x-reverse m-2">
         <img class="logo-image w-24 h-24 rounded-full mx-auto" src="https://golafrooz.com/wp-content/uploads/2024/04/golafrooz.png" alt="logo" width="384" height="512">
-        <span class="self-center text-sm md:text-2xl font-semibold whitespace-nowrap text-white">GOLAFROOZ CO</span>
+        <span class="self-center text-sm lg:text-2xl font-semibold whitespace-nowrap text-white">GOLAFROOZ CO</span>
       </a>
     </div>
     <label for="menu-toggle" class="block cursor-pointer md:hidden">

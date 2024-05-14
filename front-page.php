@@ -107,9 +107,10 @@
 
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
-        <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ 1</span>
-        <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
-
+        <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ یک</span>
+        <a href="<?php echo home_url()."/گلخانه ها/"; ?>">
+          <span class="block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
+        </a>
       </div>
     </div>
   </div>
@@ -126,8 +127,10 @@
     <div class="relative text-white px-6 pb-6 mt-6">
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
-        <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ 2</span>
-        <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
+        <span class="block font-semibold text-l p-1">گلخانه اسپانیایی تیپ دو</span>
+        <a href="<?php echo home_url()."/گلخانه ها/"; ?>">
+          <span class="block bg-white rounded-full text-teal-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
+        </a>
       </div>
     </div>
   </div>
@@ -147,7 +150,9 @@
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
       <div class="flex justify-between">
         <span class="block font-semibold text-l p-1 ">گلخانه شیشه ای هلندی</span>
-        <span class="block bg-white rounded-full text-amber-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
+        <a href="<?php echo home_url()."/گلخانه ها/"; ?>">
+          <span class="block bg-white rounded-full text-amber-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
+        </a>
       </div>
     </div>
   </div>
@@ -164,9 +169,11 @@
     </div>
     <div class="relative text-white px-6 pb-6 mt-6">
       <span class="block opacity-75 mb-1 text-right">راهنمای</span>
-      <div class="flex justify-between">3
+      <div class="flex justify-between">
         <span class="block font-semibold text-l ">گلخانه تونلی</span>
-        <span class="block bg-white rounded-full text-pink-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
+        <a href="<?php echo home_url()."/گلخانه ها/"; ?>">
+          <span class="block bg-white rounded-full text-pink-500 text-xs font-bold px-3 py-2 leading-none flex items-center">بیشتر</span>
+        </a>
       </div>
     </div>
   </div>
