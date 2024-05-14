@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 <!-- component -->
-
-
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const slider = document.querySelector('.slider');
@@ -300,7 +298,7 @@
   <div class="mx-auto max-w-6xl px-6 p-8">
     <div class="flex">
       <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/14001224000851_Test_PhotoN.jpg" alt="green house" />
+        <img src="<?php echo get_template_directory_uri().'/img/front-gallery/1.webp' ?>" alt="golafrooz"  class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8">
             <div class="flex gap-3 text-white">
@@ -322,7 +320,7 @@
         </div>
       </div>
       <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/3005496.jpg" alt="green house" />
+        <img src="<?php echo get_template_directory_uri().'/img/front-gallery/2.webp' ?>" class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all"  alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8 ">
             <div class="flex gap-3 text-white">
@@ -346,7 +344,7 @@
         </div>
       </div>
       <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/DD1C84B6-10F9-47C7-9B0A-F3A86781D32C.jpeg" alt="green house" />
+        <img src="<?php echo get_template_directory_uri().'/img/front-gallery/3.webp' ?>" class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all"  alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8">
             <div class="flex gap-3 text-white content-end items-end">
@@ -367,7 +365,7 @@
         </div>
       </div>
       <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/5da97a9a9434a.jpg" alt="green house" />
+        <img src="<?php echo get_template_directory_uri().'/img/front-gallery/5.webp' ?>" class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all"  alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8">
             <div class="flex gap-3 text-white">
@@ -389,7 +387,7 @@
         </div>
       </div>
       <div class="group relative h-96 w-24 hover:w-[30rem] cursor-pointer overflow-hidden transition-all duration-200">
-        <img class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all" src="https://golafrooz.com/wp-content/uploads/2024/04/08987DCB-7F58-4D57-BDF5-4C797F62735C-1024x863-1.jpeg" alt="green house" />
+        <img src="<?php echo get_template_directory_uri().'/img/front-gallery/4.webp' ?>" class="h-full object-cover group-hover:rotate-12 group-hover:scale-125 transition-all"  alt="green house" />
         <div class="invisible absolute inset-0 bg-gradient-to-b from-green-500/20 to-black group-hover:visible">
           <div class="absolute bottom-6 left-8">
             <div class="flex gap-3 text-white">
@@ -559,10 +557,5 @@
     </div>
   </div>
 </section>
-
-
 </div>
-
-
-
 <?php get_footer(); ?>
