@@ -14,11 +14,11 @@ get_header();
         <div class="relative">
 
             <div class="flex items-center justify-center -space-x-2">
-                <img loading="lazy" width="400" height="400" src="https://randomuser.me/api/portraits/women/12.jpg" alt="member photo" class="h-8 w-8 rounded-full object-cover">
-                <img loading="lazy" width="200" height="200" src="https://randomuser.me/api/portraits/women/45.jpg" alt="member photo" class="h-12 w-12 rounded-full object-cover">
-                <img loading="lazy" width="200" height="200" src="https://randomuser.me/api/portraits/women/60.jpg" alt="member photo" class="z-10 h-16 w-16 rounded-full object-cover">
-                <img loading="lazy" width="200" height="200" src="https://randomuser.me/api/portraits/women/4.jpg" alt="member photo" class="relative h-12 w-12 rounded-full object-cover">
-                <img loading="lazy" width="200" height="200" src="https://randomuser.me/api/portraits/women/34.jpg" alt="member photo" class="h-8 w-8 rounded-full object-cover">
+                <img loading="lazy" width="400" height="400" src="<?php echo get_template_directory_uri().'/img/employees/1.webp' ?>" alt="employees" class="h-8 w-8 rounded-full object-cover">
+                <img loading="lazy" width="200" height="200" src="<?php echo get_template_directory_uri().'/img/employees/2.webp' ?>" alt="member photo" class="h-12 w-12 rounded-full object-cover">
+                <img loading="lazy" width="200" height="200" src="<?php echo get_template_directory_uri().'/img/employees/3.webp' ?>" alt="member photo" class="z-10 h-16 w-16 rounded-full object-cover">
+                <img loading="lazy" width="200" height="200" src="<?php echo get_template_directory_uri().'/img/employees/4.webp' ?>" class="relative h-12 w-12 rounded-full object-cover">
+                <img loading="lazy" width="200" height="200" src="<?php echo get_template_directory_uri().'/img/employees/5.webp' ?>" alt="member photo" class="h-8 w-8 rounded-full object-cover">
             </div>
 
             <div class="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
@@ -67,7 +67,7 @@ get_header();
                     <path d="M0 0L3 3L0 6"></path>
                 </svg></a>
         </div>
-        <img src="https://tailwindcss.com/_next/static/media/headlessui@75.c1d50bc1.jpg" alt="" class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full" width="1216" height="640">
+        <img src="<?php echo get_template_directory_uri().'/img/service-card/1.webp' ?>" alt="" class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full" width="1216" height="640">
     </li>
     <li class="relative flex flex-col sm:flex-row xl:flex-col items-start">
         <div class="order-1 sm:ml-6 xl:ml-0">
@@ -85,7 +85,7 @@ get_header();
                     <path d="M0 0L3 3L0 6"></path>
                 </svg></a>
         </div>
-        <img src="https://tailwindcss.com/_next/static/media/heroicons@75.4a558f35.jpg" alt="" class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full" width="1216" height="640">
+        <img src="<?php echo get_template_directory_uri().'/img/service-card/2.webp' ?>" alt="" class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full" width="1216" height="640">
     </li>
     <li class="relative flex flex-col sm:flex-row xl:flex-col items-start">
         <div class="order-1 sm:ml-6 xl:ml-0">
@@ -104,7 +104,7 @@ get_header();
                     <path d="M0 0L3 3L0 6"></path>
                 </svg></a>
         </div>
-        <img src="https://tailwindcss.com/_next/static/media/heropatterns@75.82a09697.jpg" alt="" class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full" width="1216" height="640">
+        <img src="<?php echo get_template_directory_uri().'/img/service-card/3.webp' ?>" alt="" class="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full" width="1216" height="640">
     </li>
 </ul>
 <?PHP get_footer();  ?>
