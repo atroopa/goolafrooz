@@ -395,14 +395,14 @@ $albums = array(
         "card-title" => "تیتر کارت تونلی",
         "title" => "گلخانه تونلی تایتل",
         "subtitle" => "گلخانه تونلی ساب تایتل",
-        "image_src" => "https://gratisography.com/wp-content/uploads/2019/12/gratisography-concrete-architecture-2-900x600.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal1/1.webp',
         "modal_id" => "#workModal1",
         "text" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus enim nam in ex voluptate voluptates veniam iusto alias aspernatur?",
         "images" => array(
-            "https://gratisography.com/wp-content/uploads/2019/12/gratisography-concrete-architecture-2-900x600.jpg",
-            "https://gratisography.com/thumbnails/gratisography-2-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-245-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-36-thumbnail-small.jpg"
+            get_template_directory_uri().'/img/gallery/workmodal1/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal1/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal1/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal1/4.webp'
         )
 
     ),
@@ -410,112 +410,112 @@ $albums = array(
         "card-title" => "تیتر کارت دوم",
         "title" => "تیتر اصلی آلبوم دوم",
         "subtitle" => "ساب تایتل آلبوم دوم",
-        "image_src" => "https://gratisography.com/wp-content/uploads/2019/12/gratisography-mountains-scenic-horizon-900x547.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal2/1.webp',
         "modal_id" => "#workModal2",
         "text" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus enim nam in ex voluptate voluptates veniam iusto alias aspernatur?",
         "images" => array(
-            "https://gratisography.com/wp-content/uploads/2019/12/gratisography-mountains-scenic-horizon-900x547.jpg",
-            "https://gratisography.com/thumbnails/gratisography-desert-landscape-sky-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-field-blue-sky-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-butterfly-flower-thumbnail-small.jpg"
+            get_template_directory_uri().'/img/gallery/workmodal2/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal2/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal2/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal2/4.webp'
         )
     ),
     array(
         "card-title" => "تیتر کارت سوم",
         "title" => "Album3",
         "subtitle" => "Subtitle3",
-        "image_src" => "https://gratisography.com/wp-content/uploads/2019/11/gratisography-city-glass-buildings-900x600.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal3/1.webp',
         "modal_id" => "#workModal3",
         "text" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum necessitatibus enim nam in ex voluptate voluptates veniam iusto alias aspernatur?",
         "images" => array(
-            "https://gratisography.com/wp-content/uploads/2019/11/gratisography-city-glass-buildings-900x600.jpg",
-            "https://gratisography.com/thumbnails/gratisography-urban-construction-staging-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-brick-vine-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-64-thumbnail-small.jpg"
+            get_template_directory_uri().'/img/gallery/workmodal3/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal3/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal3/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal3/4.webp'
         )
     ),
     array(
         "card-title" => "تیتر کارت چهارم",
         "title" => "تایتل چهارم",
         "subtitle" => "ساب تایتل چهارم ",
-        "image_src" => "https://gratisography.com/wp-content/uploads/2019/11/gratisography-urban-construction-staging-900x600.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal4/1.webp',
         "modal_id" => "#workModal4",
         "text" => "متن آلبوم چهارم",
         "images" => array(
-            "https://gratisography.com/wp-content/uploads/2019/11/gratisography-urban-construction-staging-900x600.jpg",
-            "https://gratisography.com/thumbnails/gratisography-328-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-305-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-286-thumbnail-small.jpg"
+            get_template_directory_uri().'/img/gallery/workmodal4/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal4/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal4/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal4/4.webp'
         )
     ),
     array(
         "card-title" => "تیتر کارت پنجم",
         "title" => "تایتل پنجم",
         "subtitle" => "ساب تایتل پنجم ",
-        "image_src" => "https://gratisography.com/thumbnails/gratisography-brick-vine-thumbnail.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal5/1.webp',
         "modal_id" => "#workModal5",
         "text" => "متن آلبوم پنجم",
         "images" => array(
-            "https://gratisography.com/thumbnails/gratisography-brick-vine-thumbnail.jpg",
-            "https://gratisography.com/thumbnails/gratisography-291-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-197-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-219-thumbnail-small.jpg",
+            get_template_directory_uri().'/img/gallery/workmodal5/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal5/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal5/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal5/4.webp',
         )
     ),
     array(
         "card-title" => "تیتر کارت ششم",
         "title" => "تایتل ششم",
         "subtitle" => "ساب تایتل ششم ",
-        "image_src" => "https://gratisography.com/thumbnails/gratisography-64-thumbnail.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal6/1.webp',
         "modal_id" => "#workModal6",
         "text" => "متن آلبوم ششم",
         "images" => array(
-            "https://gratisography.com/thumbnails/gratisography-64-thumbnail.jpg",
-            "https://gratisography.com/thumbnails/gratisography-135-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-148-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-84-thumbnail-small.jpg",
+            get_template_directory_uri().'/img/gallery/workmodal6/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal6/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal6/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal6/4.webp',
         )
     ),
     array(
         "card-title" => "تیتر کارت هفتم",
         "title" => "تایتل هفتم",
         "subtitle" => "ساب تایتل هفتم ",
-        "image_src" => "https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal7/1.webp',
         "modal_id" => "#workModal7",
         "text" => "متن آلبوم هفتم",
         "images" => array(
-            "https://gratisography.com/thumbnails/gratisography-352-thumbnail.jpg",
-            "https://gratisography.com/thumbnails/gratisography-92-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-85-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-88-thumbnail-small.jpg",
+            get_template_directory_uri().'/img/gallery/workmodal7/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal7/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal7/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal7/4.webp',
         )
     ),
     array(
         "card-title" => "تیتر کارت هشتم",
         "title" => "تایتل هشتم",
         "subtitle" => "ساب تایتل هشتم ",
-        "image_src" => "https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal8/1.webp',
         "modal_id" => "#workModal8",
         "text" => "متن آلبوم هشتم",
         "images" => array(
-            "https://gratisography.com/thumbnails/gratisography-315-thumbnail.jpg",
-            "https://gratisography.com/thumbnails/gratisography-59-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-57-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-19-thumbnail-small.jpg",
+            get_template_directory_uri().'/img/gallery/workmodal8/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal8/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal8/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal8/4.webp',
         )
     ),
     array(
         "card-title" => "تیتر کارت نهم",
         "title" => "تایتل نهم",
         "subtitle" => "ساب تایتل نهم ",
-        "image_src" => "https://gratisography.com/thumbnails/gratisography-61-thumbnail.jpg",
+        "image_src" => get_template_directory_uri().'/img/gallery/workmodal9/1.webp',
         "modal_id" => "#workModal9",
         "text" => "متن آلبوم نهم",
         "images" => array(
-            "https://gratisography.com/thumbnails/gratisography-61-thumbnail.jpg",
-            "https://gratisography.com/thumbnails/gratisography-colorful-wall-geometry-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-9-thumbnail-small.jpg",
-            "https://gratisography.com/thumbnails/gratisography-5-thumbnail-small.jpg",
+            get_template_directory_uri().'/img/gallery/workmodal9/1.webp',
+            get_template_directory_uri().'/img/gallery/workmodal9/2.webp',
+            get_template_directory_uri().'/img/gallery/workmodal9/3.webp',
+            get_template_directory_uri().'/img/gallery/workmodal9/4.webp',
         )
     )
 );
