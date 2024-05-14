@@ -16,7 +16,7 @@
   <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
       <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
         <div class="md:5/12 lg:w-5/12">
-          <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="">
+          <img src="<?php echo get_template_directory_uri().'/img/contact-us/contact-us.png' ?>" alt="image" loading="lazy" width="" height="">
         </div>
         <div class="md:7/12 lg:w-6/12">
           <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">شرکت گلخانه سازی گل افروز با هدف ارتقای سطح کشاورزی و ارائه راه‌حل‌های نوین برای کشت گل و گیاه، تأسیس شده است.</h2>
