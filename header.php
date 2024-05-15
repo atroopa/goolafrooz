@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-  <link rel="shortcut icon" href= "<?php echo get_template_directory_uri() ?>/img/logo/golafrooz.png" />
+  <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/img/logo/golafrooz.png" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -65,64 +65,70 @@
     #color-changing-button.green {
       background-color: var(--green-color);
     }
+
     .container {
-  padding-top: 2rem; /* padding-top برابر با 2rem */
-  padding-right: 0; /* padding-right برابر با 0 */
-  padding-bottom: 0; /* padding-bottom برابر با 0 */
-  padding-left: 0; /* padding-left برابر با 0 */
-}
+      padding-top: 2rem;
+      /* padding-top برابر با 2rem */
+      padding-right: 0;
+      /* padding-right برابر با 0 */
+      padding-bottom: 0;
+      /* padding-bottom برابر با 0 */
+      padding-left: 0;
+      /* padding-left برابر با 0 */
+    }
 
 
-.slider-wrapper{
-  position: relative;
-  width: 100%;
+    .slider-wrapper {
+      position: relative;
+      width: 100%;
 
-  margin: 0 auto;
-}
+      margin: 0 auto;
+    }
 
-.slider {
-  display: flex;
-  aspect-ratio: 16/9;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -0.7rem hsla(0, 0%, 0%, 0.25);
-  border-radius: 0.5rem;
-  max-height: 500px; /* حداکثر ارتفاع 500 پیکسل */
-  width: 100%; /* ارتفاع 100% */
-}
+    .slider {
+      display: flex;
+      aspect-ratio: 16/9;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      box-shadow: 0 1.5rem 3rem -0.7rem hsla(0, 0%, 0%, 0.25);
+      border-radius: 0.5rem;
+      max-height: 500px;
+      /* حداکثر ارتفاع 500 پیکسل */
+      width: 100%;
+      /* ارتفاع 100% */
+    }
 
-.slider img {
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-}
+    .slider img {
+      flex: 1 0 100%;
+      scroll-snap-align: start;
+      object-fit: cover;
+      width: 100%;
+      height: auto;
+    }
 
-.slider-nav{
-  display: flex;
-  column-gap: 1rem;
-  position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
+    .slider-nav {
+      display: flex;
+      column-gap: 1rem;
+      position: absolute;
+      bottom: 1.25rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
 
-.slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: #fff;
-  opacity: 0.75;
-  transition: opacity ease 250ms;
-}
+    .slider-nav a {
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background-color: #fff;
+      opacity: 0.75;
+      transition: opacity ease 250ms;
+    }
 
-.slider-nav a:hover{
-  opacity: 1;
-}
-
+    .slider-nav a:hover {
+      opacity: 1;
+    }
   </style>
 </head>
 
@@ -183,4 +189,13 @@
       </nav>
     </div>
     <div class=" mx-10 md:mx-0"></div>
+    <div class="fixed bottom-0 right-8 w-full">
+      <a href="tel:+989147281416">
+        <div class="flex flex-col items-center justify-center float-right my-8  rounded-full bg-[#38a169] px-6 py-6 text-sm font-bold tracking-wide text-white focus:outline-none">
+          <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.833 4h4.49L9.77 7.618l-2.325 1.55A1 1 0 0 0 7 10c.003.094 0 .001 0 .001v.021a2.026 2.026 0 0 0 .006.134c.006.082.016.193.035.33.039.27.114.642.26 1.08.294.88.87 2.019 1.992 3.141 1.122 1.122 2.261 1.698 3.14 1.992.439.146.81.22 1.082.26a4.43 4.43 0 0 0 .463.04l.013.001h.008s.112-.006.001 0a1 1 0 0 0 .894-.553l.67-1.34 4.436.74v4.32c-2.111.305-7.813.606-12.293-3.874C3.227 11.813 3.527 6.11 3.833 4zm5.24 6.486l1.807-1.204a2 2 0 0 0 .747-2.407L10.18 3.257A2 2 0 0 0 8.323 2H3.781c-.909 0-1.764.631-1.913 1.617-.34 2.242-.801 8.864 4.425 14.09 5.226 5.226 11.848 4.764 14.09 4.425.986-.15 1.617-1.004 1.617-1.913v-4.372a2 2 0 0 0-1.671-1.973l-4.436-.739a2 2 0 0 0-2.118 1.078l-.346.693a4.71 4.71 0 0 1-.363-.105c-.62-.206-1.481-.63-2.359-1.508-.878-.878-1.302-1.739-1.508-2.36a4.59 4.59 0 0 1-.125-.447z" fill="#ffff" />
+          </svg>
+        </div>
+      </a>
+    </div>
   </header>

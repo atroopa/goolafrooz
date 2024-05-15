@@ -46,8 +46,7 @@
   <div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
     <h2 class="font-heading text-green-800 text-3xl leading-[1.1] sm:text-3xl md:text-6xl pb-8 font-bold">شرکت گلخانه سازی گل افروز...</h2>
     <p class="pb-8 max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-      شرکت گل افروز پس از سالها فعالیت در زمینه ساخت گلخانه های مدرن و صنعتی در سال ۱۳۹۸ به شماره: ۴۴۶۲۳ در تهران بزرگ به ثبت رسید. ما در این شرکت توانسته ایم با بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۱۵۰هکتار از اراضی میهن عزیزمان را به گلخانه های صنعتی و مدرن تبدیل کنیم و همزمان با تولید تجهیزات و سازه های گلخانه ای، از مرحله طراحی تا عرضه ی این محصولات با بالاترین کیفیت ممکن، در بازارهای داخلی و خارجی فعالیت موثر و موفق داشته باشیم.
-  </div>
+    شرکت گل‌افروز پس از سال‌ها فعالیت در زمینه ساخت گلخانه‌های مدرن و صنعتی در سال ۱۳۹۸ با شماره ۴۴۶۲۳ در تهران بزرگ به ثبت رسید. این شرکت در طول بیش از یک دهه فعالیت، سالانه مساحتی بالغ بر ۹۵ هکتار از اراضی کشورمان را به گلخانه‌های صنعتی و مدرن تبدیل نموده است. همچنین، از مرحله طراحی تا عرضه محصولات، با بالاترین کیفیت ممکن، تجهیزات و سازه‌های گلخانه‌ای را تولید نموده و در بازارهای داخلی و خارجی فعالیت موثر و موفقی داشته است.   </div>
   <div class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
     <div class=" relative overflow-hidden rounded-lg border border-gray-900 bg-gray-100/50 p-2">
       <div class="items-end text-right bg-blue-200 flex h-[180px] flex-col justify-between rounded-md p-6"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
@@ -245,8 +244,8 @@
   <!-- <div>-----------------------------------------------</div> -->
   <section class="container p-10 mx-auto text-right ">
     <div class="container mx-auto bg-card p-10 rounded-large shadow-2xl">
-      <h2 class="px-4 text-6xl pt-16 pb-4 mb-2 text-black font-bold font-roboto">کاتالوگ</h2>
-      <p class="px-4 text-2xl text-black pb-16 md:pr-10 font-roboto">
+      <h2 class="px-4 text-2xl lg:text-6xl pt-16 pb-4 mb-2 text-black font-bold font-roboto">کاتالوگ</h2>
+      <p class="px-4 text-sm lg:text-2xl text-black pb-16 md:pr-10 font-roboto">
         تمامی کاتالوگ هایی که در این بخش قرار گرفته توسط شرکت گل افروز طراحی و جهت افزایش دانش گلخانه سازان عزیز خدمت شما ارائه شده است و شامل انواع سازه نمونه کار ، انواع سازه گلخانه، تجهیزات و اطلاعات تکمیلی در مورد گلخانه می باشد.
       </p>
       <div class="flex items-end justify-end  ">
@@ -262,13 +261,13 @@
 
 <section class="container p-10 mx-auto text-right">
   <div class="bg-gray-100 bg-card-b p-6 rounded-large shadow-2xl">
-    <h2 class="px-4 text-6xl font-medium pt-16 pb-6 mb-2 font-roboto text-white">قرار داد</h2>
-    <p class="px-4 text-2xl text-white pb-16 font-roboto">
+    <h2 class="px-4 text-2xl lg:text-6xl font-medium pt-16 pb-6 mb-2 font-roboto text-white">قرار داد</h2>
+    <p class="px-4 text-sm lg:text-2xl text-white pb-16 font-roboto">
       برای شروع ساخت گلخانه باید هزینه های مربوط به ساخت سازه و تجهیز کردن ان براورد شود که ما دراین بخش هزینه های مربوط به ساخت سازه و و تجهیز ان (صفرتا صد ) انواع سازه گلخانه را برآورد کرده ایم تا شما با آگاهی بیشتری سازه ی مد نظرتان را انتخاب کنید .
     </p>
     <div class="flex items-end justify-end  ">
       <a href="">
-        <button type="button" class="mx-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-800 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
+        <button type="button" class="text-sm lg:text-6xl mx-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-800 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
           دریافت نمونه قرارداد
         </button>
       </a>
