@@ -267,7 +267,7 @@
     </p>
     <div class="flex items-end justify-end  ">
       <a href="">
-        <button type="button" class="text-sm lg:text-6xl mx-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-800 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
+        <button type="button" class="text-sm lg:text-lg mx-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-800 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
           دریافت نمونه قرارداد
         </button>
       </a>
