@@ -181,7 +181,7 @@
   </div>
   <!-- ------------------------------------------------------------------- -->
   <section class="relative flex h-800 w-full isolate items-center justify-center overflow-hidden py-24 sm:py-32">
-  <video src="<?php echo get_template_directory_uri().'/img/video/robot-2.mp4' ?>" autoplay loop playsinline muted class="absolute left-0 top-0 z-0 h-full w-full object-cover"></video>
+  <video src="<?php echo get_template_directory_uri().'/img/video/robot-4.mp4' ?>" autoplay loop playsinline muted class="absolute left-0 top-0 z-0 h-full w-full object-cover"></video>
   <div class="absolute inset-0 z-10 backdrop-blur bg-gray/30  p-5 rounded-2xl"></div>
   <div class="z-20 text-right">
   <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
