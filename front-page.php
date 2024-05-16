@@ -273,7 +273,7 @@
       برای شروع ساخت گلخانه باید هزینه های مربوط به ساخت سازه و تجهیز کردن ان براورد شود که ما دراین بخش هزینه های مربوط به ساخت سازه و و تجهیز ان (صفرتا صد ) انواع سازه گلخانه را برآورد کرده ایم تا شما با آگاهی بیشتری سازه ی مد نظرتان را انتخاب کنید .
     </p>
     <div class="flex items-end justify-end  ">
-      <a href="">
+      <a href="<?php echo home_url()."/قرارداد/"; ?>">
         <button type="button" class="text-sm lg:text-lg mx-10 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:ring-lime-300 dark:focus:ring-lime-800 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
           دریافت نمونه قرارداد
         </button>
@@ -574,3 +574,5 @@
   </div>
 </section>
 </div>
+
+<?php get_footer(); ?>

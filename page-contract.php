@@ -1,4 +1,4 @@
-<?PHP // Template Name: catalog
+<?PHP // Template Name: contract
 
 get_header();
 
@@ -30,20 +30,20 @@ get_header();
 
           <h3 class="mb-4 font-semibold text-xl text-gray-600">برای دانلود کاتالوگ ها رو لینک مورد نظر کلیک کنید</h3>
           <ul role="list" class="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-700">
-            <li>کاتالوگ شماره یک</li>
-            <li>کاتالوگ شماره دو</li>
-            <li>کاتالوگ شماره سه</li>
-            <li>کاتالوگ شماره یک</li>
-            <li>کاتالوگ شماره دو</li>
-            <li>کاتالوگ شماره سه</li>
+            <li>قرارداد شماره یک</li>
+            <li>قرارداد شماره دو</li>
+            <li>قرارداد شماره سه</li>
+            <li>قرارداد شماره یک</li>
+            <li>قرارداد شماره دو</li>
+            <li>قرارداد شماره سه</li>
           </ul>
-        </div>
+        </div> 
       </div>
-      <div class="pr-16 relative flex flex-col before:block before:absolute before:h-1/6 before:w-4 before:bg-[#3490dc] before:bottom-0 before:right-0 before:rounded-lg  before:transition-all group-hover:before:bg-orange-300 overflow-hidden">
-        <div class="absolute top-0 right-0 bg-blue-500 w-4/6 px-12 py-14 flex flex-col justify-center rounded-xl group-hover:bg-[#38a169] transition-all ">
+      <div class="pr-16 relative flex flex-col before:block before:absolute before:h-1/6 before:w-4 before:bg-[#38a169] before:bottom-0 before:right-0 before:rounded-lg  before:transition-all group-hover:before:bg-orange-300 overflow-hidden">
+        <div class="absolute top-0 right-0 bg-blue-500 w-4/6 px-12 py-14 flex flex-col justify-center rounded-xl group-hover:bg-[#3490dc] transition-all ">
           <span class="block mb-10 font-bold group-hover:text-orange-300">ما اینجا هستیم</span>
           <h2 class="text-white font-bold text-3xl">
-          بامطالعه کاتالوگ های شرکت گلخانه سازی گل افروز دانش خود را ارتقا دهید
+          قرارداد های شرکت گلخانه سازی گل افروز
           </h2>
         </div>
         <a class="font-bold text-sm flex mt-2 mb-8 items-center gap-2" href="">
@@ -53,7 +53,7 @@ get_header();
           </svg>
         </a>
         <div class="rounded-xl overflow-hidden">
-          <img src="<?php echo get_template_directory_uri().'/img/another/catalog.webp' ?>" alt="">
+          <img src="<?php echo get_template_directory_uri().'/img/another/contract.webp' ?>" alt="">
         </div>
       </div>
     </div>
