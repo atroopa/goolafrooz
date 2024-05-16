@@ -102,6 +102,7 @@
             'menu_class'  => 'text-brown items-start justify-start gap-x-5 w-full flex flex-col',
           )); ?>
         </div>
+
         <!-- TW Elements section -->
         <div class="">
           <h6 class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
@@ -120,8 +121,10 @@
           </p>
         </div>
       </div>
-      <div class="flex items-center justify-center">
-        <div class="py-0"></div>
+      <div class="flex flex-col items-center justify-center">
+      <div class=" mb-4 flex flex-col items-start justify-start font-semibold uppercase md:justify-center">
+          <img src="<?php echo get_template_directory_uri().'/img/slider//icons/enamad.png' ?>" alt="Your Logo" class="h-20 w-20" />
+        </div>
         <div class="py-1">
           <div class="items-center justify-center w-full  p-3 text-center">
             <span>© 2024 Copyright:</span>
