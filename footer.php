@@ -128,7 +128,7 @@
         <div class="py-1">
           <div class="items-center justify-center w-full  p-3 text-center">
             <span>© 2024 Copyright:</span>
-            <a class="font-semibold" href="#">Atroopa</a>
+            <a class="font-semibold" href="https://t.me/atroopa">Atroopa</a>
           </div>
         </div>
         <div class="py-0"></div>
