@@ -195,13 +195,13 @@
       transform: rotate(0deg);
     }
     25% {
-      transform: rotate(5deg);
+      transform: rotate(10deg);
     }
     50% {
       transform: rotate(0deg);
     }
     75% {
-      transform: rotate(-5deg);
+      transform: rotate(-10deg);
     }
     100% {
       transform: rotate(0deg);
@@ -209,7 +209,7 @@
   }
 
   .animate-wiggle {
-    animation: wiggle 2s infinite;
+    animation: wiggle 4s infinite;
   }
 </style>
 
