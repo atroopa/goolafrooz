@@ -256,7 +256,7 @@
         تمامی کاتالوگ هایی که در این بخش قرار گرفته توسط شرکت گل افروز طراحی و جهت افزایش دانش گلخانه سازان عزیز خدمت شما ارائه شده است و شامل انواع سازه نمونه کار ، انواع سازه گلخانه، تجهیزات و اطلاعات تکمیلی در مورد گلخانه می باشد.
       </p>
       <div class="flex items-end justify-end  ">
-        <a href="">
+        <a href="<?php echo home_url()."/کاتالوگ/"; ?>">
           <button type="button" class="mx-10 bg-gradient-to-r from-purple-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 tetx-center p-3 rounded-lg">
             دریافت کاتالوگ
           </button>
@@ -574,4 +574,3 @@
   </div>
 </section>
 </div>
-<?php get_footer(); ?>
