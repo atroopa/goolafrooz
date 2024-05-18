@@ -37,34 +37,25 @@
       <div class="flex flex-wrap">
         <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
 
-
         <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
-    <div class="relative mb-6" data-te-input-wrapper-init>
-        <input type="text" name="name" required
-            class="peer block min-h-[auto] w-full rounded border-2 bg-transparent border-gray-900 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"
-            id="exampleInput90" />
-        <label class="pointer-events-none absolute top-0 right-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none"
-            for="exampleInput90">نام</label>
-    </div>
-    <div class="relative mb-6" data-te-input-wrapper-init>
-        <input type="email" name="email" required
-            class="border-gray-900 peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"
-            id="exampleInput91" />
-        <label class="pointer-events-none absolute top-0 right-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none"
-            for="exampleInput91">ایمیل</label>
-    </div>
-    <div class="relative mb-6" data-te-input-wrapper-init>
-        <textarea name="message" required
-            class="border-gray-900 peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"
-            id="exampleFormControlTextarea1" rows="3"></textarea>
-        <label for="exampleFormControlTextarea1"
-            class="pointer-events-none absolute top-0 right-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none">پیام</label>
-    </div>
-    <button type="submit" class="mb-6 w-full rounded bg-gray-900 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal lg:mb-0">
-        ارسال
-    </button>
-    <input type="hidden" name="action" value="send_contact_form">
+    <input type="hidden" name="action" value="my_contact_form">
+    <p>
+        <label>نام:</label>
+        <input name="name" type="text" class="peer block min-h-[auto] w-full rounded border-2 bg-transparent border-gray-900 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"/>
+    </p>
+    <p>
+        <label>ایمیل:</label>
+        <input style="cursor: pointer;" name="email" type="text" class="peer block min-h-[auto] w-full rounded border-2 bg-transparent border-gray-900 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"/>
+    </p>
+    <p>
+        <label>پیام:</label>  
+        <textarea name="message" class="peer block min-h-[auto] w-full rounded border-2 bg-transparent border-gray-900 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Send" class="mb-6 w-full rounded bg-gray-900 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal lg:mb-0"/>
+    </p>
 </form>
+
 
         </div>
 
