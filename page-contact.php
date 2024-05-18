@@ -48,11 +48,11 @@
         <input style="cursor: pointer;" name="email" type="text" class="peer block min-h-[auto] w-full rounded border-2 bg-transparent border-gray-900 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"/>
     </p>
     <p>
-        <label>پیام:</label>  
-        <textarea name="message" class="peer block min-h-[auto] w-full rounded border-2 bg-transparent border-gray-900 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"></textarea>
+        <label>پیام:</label>
+        <textarea name="message" class="mt-1 mb-3 peer block min-h-[auto] w-full rounded border-2 bg-transparent border-gray-900 py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none"></textarea>
     </p>
     <p>
-        <input type="submit" value="Send" class="mb-6 w-full rounded bg-gray-900 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal lg:mb-0"/>
+        <input type="submit" value="ارسال" class="mb-6 py-2 w-full rounded bg-gray-900 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal lg:mb-0"/>
     </p>
 </form>
 
