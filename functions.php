@@ -28,7 +28,7 @@ function my_contact_form_handler() {
         $message = sanitize_textarea_field($_POST['message']);
 
         // تنظیمات ایمیل
-        $to = 'your@email.com';  // آدرس ایمیل خود را در اینجا قرار دهید
+        $to = 'info@golafrooz.com';  // آدرس ایمیل خود را در اینجا قرار دهید
         $subject = 'پیام جدید از فرم تماس';
         $body = "نام: $name\nایمیل: $email\nپیام:\n$message";
         $headers = ['From: ' . $email, 'Reply-To: ' . $email];
