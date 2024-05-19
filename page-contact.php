@@ -1,4 +1,4 @@
-<?PHP //Template Name: Contact Us 
+<?PHP //Template Name: Contact Us
 ?>
 <?php get_header(); ?>
 <script src="https://cdn.tailwindcss.com"></script>
